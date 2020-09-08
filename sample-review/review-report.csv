@@ -1,0 +1,3007 @@
+ReviewDate,Comments
+,
+,
+,
+,
+,
+4/27/2020 9:14,what does this help with?
+,
+,
+,
+,
+5/13/2020 15:45,change spelling
+5/13/2020 15:50,remove this log if not required
+5/13/2020 15:51,Don't use static context
+5/13/2020 15:51,remove this log if not required
+5/13/2020 15:52,verify the string 
+5/14/2020 16:43,please add test cases for firebase performance
+,
+,
+,
+,
+,
+,
+5/18/2020 14:57,can return full list or method can be renamed to fetchFirst()
+5/18/2020 14:58,out can be removed
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+5/19/2020 11:11,Remove this import as it is not used
+,
+,
+3/12/2020 11:37,No Additional Comments
+3/12/2020 11:37,No Additional Comments
+3/12/2020 11:37,No Additional Comments
+3/12/2020 11:37,No Additional Comments
+3/11/2020 14:51,No Additional Comments
+3/11/2020 14:51,No Additional Comments
+3/11/2020 14:51,No Additional Comments
+3/11/2020 15:56,No Additional Comments
+3/11/2020 15:56,No Additional Comments
+3/11/2020 15:56,No Additional Comments
+3/11/2020 15:56,No Additional Comments
+3/14/2020 9:11,No Additional Comments
+3/14/2020 9:11,No Additional Comments
+3/14/2020 9:11,No Additional Comments
+3/14/2020 9:11,No Additional Comments
+3/12/2020 10:56,No Additional Comments
+3/12/2020 10:56,No Additional Comments
+3/12/2020 10:56,No Additional Comments
+3/12/2020 10:56,No Additional Comments
+3/12/2020 10:56,No Additional Comments
+3/17/2020 11:06,No Additional Comments
+3/17/2020 11:06,No Additional Comments
+3/17/2020 11:06,No Additional Comments
+3/13/2020 18:10,adding handlings here will not work
+3/13/2020 18:10,adding handlings here will not work
+3/13/2020 18:13,Why user will onboard again if login fails.
+3/13/2020 18:15,No Additional Comments
+3/16/2020 16:02,Remove all the changes in this file
+3/16/2020 16:03,Remove all the changes in this file
+3/16/2020 16:04,Move it to a different function
+3/16/2020 16:04,Revert all the changes on this file
+3/16/2020 16:05,Remove all the changes in this file
+3/16/2020 16:38,Return after starting the fragment
+3/16/2020 16:38,Redundant code. Remove this return.
+3/17/2020 11:06,No Additional Comments
+3/17/2020 11:06,No Additional Comments
+3/17/2020 11:06,No Additional Comments
+3/17/2020 11:06,No Additional Comments
+3/17/2020 11:06,No Additional Comments
+3/16/2020 16:13,No Additional Comments
+3/16/2020 16:13,No Additional Comments
+3/16/2020 16:13,No Additional Comments
+3/16/2020 16:13,No Additional Comments
+3/16/2020 16:13,No Additional Comments
+3/16/2020 16:13,No Additional Comments
+3/27/2020 11:36,No Additional Comments
+3/27/2020 11:36,No Additional Comments
+3/27/2020 11:36,No Additional Comments
+3/27/2020 11:36,No Additional Comments
+3/27/2020 11:36,No Additional Comments
+3/27/2020 11:36,No Additional Comments
+3/27/2020 11:36,No Additional Comments
+3/17/2020 11:05,No Additional Comments
+3/17/2020 11:05,No Additional Comments
+3/17/2020 12:26,No Additional Comments
+3/17/2020 12:26,No Additional Comments
+3/17/2020 12:26,No Additional Comments
+3/19/2020 16:15,No Additional Comments
+3/18/2020 13:53,Raise this PR to RC 8.0.0
+3/18/2020 14:47,This could be sensitive do not indicate it as brushing time. Remove brusing time =
+3/18/2020 14:50,check previous comment. Same is applicable here.
+3/19/2020 16:15,No Additional Comments
+3/19/2020 16:15,No Additional Comments
+3/19/2020 16:15,No Additional Comments
+3/23/2020 14:42,check if there are any unused resources related to this.
+3/23/2020 14:59,need to merge this in integration?
+3/23/2020 17:57,No Additional Comments
+3/23/2020 17:57,No Additional Comments
+3/18/2020 14:10,No Additional Comments
+3/18/2020 14:10,No Additional Comments
+3/18/2020 14:10,No Additional Comments
+3/18/2020 14:10,No Additional Comments
+3/18/2020 14:10,No Additional Comments
+3/18/2020 14:10,No Additional Comments
+3/18/2020 14:10,No Additional Comments
+3/18/2020 14:10,No Additional Comments
+3/18/2020 14:10,No Additional Comments
+3/19/2020 14:57,I found sdk < M(23) condition at few places. e.g. RNGestureHandlerButtonViewManager class under react-native-gesture-handle module. 
+3/19/2020 15:00,"Found a few conditions for ""Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP"". if not required we can remove those."
+3/20/2020 16:58,No Additional Comments
+3/19/2020 19:02,These are from react native lib. We should not change them.
+3/19/2020 19:12,XButton was left intentionally. Others are from lib which do not control.
+3/20/2020 16:58,No Additional Comments
+3/20/2020 16:58,No Additional Comments
+3/20/2020 16:58,No Additional Comments
+3/20/2020 13:19,include tests for all possible ringid/modelid 
+3/20/2020 13:20,include tests for all possible model ids
+3/20/2020 13:27,Check if we can use Filehelper.readFile(filepath) method. if not we can move this code to file helper
+3/30/2020 20:06,No Additional Comments
+3/30/2020 20:06,No Additional Comments
+3/30/2020 20:06,No Additional Comments
+3/30/2020 20:06,No Additional Comments
+3/30/2020 20:06,No Additional Comments
+3/30/2020 20:06,No Additional Comments
+3/19/2020 11:10,Can you please add the log Validation of Nebraska Started.
+3/19/2020 11:11,Can you please add Nebraska key in the log for better logging.
+3/19/2020 11:13,Is it intentionally duplicated? 
+3/19/2020 11:29,Can you move this folder to set up and add all the Nebraska string and the string resource to it? 
+3/19/2020 11:31,Can you move this folder to set up and add all the Brush heads? So we can write the test cases for all the Nebraska Brush heads. (@<CODE1\310212122>  can you please comment if it's required for all the brush heads.)
+3/26/2020 11:24,Is there any bug on this.
+3/19/2020 12:17,No Additional Comments
+3/19/2020 12:17,No Additional Comments
+3/19/2020 12:17,No Additional Comments
+3/24/2020 12:24,No Additional Comments
+3/24/2020 12:24,No Additional Comments
+3/24/2020 12:24,No Additional Comments
+3/24/2020 12:24,No Additional Comments
+3/26/2020 17:03,No Additional Comments
+3/26/2020 8:38,please create a defect and attach it to this pull request 
+3/26/2020 17:03,No Additional Comments
+3/26/2020 17:03,No Additional Comments
+3/26/2020 17:03,No Additional Comments
+3/26/2020 17:03,No Additional Comments
+3/26/2020 17:03,No Additional Comments
+3/26/2020 17:03,No Additional Comments
+3/26/2020 17:03,No Additional Comments
+3/30/2020 14:30,No Additional Comments
+3/26/2020 14:33,Will be merged after CDI testing results 
+3/30/2020 11:26,GOT positive feedback from China team. we can merge 
+3/30/2020 14:30,No Additional Comments
+3/30/2020 11:53,Why debuggable true in release buildType ?
+3/27/2020 11:17,No Additional Comments
+3/27/2020 11:17,No Additional Comments
+3/27/2020 11:17,No Additional Comments
+3/27/2020 11:17,No Additional Comments
+3/27/2020 11:17,No Additional Comments
+3/27/2020 11:17,No Additional Comments
+3/27/2020 11:17,No Additional Comments
+3/27/2020 11:17,No Additional Comments
+3/27/2020 11:17,No Additional Comments
+4/1/2020 17:25,No Additional Comments
+3/30/2020 20:03,IS this file still valid ?
+4/1/2020 17:25,No Additional Comments
+3/30/2020 22:14,yes
+4/1/2020 17:25,No Additional Comments
+4/1/2020 17:25,No Additional Comments
+4/1/2020 9:19,this has to go in 8.0.0.
+4/1/2020 11:29,seperate pull request is created for 8.0.0
+4/1/2020 18:20,No Additional Comments
+4/1/2020 18:20,No Additional Comments
+4/1/2020 9:55,please add RCA
+4/1/2020 11:16,Please check if the code is formatted properly. 
+4/1/2020 15:52,No Additional Comments
+4/3/2020 12:02,No Additional Comments
+4/3/2020 12:02,No Additional Comments
+4/3/2020 11:59,Yes. Lots of changes happening in integration. Just to avoid the merge conflicts and taking the advantages of issues fixed in RC branch we are merging it.
+4/3/2020 12:02,No Additional Comments
+4/3/2020 12:02,No Additional Comments
+4/3/2020 10:22,No Additional Comments
+4/3/2020 10:22,No Additional Comments
+4/3/2020 10:22,No Additional Comments
+4/3/2020 13:31,No Additional Comments
+4/3/2020 13:31,No Additional Comments
+4/3/2020 13:31,No Additional Comments
+4/6/2020 14:19,No Additional Comments
+4/6/2020 14:19,No Additional Comments
+4/6/2020 14:19,No Additional Comments
+4/16/2020 15:41,No Additional Comments
+4/8/2020 9:11,Please fill in the developer checklist.
+4/16/2020 15:18,No Additional Comments
+4/13/2020 19:12,Why is this removed ? 
+4/16/2020 15:18,No Additional Comments
+4/16/2020 15:18,No Additional Comments
+4/14/2020 8:31,No Additional Comments
+4/14/2020 8:31,No Additional Comments
+4/14/2020 8:31,No Additional Comments
+4/14/2020 8:31,No Additional Comments
+4/14/2020 8:31,No Additional Comments
+4/14/2020 8:31,No Additional Comments
+4/14/2020 8:31,No Additional Comments
+4/14/2020 8:31,No Additional Comments
+4/27/2020 12:56,observed few unused const in this class. please check and remove if not required
+4/27/2020 13:01,can we move all tracking related code to single utility class to reduce class complexity?
+4/28/2020 17:59,No Additional Comments
+4/27/2020 18:03,Put null check for getDevice
+4/27/2020 18:12,Cross verify once if the name returns by  getBrushingModeOnRoutineNumber() matching the the expected values mentioned in the tag plan.
+4/28/2020 17:59,No Additional Comments
+4/28/2020 17:59,No Additional Comments
+4/28/2020 17:59,No Additional Comments
+4/28/2020 17:59,No Additional Comments
+4/15/2020 11:38,No Additional Comments
+4/15/2020 11:38,No Additional Comments
+4/15/2020 11:37,Changes done as suggested
+4/15/2020 11:38,No Additional Comments
+4/15/2020 10:37,As Deepa suggested can you please update the method in BrushHeadUtils also and use the same method there?
+4/21/2020 19:19,No Additional Comments
+4/21/2020 19:19,No Additional Comments
+4/16/2020 13:37,Why ACCESS_COARSE_LOCATION required when we have FINE_LOCATION permission ? Please add comment
+4/21/2020 19:19,No Additional Comments
+4/21/2020 19:19,No Additional Comments
+4/21/2020 19:19,No Additional Comments
+4/21/2020 19:19,No Additional Comments
+4/21/2020 19:19,No Additional Comments
+4/21/2020 19:19,No Additional Comments
+4/21/2020 19:19,No Additional Comments
+4/14/2020 18:49,No Additional Comments
+4/14/2020 18:49,No Additional Comments
+4/14/2020 18:49,No Additional Comments
+4/14/2020 18:49,No Additional Comments
+4/15/2020 11:38,No Additional Comments
+4/15/2020 11:38,No Additional Comments
+4/15/2020 11:38,No Additional Comments
+4/15/2020 11:38,No Additional Comments
+4/15/2020 11:38,No Additional Comments
+4/15/2020 11:38,No Additional Comments
+4/15/2020 11:38,No Additional Comments
+4/15/2020 11:38,No Additional Comments
+4/16/2020 16:27,No Additional Comments
+4/16/2020 16:27,No Additional Comments
+4/16/2020 16:27,No Additional Comments
+4/23/2020 22:25,No Additional Comments
+4/23/2020 22:25,No Additional Comments
+4/23/2020 22:25,No Additional Comments
+4/23/2020 22:25,No Additional Comments
+4/23/2020 22:25,No Additional Comments
+4/23/2020 22:25,No Additional Comments
+4/23/2020 22:25,No Additional Comments
+4/23/2020 22:25,No Additional Comments
+4/23/2020 22:25,No Additional Comments
+4/16/2020 20:21,No Additional Comments
+4/16/2020 20:21,No Additional Comments
+4/20/2020 12:39,"Move the condition to a method with meaning name for easy understanding.
+Also apply formatting"
+4/20/2020 12:40,"Move the condition to a method with meaning name for easy understanding.
+Also apply formatting"
+4/20/2020 12:41,
+4/20/2020 12:52,Move the condition to above this line. There was difference between android and iOS logic which was handle just above this line
+4/20/2020 15:16,Reformat the code
+4/20/2020 15:39,Remove this log once testing done. Added for reminding purpose
+4/20/2020 15:45,Format the code
+4/20/2020 16:28,Remove TIME logs once testing done.
+4/20/2020 16:28,Remove TIME logs once testing done.
+4/20/2020 16:33,"Format the code . Rename the variable ""HUNDRED"""
+4/20/2020 16:33,remove it
+4/20/2020 16:56,Why this API was written?   
+4/20/2020 16:57,Remove timing log once testing done. Comment given for tracking purpose only
+4/20/2020 17:01,Remove timing log once testing done. Comment given for tracking purpose only
+4/23/2020 22:48,No need to assign to another variable.  Directly return. Do this in all the classes where delete operations performed  and applicable in the PR.
+4/20/2020 17:02,Check code formatting 
+4/20/2020 17:04,Remove timing log once testing done. Comment given for tracking purpose only
+4/20/2020 17:06,Revert this once testing done
+4/20/2020 17:08,Revert Jenkins file change
+4/20/2020 19:08,
+4/20/2020 19:11,"Pass momentTimeStamp instead of resultDate and compare with
+DateUtil.getDaysFromNow(HelperConstants.DATA_PURGING_DB_NO_OF_DAYS"
+4/20/2020 19:22,"1.Format the code. 
+2. Move code to onStart().
+3. Also check response is getting executed in Main thread or not.
+4. Dispose once response received"
+4/23/2020 23:00,make it private
+4/24/2020 0:05,If handler is null do emitter.onNext(true). Other wise call back will bot get called.
+4/24/2020 0:35,This should not be removed from here
+4/24/2020 0:36,It should be handleDrsDialogOnAppUpgrade.
+4/24/2020 0:38,This should be inside else part
+4/24/2020 0:39,After this we need to call emitter.onNext(true);
+4/24/2020 0:42,No Additional Comments
+4/28/2020 18:07,No Additional Comments
+4/21/2020 10:12,Please rename it to isSessionDataPriorThreshold
+4/21/2020 10:12,Please rename it to isSessionDataPriorThreshold
+4/23/2020 22:27,No Additional Comments
+4/23/2020 22:27,No Additional Comments
+4/23/2020 22:27,No Additional Comments
+4/23/2020 22:27,No Additional Comments
+4/23/2020 22:27,No Additional Comments
+4/20/2020 12:45,No need for switch case here. just add the type to TuscanyUtils.checkPrivacyNotice and it should work
+4/20/2020 12:49,DD_INTERNET_ERROR_DIALOG?
+4/20/2020 15:35,Please use the appropriate name here
+4/20/2020 12:56,Why we need this one here?
+4/20/2020 15:46,Can you please rename to openUrlInExternalBrowser.
+4/20/2020 17:52,Please fill up the template
+4/23/2020 22:27,No Additional Comments
+4/23/2020 22:27,No Additional Comments
+4/29/2020 15:00,Approved based on the verification of changes in the class SplashInsurancePresenter.java. Other changes are not verified by me.
+4/29/2020 15:15,No Additional Comments
+4/29/2020 15:15,No Additional Comments
+4/29/2020 15:15,No Additional Comments
+4/23/2020 19:22,No Additional Comments
+4/23/2020 19:22,No Additional Comments
+4/23/2020 19:22,No Additional Comments
+4/28/2020 15:37,Is this variable used any where ?
+4/28/2020 17:37,Code Duplication
+4/28/2020 18:00,No Additional Comments
+4/28/2020 18:00,No Additional Comments
+4/27/2020 13:35,No Additional Comments
+4/27/2020 13:35,No Additional Comments
+4/27/2020 13:35,No Additional Comments
+4/27/2020 13:35,No Additional Comments
+4/27/2020 13:35,No Additional Comments
+5/4/2020 13:53,No Additional Comments
+5/4/2020 13:53,No Additional Comments
+5/4/2020 13:53,No Additional Comments
+4/28/2020 19:43,Why only imports are added in this file ?
+4/28/2020 19:46,fix the style
+4/28/2020 19:46,single line else do not put { }
+4/28/2020 19:48,"Allow the hole area clickable not just arrow button
+Note : Link should be excluded"
+5/4/2020 12:56,Use observe. Do not user observeForever as the observer will exist without the knowledge  of fragment lifecycle Will cause Memory Leak
+5/4/2020 13:29,Move this logic to view model
+5/4/2020 13:53,No Additional Comments
+4/28/2020 10:37,Move this method to the PathSelectorFragment class. 
+4/28/2020 10:46,"Revert this and in the solutionSelectionLayout add 
+        android:layout_weight=""1""
+        android:layout_height=""0dp"""
+5/4/2020 13:53,No Additional Comments
+5/4/2020 13:53,No Additional Comments
+4/28/2020 15:12,No Additional Comments
+4/28/2020 15:12,No Additional Comments
+4/28/2020 15:12,No Additional Comments
+4/28/2020 15:12,No Additional Comments
+4/28/2020 15:12,No Additional Comments
+4/28/2020 15:12,No Additional Comments
+5/4/2020 11:15,No Additional Comments
+5/4/2020 11:15,No Additional Comments
+5/4/2020 11:15,No Additional Comments
+4/30/2020 20:38,This dialog will conflict with data purge dialog. The code related to data purge dialog is present in Integration-Branch. When 8.1.0 gets merged to Integation-Shanghai branch please take care of this scenario.
+5/1/2020 13:28,No
+5/4/2020 11:15,No Additional Comments
+4/30/2020 11:54,No Additional Comments
+4/30/2020 11:54,No Additional Comments
+4/28/2020 21:26,Is this required as the we are already assigning currentLocationPermissionResult under postCurrentBleStatus() API call.
+4/28/2020 21:39,
+4/28/2020 21:46,
+4/28/2020 21:47,
+4/30/2020 11:54,No Additional Comments
+4/30/2020 11:54,No Additional Comments
+4/30/2020 11:54,No Additional Comments
+4/28/2020 18:23,No Additional Comments
+4/28/2020 18:23,No Additional Comments
+4/28/2020 18:23,No Additional Comments
+4/28/2020 18:23,No Additional Comments
+4/28/2020 18:23,No Additional Comments
+4/28/2020 18:23,No Additional Comments
+4/28/2020 18:23,No Additional Comments
+4/28/2020 19:39,No Additional Comments
+4/28/2020 19:39,No Additional Comments
+4/28/2020 19:39,No Additional Comments
+4/28/2020 19:39,No Additional Comments
+4/28/2020 19:39,No Additional Comments
+4/28/2020 19:39,No Additional Comments
+4/28/2020 19:39,No Additional Comments
+4/28/2020 19:39,No Additional Comments
+4/28/2020 19:39,No Additional Comments
+5/4/2020 9:58,please dont print Stacj trace .. we have a log method .. so log in debug mode only 
+5/4/2020 10:02,same as above
+5/8/2020 12:41,Do not remove this if block. Remove only commented code.
+5/8/2020 13:08,"Always use TuscanyLog.printStackTrace while tracing the exception.
+Please do this changes to all effected files"
+5/8/2020 13:17,This line does not have any impact as the. return value was not used. Check if we can remove this.
+5/8/2020 13:32,Remove this line. This line does not have any impact on solutionJsonString as it was not assigned back after replacing.
+5/8/2020 13:35,
+5/8/2020 13:41,All the places where such changes are done  list out them and consider for testing to check side effect
+5/8/2020 13:52,Comments given before for similar lines of change. change accordingly
+5/21/2020 20:10,No Additional Comments
+5/21/2020 20:10,No Additional Comments
+5/6/2020 11:13,No Additional Comments
+5/6/2020 11:13,No Additional Comments
+5/6/2020 11:13,No Additional Comments
+5/6/2020 9:48,
+5/6/2020 9:49,Move this group of code to a separate function.
+5/6/2020 10:40,correct the spelling : function name
+5/6/2020 11:13,No Additional Comments
+5/6/2020 11:13,No Additional Comments
+5/6/2020 11:13,No Additional Comments
+5/6/2020 11:13,No Additional Comments
+5/5/2020 16:39,No Additional Comments
+5/5/2020 16:39,No Additional Comments
+5/5/2020 16:39,No Additional Comments
+5/5/2020 16:39,No Additional Comments
+5/5/2020 16:39,No Additional Comments
+5/5/2020 16:41,No Additional Comments
+5/5/2020 16:41,No Additional Comments
+5/5/2020 16:41,No Additional Comments
+5/5/2020 16:41,No Additional Comments
+5/5/2020 16:41,No Additional Comments
+5/5/2020 16:41,No Additional Comments
+5/5/2020 16:41,No Additional Comments
+5/5/2020 16:41,No Additional Comments
+5/6/2020 20:30,No Additional Comments
+5/6/2020 13:42,Please add the story template
+5/6/2020 20:30,No Additional Comments
+5/11/2020 10:52,No Additional Comments
+5/11/2020 10:52,No Additional Comments
+5/11/2020 10:52,No Additional Comments
+5/6/2020 9:30,"For TW"" ""MO"" ""HK corresponding language string are not present. Please check with PO and Dulce."
+5/11/2020 9:52,What about MO?
+5/11/2020 10:51,For MO China strings added
+5/11/2020 10:52,No Additional Comments
+5/11/2020 10:52,No Additional Comments
+5/11/2020 10:52,No Additional Comments
+5/11/2020 10:52,No Additional Comments
+5/6/2020 12:38,can we remove this file instead of commenting 
+5/7/2020 15:45,No Additional Comments
+5/7/2020 11:38,No. We will continue to write test cases. Once this build issue fixed which is happening due to latest version of test library we will uncomment them.
+5/7/2020 15:45,No Additional Comments
+5/7/2020 9:11,No Additional Comments
+5/7/2020 9:11,No Additional Comments
+5/7/2020 9:11,No Additional Comments
+5/7/2020 9:11,No Additional Comments
+5/7/2020 9:11,No Additional Comments
+5/7/2020 9:11,No Additional Comments
+5/8/2020 13:38,No Additional Comments
+5/8/2020 13:38,No Additional Comments
+5/8/2020 13:38,No Additional Comments
+5/8/2020 13:38,No Additional Comments
+5/11/2020 10:44,No Additional Comments
+5/11/2020 10:44,No Additional Comments
+5/11/2020 10:03,
+5/11/2020 10:44,No Additional Comments
+5/11/2020 10:44,No Additional Comments
+5/11/2020 10:44,No Additional Comments
+5/11/2020 10:44,No Additional Comments
+5/15/2020 18:27,Remove this listener instead use View.OnClickListener
+5/15/2020 20:47,"[coding standard]
+1.Do not pass handleFeature instead pass isIMUSupported similarly instead of passing fragment  pass currentBottomNavItem. By doing this we are restricting accessibility to other datas which are available through fragment and handlefeature. 
+
+[Readability]
+2. Name item is confusing. Rename to data"
+5/18/2020 0:51,[Design] Move FeatureProvider to HomeActivtiyViewModel because In future it will be used  across all the tab's fragment.
+5/18/2020 0:54,[Readability] Is this API targeting to to refresh only brushing data? if so rename the API to refreshBrushingData
+5/18/2020 1:28,"[Readability] 
+How about doing this for extension function:
+1. Create a package called UiExtensionFun and add UI related extension functions into this package
+2. A view for which we want to add extension function create a separate file  corresponding to that class and add the extension function. For Example:- In this case create file with name TextViewExtension.kt and add TextView.doUnderline() to it."
+5/18/2020 1:28,[Unit Test] Write Test case for this class
+5/18/2020 1:30,[Unit Test]  Add test case for this in ProgressReportProcessorTest.kt
+5/18/2020 11:38,"We can't remove this Interface as it's same will be passed to the child recycler view like ""onDateSelectListener""."
+5/11/2020 9:54,No Additional Comments
+5/11/2020 9:54,No Additional Comments
+5/11/2020 9:54,No Additional Comments
+5/11/2020 9:54,No Additional Comments
+5/22/2020 11:47,No Additional Comments
+5/22/2020 11:47,No Additional Comments
+5/22/2020 11:47,No Additional Comments
+5/22/2020 11:47,No Additional Comments
+5/14/2020 20:56,No Additional Comments
+5/14/2020 20:56,No Additional Comments
+5/14/2020 10:48,[Design] Move this to outside Onboarding package so that it was used in other places
+5/14/2020 10:51,[Design] Instead of handling here register continueClick listener from  searching fragment and handle the call back in searching fragment
+5/14/2020 10:54,"[Design]
+1.In BaseFullScreenDialogFragment expose OnDismissListener
+2. Now thats available to all the troubleshoot fragments
+3. Attach dismiss listener from searching fragment right after creating troubleShoot dialogs and call tryAgain() from the dismiss listener."
+5/14/2020 10:58,"[Readability]
+Move troubleshoot to devicesetup package"
+5/14/2020 20:56,No Additional Comments
+5/14/2020 20:56,No Additional Comments
+5/14/2020 20:56,No Additional Comments
+5/14/2020 20:56,No Additional Comments
+5/14/2020 20:56,No Additional Comments
+5/14/2020 18:20,No Additional Comments
+5/14/2020 18:20,No Additional Comments
+5/14/2020 18:20,No Additional Comments
+5/14/2020 18:20,No Additional Comments
+5/14/2020 18:20,No Additional Comments
+5/14/2020 17:15,No Additional Comments
+5/14/2020 17:15,No Additional Comments
+5/14/2020 17:15,No Additional Comments
+5/14/2020 17:15,No Additional Comments
+5/15/2020 13:31,No Additional Comments
+5/15/2020 13:31,No Additional Comments
+5/15/2020 13:31,No Additional Comments
+5/15/2020 13:31,No Additional Comments
+5/15/2020 13:31,No Additional Comments
+5/21/2020 19:07,No Additional Comments
+5/21/2020 19:07,No Additional Comments
+5/20/2020 12:59,"[Error Handling] 
+Check condition token == null. If token is null we should not proceed to push notification registration as it will fail with protocol error."
+5/21/2020 1:16,"For safe side Should we add a null check to ""token"" which is passed as an argument ? "
+5/21/2020 1:09,"[NFR] If the Firebase token is null which is stored in the shared preference  then only we should call firebasePushNotificationRegistration() otherwise on every app launch the app will hit the Firebase server to fetch the token. Let's handle that.
+
+
+Note : When there is change in firebase token   onNewToken(final String token) API which is present in FirebaseMessagingService class will be called by Firebase."
+5/21/2020 19:07,No Additional Comments
+5/21/2020 19:07,No Additional Comments
+5/25/2020 10:58,No Additional Comments
+5/25/2020 10:58,No Additional Comments
+5/25/2020 10:58,No Additional Comments
+5/25/2020 13:01,No Additional Comments
+5/25/2020 13:01,No Additional Comments
+5/25/2020 13:01,No Additional Comments
+5/25/2020 13:01,No Additional Comments
+5/22/2020 12:12,Track analytics after action.
+5/22/2020 12:15,Analytics can be tracked after showing first prompt.This logic can be placed inside sendAnalyticsForPrompt() in such case.
+5/22/2020 17:47,Align else and return in one line or else enclose return in braces.
+5/25/2020 13:01,No Additional Comments
+5/25/2020 13:01,No Additional Comments
+5/25/2020 13:01,No Additional Comments
+5/21/2020 19:52,No Additional Comments
+5/21/2020 19:52,No Additional Comments
+5/21/2020 19:52,No Additional Comments
+5/21/2020 19:52,No Additional Comments
+5/21/2020 19:52,No Additional Comments
+5/21/2020 16:21,No Additional Comments
+5/21/2020 16:21,No Additional Comments
+5/21/2020 16:21,No Additional Comments
+5/21/2020 15:48,"[coding standard] Wrong font. please use fonts/centralesansbook.ttf.
+Also move theme and viewPump to a separate method. "
+5/22/2020 11:44,No Additional Comments
+5/22/2020 11:44,No Additional Comments
+5/22/2020 11:44,No Additional Comments
+5/22/2020 11:44,No Additional Comments
+5/22/2020 11:44,No Additional Comments
+5/22/2020 11:44,No Additional Comments
+5/22/2020 11:44,No Additional Comments
+5/22/2020 11:44,No Additional Comments
+5/22/2020 11:44,No Additional Comments
+5/21/2020 19:57,No Additional Comments
+5/21/2020 19:57,No Additional Comments
+5/21/2020 19:57,No review comments. All looks fine.
+5/22/2020 10:57,No Additional Comments
+5/22/2020 10:57,No Additional Comments
+5/22/2020 10:57,No Additional Comments
+5/22/2020 10:57,No Additional Comments
+5/22/2020 10:57,No Additional Comments
+,
+,
+,
+,
+,
+,
+,
+1/15/2020 10:49,No Additional Comments
+1/15/2020 10:49,No Additional Comments
+1/15/2020 10:49,No Additional Comments
+1/10/2020 13:57,Fix the allignment
+1/10/2020 13:58,Move these lines to a common API and call it from different click listeners
+1/10/2020 13:58,Remove these empty space
+1/15/2020 10:49,No Additional Comments
+1/15/2020 10:49,No Additional Comments
+1/15/2020 10:30,Revert white space removal changes
+1/15/2020 10:31,Revert white space removal changes
+1/15/2020 10:32,Revert white space added changes
+1/10/2020 13:39,No Additional Comments
+1/10/2020 13:39,No Additional Comments
+1/10/2020 13:39,No Additional Comments
+1/10/2020 13:39,Code merged from master to develop.No code review performed.
+1/8/2020 21:26,No Additional Comments
+1/8/2020 21:26,No Additional Comments
+1/8/2020 21:26,No Additional Comments
+1/8/2020 21:26,No Additional Comments
+1/8/2020 21:26,No Additional Comments
+1/16/2020 11:23,No Additional Comments
+1/16/2020 11:23,No Additional Comments
+1/16/2020 11:23,No Additional Comments
+1/14/2020 15:04,Change method name to updateUIState 
+1/14/2020 15:07,Change the name to uiVisibleState. Default assign to true in-order to avoid negation conditions which gives better code readablility.
+1/14/2020 15:07,Change the API name to updateUiState
+1/14/2020 15:08,Correct the alignment.
+1/16/2020 11:23,No Additional Comments
+1/16/2020 11:23,No Additional Comments
+1/8/2020 21:52,No Additional Comments
+1/8/2020 21:52,No Additional Comments
+1/8/2020 21:52,No Additional Comments
+1/9/2020 12:16,No Additional Comments
+1/9/2020 12:16,No Additional Comments
+1/9/2020 12:16,No Additional Comments
+1/9/2020 12:16,No Additional Comments
+1/15/2020 11:00,No Additional Comments
+1/14/2020 15:13,As we have multiple link now may be it is good idea to name it with the intended target. Ex - UserAgreementLink WebAgreementLink etc.
+1/14/2020 15:48,Please update the class name do that it match with the naming convention of other fragments. Should ends with fragment suffix.
+1/14/2020 16:12,As mentioned before setting of span should be in common method.
+1/14/2020 16:21,Please update the name of the layout to match other layout files.
+1/14/2020 16:22,Please try avoiding hardcoded margin/padding. Use dimen folder.
+1/14/2020 16:59,Please define all these in a style instead of putting it in xml
+1/14/2020 20:44,I think now we dont need the first assignment. As the page title is already being set.
+1/14/2020 20:50,Do we really need this additional relative layout. I think we can remove it and align the ScrollView to the right position.
+1/15/2020 11:00,No Additional Comments
+1/14/2020 14:58,Can pull out a utility method to set span
+1/14/2020 15:05,Create a single web fragment.Override in case functional changes
+1/14/2020 15:15,Please add checklist
+1/14/2020 18:29,No Additional Comments
+1/14/2020 18:29,No Additional Comments
+1/14/2020 18:30,No Additional Comments
+1/14/2020 15:10,Checklist is missing
+1/14/2020 18:30,No Additional Comments
+1/14/2020 18:30,No Additional Comments
+1/15/2020 12:35,No Additional Comments
+1/15/2020 12:35,No Additional Comments
+1/15/2020 12:35,No Additional Comments
+1/15/2020 12:35,No Additional Comments
+1/15/2020 12:35,No Additional Comments
+1/15/2020 12:35,No Additional Comments
+1/15/2020 12:35,No Additional Comments
+1/15/2020 12:35,No Additional Comments
+1/16/2020 12:41,No Additional Comments
+1/16/2020 12:41,No Additional Comments
+1/16/2020 12:41,No Additional Comments
+1/16/2020 12:41,No Additional Comments
+1/27/2020 13:17,No Additional Comments
+1/27/2020 13:17,No Additional Comments
+1/24/2020 15:49,Move this set of code to a different API.. May be resetFirmwarePreference
+1/24/2020 16:06,"Move the hole code to a different function.
+"
+1/24/2020 18:50,Move this line to resetFWUpdateNotificationPreferences function
+1/27/2020 13:17,No Additional Comments
+1/27/2020 13:17,No Additional Comments
+1/27/2020 13:17,No Additional Comments
+3/9/2020 13:38,No Additional Comments
+3/8/2020 23:17,
+3/8/2020 23:27,The way adapterView item click handled similarly handle for ClickableSpan
+3/8/2020 23:30,Move OnSingleItemClickListener and RapidClickDetector to a separate package may be ViewListeners and do not expose RapidClickDetector out side this package.
+3/9/2020 13:38,No Additional Comments
+3/9/2020 13:38,No Additional Comments
+3/9/2020 13:38,No Additional Comments
+3/9/2020 13:38,No Additional Comments
+2/14/2020 8:59,please check the build and make it green 
+2/24/2020 13:39,No Additional Comments
+1/23/2020 17:29,INVALID_SIGNATURE : No need to handle this error case as data core API is not using SIGNATURE based authentication mechanism.
+1/23/2020 17:38,Translate to core java.
+1/23/2020 18:20,What is reactivex ? Why are you using this lib?
+1/23/2020 18:32,Bits of code we do not want in rx java. Change accordingly.
+1/24/2020 10:39,Lets discuss on this
+1/23/2020 18:45,Please check if this change has impact on the test cases. Also add necessary test cases to cover the new codes if required because integration build will fail if TICS scores down.
+2/13/2020 18:39,Remove this class as it is not used
+2/13/2020 18:40,Clear unused imports
+2/13/2020 18:40,
+2/17/2020 14:48,Change Param Context to UpgradeFileDownloadTaskListener
+2/17/2020 14:50,Add null check for listener
+2/24/2020 13:39,No Additional Comments
+1/24/2020 10:47,No Additional Comments
+1/24/2020 10:47,No Additional Comments
+1/24/2020 10:47,No Additional Comments
+1/24/2020 10:47,No Additional Comments
+1/23/2020 15:37,"Keep this code. This shows BH status in-app notification
+
+
+Remove complete OFFLINE_SESSION case"
+1/23/2020 15:46,"Do not remove this condition.
+Replace  OFFLINE_SESSION with BH_ATTACHED"
+1/24/2020 10:47,No Additional Comments
+1/24/2020 10:47,No Additional Comments
+1/24/2020 10:47,No Additional Comments
+1/24/2020 13:35,No Additional Comments
+1/24/2020 13:35,No Additional Comments
+1/24/2020 13:35,No Additional Comments
+1/24/2020 13:35,No Additional Comments
+1/24/2020 13:35,No Additional Comments
+1/24/2020 13:35,No Additional Comments
+1/23/2020 12:51,No Additional Comments
+1/23/2020 12:51,No Additional Comments
+1/23/2020 12:51,No Additional Comments
+1/23/2020 12:51,No Additional Comments
+1/23/2020 12:51,No Additional Comments
+1/23/2020 12:51,No Additional Comments
+1/23/2020 12:51,No Additional Comments
+4/2/2020 11:48,No Additional Comments
+3/24/2020 16:47,@<CODE1\310212122>  Do we need this ? 
+4/2/2020 11:48,No Additional Comments
+3/23/2020 18:30,Remove all commented code from this block
+3/23/2020 18:35,"This needs to be removed. 
+Also remove Products.java file"
+3/23/2020 18:36,This also needs to be removed
+3/23/2020 20:09,"1. From all country product json file remove  ""Products"": [] and   ""ProductRecommendations"": []
+2. Also remove all the resources like images and texts which are referred from these 2 array."
+4/1/2020 17:39,"It's in a different config file which is under test code. Not really related to this story. 
+
+It's not used any more can be deleted later point"
+4/1/2020 20:06, It's recommend to check if this file is really used any where.  Please check and create another PR if required. It's not only related  to this story. There could be possibility it is used by other rules which is currently exist in  the app.
+4/1/2020 17:53,Functionality Break : This should not be removed. Its not related to product recommendation.
+4/1/2020 18:04,"Dead Code : 
+1. remove PRODUCT_SUGGESTION_DISPLAY_FLAG in PreferenceKeys.java file
+2. remove shared preference method getProductSuggestionShouldDisplay() in SharedPreferencesHelper.java file
+3. Remove swich--case handling for PRODUCT_SUGGESTION_DISPLAY_FLAG in setPreference() method in SharedPreferencesHelper.java file"
+4/1/2020 18:05,
+4/2/2020 11:48,No Additional Comments
+4/2/2020 11:48,No Additional Comments
+3/31/2020 11:28,Where is this file used?
+3/30/2020 12:09,"Do we need this ""productRecommendations"": true ???"
+3/30/2020 12:26,"Do we need this ""productRecommendations"": true ??.  If not required remove in all the ProductsConfiguration files"
+3/30/2020 13:05,Do we need Product Recommendation Consent ?.  If not Please remove that consent from every places.
+3/30/2020 13:17,Please verify once Developer Checklist.
+1/23/2020 14:19,No Additional Comments
+1/23/2020 14:19,No Additional Comments
+1/23/2020 14:19,No Additional Comments
+1/23/2020 14:19,No Additional Comments
+1/23/2020 14:19,No Additional Comments
+1/23/2020 14:19,No Additional Comments
+1/24/2020 10:38,check if we can use gson to parse
+1/24/2020 10:39,check if we can use gson
+1/24/2020 13:54,No Additional Comments
+1/24/2020 13:54,No Additional Comments
+1/23/2020 18:53,
+1/24/2020 12:53,Move it to a separate method so that we get a clear understanding from the API name what this code is doing.
+1/24/2020 13:00,Move it to a separate method so that we get a clear understanding from the API name what this code is doing.
+1/24/2020 13:54,No Additional Comments
+1/24/2020 13:54,No Additional Comments
+1/24/2020 13:54,No Additional Comments
+1/24/2020 10:47,No Additional Comments
+1/24/2020 10:47,No Additional Comments
+1/24/2020 10:47,No Additional Comments
+1/23/2020 17:19,Why this change?
+1/23/2020 17:21,This looks like dead code. Please check and remove
+1/24/2020 10:47,No Additional Comments
+1/24/2020 10:47,No Additional Comments
+1/24/2020 10:47,No Additional Comments
+1/23/2020 16:33,No Additional Comments
+1/23/2020 16:33,No Additional Comments
+1/24/2020 10:41,No Additional Comments
+1/24/2020 10:41,No Additional Comments
+1/24/2020 10:41,No Additional Comments
+1/24/2020 10:41,No Additional Comments
+1/24/2020 16:31,No Additional Comments
+1/24/2020 16:31,No Additional Comments
+1/24/2020 16:31,No Additional Comments
+1/24/2020 16:31,No Additional Comments
+1/24/2020 16:31,No Additional Comments
+1/24/2020 15:45,revert gdpr changes.
+1/24/2020 15:45,can you format the file?
+1/24/2020 16:31,No Additional Comments
+1/24/2020 16:03,No Additional Comments
+1/24/2020 16:03,No Additional Comments
+1/24/2020 16:03,No Additional Comments
+1/24/2020 16:03,No Additional Comments
+1/24/2020 16:03,No Additional Comments
+1/24/2020 16:03,No Additional Comments
+1/24/2020 15:31,No Additional Comments
+1/24/2020 15:31,No Additional Comments
+1/24/2020 15:31,No Additional Comments
+1/24/2020 15:31,No Additional Comments
+1/27/2020 17:15,No Additional Comments
+1/27/2020 17:15,No Additional Comments
+1/27/2020 17:15,No Additional Comments
+1/27/2020 14:56,No Additional Comments
+1/27/2020 14:56,No Additional Comments
+1/27/2020 16:18,No Additional Comments
+1/27/2020 16:18,No Additional Comments
+1/27/2020 16:18,No Additional Comments
+1/27/2020 16:18,No Additional Comments
+1/27/2020 16:18,No Additional Comments
+1/28/2020 15:42,No Additional Comments
+1/28/2020 15:42,No Additional Comments
+1/28/2020 15:42,No Additional Comments
+1/27/2020 17:50,Move this method to live brushing utils and refer from every where
+1/28/2020 15:42,No Additional Comments
+1/28/2020 15:42,No Additional Comments
+1/28/2020 15:42,No Additional Comments
+1/27/2020 16:30,No Additional Comments
+1/27/2020 16:30,No Additional Comments
+1/27/2020 16:30,No Additional Comments
+1/27/2020 17:12,No Additional Comments
+1/27/2020 17:12,No Additional Comments
+1/27/2020 17:12,No Additional Comments
+1/27/2020 17:12,No Additional Comments
+1/27/2020 17:12,No Additional Comments
+1/27/2020 17:12,No Additional Comments
+1/27/2020 17:12,No Additional Comments
+1/28/2020 9:32,No Additional Comments
+1/28/2020 9:32,No Additional Comments
+1/28/2020 9:32,No Additional Comments
+1/28/2020 12:21,No Additional Comments
+1/28/2020 12:21,No Additional Comments
+1/29/2020 11:42,No Additional Comments
+1/29/2020 11:42,No Additional Comments
+1/29/2020 11:42,No Additional Comments
+1/29/2020 11:42,No Additional Comments
+1/29/2020 15:13,No Additional Comments
+1/29/2020 15:13,No Additional Comments
+1/29/2020 15:13,No Additional Comments
+1/29/2020 15:13,No Additional Comments
+1/29/2020 17:04,No Additional Comments
+1/29/2020 17:04,No Additional Comments
+1/29/2020 17:04,No Additional Comments
+1/30/2020 20:47,No Additional Comments
+1/30/2020 20:47,No Additional Comments
+1/30/2020 20:47,No Additional Comments
+1/30/2020 16:26,Please add the same comment in the code
+1/30/2020 20:47,No Additional Comments
+1/30/2020 20:47,No Additional Comments
+1/30/2020 20:47,No Additional Comments
+2/3/2020 11:47,No Additional Comments
+1/30/2020 20:46,staging URL are updated in SD .. so to enable testing .. we need to change it back before merging 
+2/3/2020 11:47,No Additional Comments
+1/30/2020 20:34,Why this is hanged to staging ?
+1/30/2020 20:35,Why this is changed to staging
+2/3/2020 11:47,No Additional Comments
+2/14/2020 11:32,No Additional Comments
+2/5/2020 13:18,call refreshLoginSessionHandler.forcedLogut()
+2/5/2020 13:22,"is getHSDPUUID deprecated  for . which  @SuppressWarnings(""deprecation"") added ?"
+2/10/2020 14:36,Check if we need this logic
+2/10/2020 14:38,Check if we need this logic
+2/10/2020 15:01,
+2/10/2020 15:05,delete commented code
+2/11/2020 9:43,How is it handled for OE ? Need to check
+2/11/2020 9:45,How this call back handled OE ? Need to check.
+2/11/2020 9:49,Need to understand how the arguments are handled
+2/11/2020 9:56,Fix code alignments in all the files
+2/11/2020 13:20,club both the lint options
+2/11/2020 17:45,"verify the value return by this getArguments().getString(""caretype"") method.  It should not be blank."
+2/14/2020 11:32,No Additional Comments
+2/3/2020 11:49,No Additional Comments
+2/3/2020 11:49,No Additional Comments
+2/3/2020 11:49,No Additional Comments
+2/3/2020 11:49,No Additional Comments
+2/3/2020 11:49,No Additional Comments
+2/6/2020 13:35,No Additional Comments
+2/5/2020 16:50,Please check the code alignment.
+2/6/2020 13:35,No Additional Comments
+2/10/2020 11:49,verify the condition with the document once
+2/10/2020 13:00,can be converted to local variable
+2/10/2020 13:05,preprocessing of all the information(name image full name) can be postponed and can be processed on demand. plz check
+2/10/2020 13:05,preprocessing of all the information(name image full name) can be postponed and can be processed on demand. plz check
+2/10/2020 14:28,ringId required here? plz check
+2/10/2020 14:29,
+3/3/2020 11:38,No Additional Comments
+2/28/2020 15:26,This variable and its corresponding methods should be removed.
+2/28/2020 15:52,Give name to constant value 4
+2/28/2020 15:52,Give name to constant value 4
+2/28/2020 15:54,Add comments here
+2/28/2020 16:00,Define what is 4?
+2/28/2020 16:18,call isValidRingId API
+2/28/2020 16:24,Revert this change
+2/28/2020 16:26,call IsValidRingID 
+2/28/2020 17:13,To analytics only english string should go. Please check.
+2/28/2020 17:19,Check if this line is working correctly. because 2nd param to getStringResourceInEnglish should be string iD not string val
+2/28/2020 17:26,"Is this brush head Name or brush head name string key. If not 
+brush head Name rename the getter setter API and variable to brushHeadNameStringKey"
+2/28/2020 17:28,"1. use API isValidRingId API.  Any other place if such conditions used please replace with this API
+2. Allow support for ring ID > 15"
+2/28/2020 17:30,"optimise this code. assign key to a variable and call  . getProductUrl API out side switch case.
+
+try to use API getServiceDiscoveryNamesByModelID"
+2/28/2020 17:31,"optimise this code. assign key to a variable and call  getProductUrl API out side switch case.
+
+check API getServiceDiscoveryNamesByRingID"
+2/28/2020 17:39,Do not catch any exception here
+2/28/2020 17:49,use API isRingIdSupported
+3/3/2020 11:38,No Additional Comments
+3/3/2020 11:38,No Additional Comments
+2/10/2020 14:59,Can we decompose this class to multiple classes (Every brush head can have there own class for resources name etc) which helps fewer loops and better testing and organized code? Plus if in future addition of more brush head can become easier.
+2/5/2020 18:08,No Additional Comments
+2/5/2020 18:08,No Additional Comments
+2/5/2020 18:08,No Additional Comments
+2/5/2020 18:08,No Additional Comments
+2/5/2020 18:08,No Additional Comments
+2/7/2020 15:16,No Additional Comments
+2/7/2020 15:16,No Additional Comments
+2/7/2020 15:16,No Additional Comments
+2/7/2020 15:16,No Additional Comments
+2/7/2020 15:16,No Additional Comments
+2/7/2020 15:16,No Additional Comments
+2/7/2020 15:16,No Additional Comments
+2/10/2020 14:23,No Additional Comments
+2/10/2020 14:23,No Additional Comments
+2/10/2020 14:23,No Additional Comments
+2/10/2020 14:23,No Additional Comments
+2/10/2020 14:23,No Additional Comments
+2/10/2020 14:23,No Additional Comments
+2/10/2020 14:23,No Additional Comments
+2/10/2020 19:51,No Additional Comments
+2/10/2020 19:51,No Additional Comments
+2/10/2020 19:51,No Additional Comments
+2/10/2020 19:51,No Additional Comments
+2/10/2020 19:51,No Additional Comments
+2/10/2020 19:51,No Additional Comments
+2/10/2020 19:51,No Additional Comments
+2/10/2020 19:51,No Additional Comments
+2/10/2020 15:49,No Additional Comments
+2/10/2020 15:49,No Additional Comments
+2/10/2020 15:49,No Additional Comments
+2/10/2020 15:49,No Additional Comments
+2/10/2020 15:49,No Additional Comments
+2/10/2020 15:49,No Additional Comments
+2/10/2020 15:49,No Additional Comments
+2/11/2020 15:06,No Additional Comments
+2/11/2020 15:06,No Additional Comments
+2/11/2020 15:06,No Additional Comments
+2/11/2020 15:06,No Additional Comments
+2/11/2020 15:06,No Additional Comments
+2/17/2020 13:32,No Additional Comments
+2/17/2020 13:32,No Additional Comments
+2/17/2020 13:32,No Additional Comments
+2/17/2020 13:32,No Additional Comments
+2/17/2020 13:32,No Additional Comments
+2/17/2020 13:32,No Additional Comments
+2/17/2020 13:32,No Additional Comments
+2/13/2020 19:52,No Additional Comments
+2/13/2020 16:20,please fix the build before merging 
+2/13/2020 19:52,No Additional Comments
+2/12/2020 15:32,Optimize the code present in getModeValue() and getModeValueForAnalytics() API
+2/13/2020 19:52,No Additional Comments
+2/13/2020 19:52,No Additional Comments
+2/13/2020 19:52,No Additional Comments
+2/13/2020 13:20,No Additional Comments
+2/13/2020 13:20,No Additional Comments
+2/13/2020 13:20,No Additional Comments
+2/13/2020 13:20,No Additional Comments
+2/13/2020 13:20,No Additional Comments
+2/13/2020 13:20,No Additional Comments
+2/13/2020 13:20,No Additional Comments
+2/13/2020 13:20,No Additional Comments
+2/12/2020 17:07,No Additional Comments
+2/12/2020 17:07,No Additional Comments
+2/12/2020 17:07,No Additional Comments
+2/12/2020 17:07,No Additional Comments
+2/12/2020 17:07,No Additional Comments
+2/12/2020 17:07,No Additional Comments
+2/14/2020 12:47,No Additional Comments
+2/14/2020 12:47,No Additional Comments
+2/14/2020 12:47,No Additional Comments
+2/14/2020 12:47,No Additional Comments
+2/14/2020 12:47,No Additional Comments
+2/14/2020 11:05,No Additional Comments
+2/14/2020 11:05,No Additional Comments
+2/14/2020 11:05,No Additional Comments
+2/13/2020 13:22,Fix the code alignment
+2/13/2020 14:00,Fix the code alignment
+2/13/2020 14:00,Fix the code alignment
+2/13/2020 14:01,Fix the code alignment
+2/13/2020 14:02,Fix the code alignment
+2/13/2020 14:02,Fix the code alignment
+2/13/2020 14:02,Fix the code alignment
+2/14/2020 11:05,No Additional Comments
+2/14/2020 11:05,No Additional Comments
+2/14/2020 11:05,No Additional Comments
+2/14/2020 11:05,No Additional Comments
+2/19/2020 15:56,No Additional Comments
+2/19/2020 15:32,Required analytics tag to track the amount of time branch is taking to complete the initialisation.
+2/19/2020 15:56,No Additional Comments
+2/19/2020 15:56,No Additional Comments
+2/19/2020 15:56,No Additional Comments
+2/20/2020 7:39,No Additional Comments
+2/20/2020 7:39,No Additional Comments
+2/20/2020 7:39,No Additional Comments
+2/20/2020 7:39,No Additional Comments
+2/20/2020 7:39,No Additional Comments
+2/20/2020 7:39,No Additional Comments
+2/20/2020 7:39,No Additional Comments
+2/20/2020 7:39,No Additional Comments
+2/24/2020 10:34,No Additional Comments
+2/24/2020 10:34,No Additional Comments
+2/24/2020 10:34,No Additional Comments
+2/24/2020 10:34,No Additional Comments
+2/24/2020 14:44,No Additional Comments
+2/24/2020 14:44,No Additional Comments
+2/24/2020 14:44,No Additional Comments
+2/24/2020 14:44,No Additional Comments
+2/24/2020 14:44,No Additional Comments
+2/24/2020 14:44,No Additional Comments
+2/24/2020 14:44,No Additional Comments
+2/24/2020 14:44,No Additional Comments
+2/24/2020 14:44,No Additional Comments
+3/2/2020 12:06,No Additional Comments
+3/2/2020 12:06,No Additional Comments
+3/2/2020 12:06,No Additional Comments
+3/2/2020 12:06,No Additional Comments
+2/28/2020 15:17,No Additional Comments
+2/28/2020 13:35,Fix the alignment in all files
+2/28/2020 15:17,No Additional Comments
+3/2/2020 11:38,No Additional Comments
+3/2/2020 11:38,No Additional Comments
+3/2/2020 11:38,No Additional Comments
+3/2/2020 11:38,No Additional Comments
+3/2/2020 11:38,No Additional Comments
+3/9/2020 13:29,No Additional Comments
+3/2/2020 14:34,
+2/28/2020 15:32,Is this required?
+3/9/2020 13:29,No Additional Comments
+3/11/2020 10:16,No Additional Comments
+3/11/2020 10:16,No Additional Comments
+3/11/2020 10:16,No Additional Comments
+3/9/2020 0:01,why pending intent cancel removed ?
+3/10/2020 23:13,not required. Alarm cancel will take care of it.
+3/9/2020 0:03,Are we able to reproduce this issue ? If yes did we verify that fix is working ? Please provide the details.
+3/10/2020 23:13,yes.
+3/11/2020 10:16,No Additional Comments
+3/11/2020 10:16,No Additional Comments
+3/11/2020 10:16,No Additional Comments
+3/11/2020 10:16,No Additional Comments
+2/26/2020 18:26,No Additional Comments
+2/26/2020 18:26,No Additional Comments
+2/26/2020 18:26,No Additional Comments
+3/2/2020 11:31,No Additional Comments
+3/2/2020 11:31,No Additional Comments
+2/28/2020 12:04,Move this piece of code to a different method to avoid the code duplication.
+2/28/2020 12:05,Rename this API
+2/28/2020 12:57,Deregister listener when fragment destroyed.
+2/28/2020 14:48,30 move to a constant variable (CONFIG_DOWNLOAD_TIME_OUT). 
+3/2/2020 11:31,No Additional Comments
+3/2/2020 11:31,No Additional Comments
+3/2/2020 11:31,No Additional Comments
+3/2/2020 11:31,No Additional Comments
+3/2/2020 11:31,No Additional Comments
+3/2/2020 11:31,No Additional Comments
+3/3/2020 15:02,No Additional Comments
+3/3/2020 15:02,No Additional Comments
+3/3/2020 15:02,No Additional Comments
+3/3/2020 15:02,No Additional Comments
+3/3/2020 15:02,No Additional Comments
+3/2/2020 13:37,Please add the same changes in country_products.json  two other locations:  androidTest/assets and test/resources. 
+3/3/2020 15:02,No Additional Comments
+3/3/2020 15:02,No Additional Comments
+3/9/2020 11:18,No Additional Comments
+3/9/2020 11:18,No Additional Comments
+3/9/2020 11:18,No Additional Comments
+3/4/2020 12:44,Add Nebraska strings
+3/4/2020 12:44,Add Nebraska strings
+3/9/2020 11:18,No Additional Comments
+3/9/2020 11:18,No Additional Comments
+3/9/2020 11:18,No Additional Comments
+3/9/2020 11:18,No Additional Comments
+3/4/2020 12:22,No Additional Comments
+3/4/2020 12:22,No Additional Comments
+3/4/2020 12:22,No Additional Comments
+3/4/2020 12:22,No Additional Comments
+3/4/2020 12:22,No Additional Comments
+3/4/2020 12:22,No Additional Comments
+3/4/2020 12:22,No Additional Comments
+3/4/2020 12:22,No Additional Comments
+3/4/2020 10:27,No Additional Comments
+3/4/2020 10:27,No Additional Comments
+3/4/2020 10:27,No Additional Comments
+3/4/2020 13:24,No Additional Comments
+3/4/2020 13:24,No Additional Comments
+3/4/2020 13:24,No Additional Comments
+3/4/2020 13:24,No Additional Comments
+3/4/2020 13:24,No Additional Comments
+3/4/2020 13:24,No Additional Comments
+3/4/2020 17:48,No Additional Comments
+3/4/2020 17:48,No Additional Comments
+3/6/2020 13:17,No Additional Comments
+3/6/2020 13:17,No Additional Comments
+3/6/2020 13:17,No Additional Comments
+3/6/2020 13:17,No Additional Comments
+3/6/2020 13:17,No Additional Comments
+3/6/2020 13:17,No Additional Comments
+3/5/2020 12:48,No Additional Comments
+3/5/2020 12:48,No Additional Comments
+3/5/2020 12:48,No Additional Comments
+3/5/2020 12:48,No Additional Comments
+3/6/2020 14:35,No Additional Comments
+3/6/2020 14:35,No Additional Comments
+3/6/2020 14:35,No Additional Comments
+3/6/2020 14:35,No Additional Comments
+3/6/2020 14:35,No Additional Comments
+3/6/2020 14:35,No Additional Comments
+3/6/2020 11:25,Revert this line.
+3/6/2020 14:35,No Additional Comments
+3/6/2020 11:10,Please remove all unused resources
+3/10/2020 15:19,No Additional Comments
+3/8/2020 23:11,Remove all the drawables mentioned in this array
+3/8/2020 23:11,Remove all the drawables mentioned in this array
+3/8/2020 23:11,Remove all the drawables mentioned in this array
+3/8/2020 23:13,Delete these drawables
+3/9/2020 13:35,Remove all corresponding strings from other local string.xml files
+3/10/2020 15:19,No Additional Comments
+3/10/2020 15:19,No Additional Comments
+3/10/2020 15:19,No Additional Comments
+3/8/2020 22:01,No Additional Comments
+3/8/2020 22:01,No Additional Comments
+3/8/2020 22:01,No Additional Comments
+3/8/2020 22:01,No Additional Comments
+3/8/2020 22:01,No Additional Comments
+3/8/2020 22:01,No Additional Comments
+3/8/2020 22:01,No Additional Comments
+3/8/2020 22:01,No Additional Comments
+3/20/2020 15:44,"check if we can replace this deprecated method ""getHSDPUUID()"""
+4/3/2020 12:07,No Additional Comments
+4/3/2020 12:07,No Additional Comments
+4/3/2020 12:07,No Additional Comments
+4/3/2020 12:07,No Additional Comments
+4/3/2020 12:07,No Additional Comments
+4/3/2020 12:07,No Additional Comments
+4/3/2020 12:07,No Additional Comments
+3/9/2020 14:58,plz check whether toLowerCase useful now?
+3/10/2020 14:31,create a constant for date format so we can reuse it.
+3/18/2020 23:31,No Additional Comments
+3/9/2020 13:23,"What was the problem with updateTime.toLowerCase() ?
+ I do not see any difference when compared with API toLowerCase(Locale.getDefault())"
+3/10/2020 14:24,Refactor these 3 methods as they contains duplicate lines.
+3/16/2020 16:42,Do pSelect and p initialisation in constructor. Remove from onDraw.
+3/18/2020 23:31,Good finding.  I have moved this comment to below PR for fix. https://tfsemea1.ta.philips.com/tfs/TPC_Region28/POHC/_git/TuscanyAndroidProduction/pullrequest/4631?_a=overview. 
+3/18/2020 23:31,No Additional Comments
+3/17/2020 22:37,"Just verify one time as DateFormat.MEDIUM is different for different Locale
+for example
+Locale FRENCH = 22 nov. 2018
+Locale GERMANY = 22.11.2018
+Locale CHINESE = 2018-11-22
+Locale CANADA = 22-Nov-2018
+Locale ITALY = 22-nov-2018
+Locale TAIWAN = 2018/11/22"
+3/18/2020 13:12,Please revert these changes
+3/18/2020 16:54,Discussed with Santanu. 
+3/17/2020 22:55,Can you please replace + with the latest version so in future we can keep of core-ktx library updates.
+3/18/2020 23:31,No Additional Comments
+3/10/2020 13:22,No Additional Comments
+3/10/2020 13:22,No Additional Comments
+3/10/2020 13:22,No Additional Comments
+3/17/2020 15:21,No Additional Comments
+3/17/2020 15:21,No Additional Comments
+3/17/2020 15:21,No Additional Comments
+3/17/2020 15:21,No Additional Comments
+3/16/2020 13:41,Rather than creating a log Can you create funnels for it? So we will get to know if users flow in the same path or not and on which point it breaks?
+3/16/2020 16:12,"Not with Crashlytics but we can do with adobe as its analytics.
+
+https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html"
+3/17/2020 13:08,Sure. We will explore that later on.
+3/17/2020 15:21,No Additional Comments
+10/10/2019 16:45,No Additional Comments
+10/10/2019 16:45,No Additional Comments
+10/11/2019 11:19,No Additional Comments
+10/11/2019 11:19,No Additional Comments
+10/11/2019 11:19,No Additional Comments
+10/11/2019 11:19,No Additional Comments
+10/11/2019 12:07,No Additional Comments
+10/11/2019 12:07,No Additional Comments
+10/11/2019 12:07,No Additional Comments
+10/11/2019 12:50,No Additional Comments
+10/11/2019 12:50,No Additional Comments
+10/11/2019 12:50,No Additional Comments
+10/11/2019 12:50,No Additional Comments
+10/11/2019 12:50,No Additional Comments
+10/11/2019 12:51,No Additional Comments
+10/11/2019 12:51,No Additional Comments
+10/11/2019 12:51,No Additional Comments
+10/11/2019 14:49,No Additional Comments
+10/11/2019 14:49,No Additional Comments
+10/11/2019 14:49,No Additional Comments
+10/11/2019 19:10,No Additional Comments
+10/11/2019 19:10,No Additional Comments
+10/11/2019 19:10,No Additional Comments
+10/12/2019 9:54,No Additional Comments
+10/12/2019 9:54,No Additional Comments
+10/12/2019 9:54,No Additional Comments
+10/14/2019 11:30,please add comments  as reminder why this version is different from other components with this defect number 
+10/15/2019 11:31,No Additional Comments
+10/15/2019 11:31,No Additional Comments
+10/14/2019 15:19,No Additional Comments
+10/14/2019 15:19,No Additional Comments
+10/14/2019 15:19,No Additional Comments
+10/14/2019 16:07,No Additional Comments
+10/14/2019 16:07,No Additional Comments
+10/14/2019 16:07,No Additional Comments
+10/14/2019 16:07,No Additional Comments
+10/14/2019 16:07,No Additional Comments
+10/17/2019 12:28,No Additional Comments
+10/17/2019 12:28,No Additional Comments
+10/17/2019 12:28,No Additional Comments
+10/17/2019 12:28,No Additional Comments
+10/17/2019 12:30,No Additional Comments
+10/17/2019 12:30,No Additional Comments
+10/17/2019 12:30,No Additional Comments
+10/16/2019 15:41,this isca you please check if this is required with IOS 
+10/17/2019 13:37,No Additional Comments
+10/17/2019 13:37,No Additional Comments
+10/16/2019 15:06,No Additional Comments
+10/16/2019 15:06,No Additional Comments
+10/16/2019 15:06,No Additional Comments
+10/16/2019 15:06,No Additional Comments
+10/16/2019 15:06,No Additional Comments
+10/17/2019 12:28,No Additional Comments
+10/17/2019 12:28,No Additional Comments
+10/17/2019 12:28,No Additional Comments
+10/18/2019 7:58,No Additional Comments
+10/18/2019 7:58,No Additional Comments
+10/18/2019 7:58,No Additional Comments
+10/18/2019 7:58,No Additional Comments
+10/21/2019 10:51,No Additional Comments
+10/21/2019 10:51,No Additional Comments
+10/21/2019 10:51,No Additional Comments
+10/21/2019 10:51,No Additional Comments
+10/21/2019 10:51,No Additional Comments
+10/21/2019 12:15,No Additional Comments
+10/21/2019 12:15,No Additional Comments
+10/21/2019 12:15,No Additional Comments
+10/22/2019 14:35,No Additional Comments
+10/22/2019 14:32,Waiting for Rama's confirmation. 
+10/22/2019 14:35,No Additional Comments
+10/22/2019 12:20,No Additional Comments
+10/22/2019 12:20,No Additional Comments
+10/22/2019 12:20,No Additional Comments
+10/22/2019 12:20,No Additional Comments
+10/22/2019 12:20,No Additional Comments
+10/22/2019 12:20,No Additional Comments
+10/22/2019 14:23,No Additional Comments
+10/22/2019 14:23,No Additional Comments
+10/22/2019 14:23,No Additional Comments
+10/22/2019 14:23,No Additional Comments
+10/22/2019 14:23,No Additional Comments
+10/22/2019 14:43,No Additional Comments
+10/22/2019 14:43,No Additional Comments
+10/22/2019 14:43,No Additional Comments
+10/22/2019 14:43,No Additional Comments
+10/22/2019 14:43,No Additional Comments
+10/22/2019 16:44,No Additional Comments
+10/22/2019 16:44,No Additional Comments
+10/22/2019 16:44,No Additional Comments
+10/22/2019 16:44,No Additional Comments
+10/22/2019 17:21,No Additional Comments
+10/22/2019 17:21,No Additional Comments
+10/22/2019 17:21,No Additional Comments
+10/22/2019 17:21,No Additional Comments
+10/22/2019 17:21,No Additional Comments
+10/24/2019 11:42,No Additional Comments
+10/24/2019 11:42,No Additional Comments
+10/24/2019 11:42,No Additional Comments
+10/23/2019 14:02,No Additional Comments
+10/23/2019 14:02,No Additional Comments
+10/23/2019 14:02,No Additional Comments
+10/23/2019 14:02,No Additional Comments
+10/23/2019 14:02,No Additional Comments
+10/23/2019 14:02,No Additional Comments
+10/24/2019 14:55,No Additional Comments
+10/24/2019 14:55,No Additional Comments
+10/24/2019 14:55,No Additional Comments
+10/24/2019 14:55,No Additional Comments
+10/24/2019 14:37,No Additional Comments
+10/24/2019 14:37,No Additional Comments
+10/24/2019 11:52,Resolve the conflicts
+10/24/2019 16:02,No Additional Comments
+10/24/2019 16:02,No Additional Comments
+10/24/2019 16:02,No Additional Comments
+10/24/2019 16:02,No Additional Comments
+10/25/2019 12:28,No Additional Comments
+10/25/2019 12:28,No Additional Comments
+10/25/2019 12:28,No Additional Comments
+10/25/2019 12:28,No Additional Comments
+10/25/2019 12:28,No Additional Comments
+10/25/2019 12:28,No Additional Comments
+10/25/2019 12:29,No Additional Comments
+10/25/2019 12:29,No Additional Comments
+10/25/2019 12:29,No Additional Comments
+10/25/2019 15:58,No Additional Comments
+10/25/2019 15:58,No Additional Comments
+10/25/2019 15:58,No Additional Comments
+10/25/2019 15:58,No Additional Comments
+10/25/2019 16:27,No Additional Comments
+10/25/2019 16:27,No Additional Comments
+10/25/2019 16:27,No Additional Comments
+10/25/2019 16:27,No Additional Comments
+10/28/2019 11:04,No Additional Comments
+10/28/2019 11:04,No Additional Comments
+10/28/2019 11:04,No Additional Comments
+10/28/2019 11:04,No Additional Comments
+10/28/2019 11:04,No Additional Comments
+10/29/2019 11:25,No Additional Comments
+10/29/2019 11:25,No Additional Comments
+10/29/2019 11:25,No Additional Comments
+10/29/2019 11:25,No Additional Comments
+10/29/2019 11:25,No Additional Comments
+10/29/2019 11:25,No Additional Comments
+10/30/2019 11:57,No Additional Comments
+10/30/2019 11:57,No Additional Comments
+10/30/2019 11:57,No Additional Comments
+10/30/2019 12:40,No Additional Comments
+10/30/2019 12:40,No Additional Comments
+10/30/2019 12:40,No Additional Comments
+10/30/2019 12:40,No Additional Comments
+10/30/2019 16:49,No Additional Comments
+10/30/2019 16:49,No Additional Comments
+10/30/2019 16:49,No Additional Comments
+11/5/2019 9:17,No Additional Comments
+11/5/2019 9:17,No Additional Comments
+11/5/2019 9:17,No Additional Comments
+11/5/2019 9:17,No Additional Comments
+11/5/2019 9:17,No Additional Comments
+11/5/2019 9:17,No Additional Comments
+11/5/2019 9:17,No Additional Comments
+10/31/2019 12:45,No Additional Comments
+10/31/2019 12:45,No Additional Comments
+10/31/2019 12:45,No Additional Comments
+10/31/2019 12:45,No Additional Comments
+10/31/2019 12:45,No Additional Comments
+10/31/2019 12:45,No Additional Comments
+10/31/2019 12:45,No Additional Comments
+11/4/2019 12:54,No Additional Comments
+11/4/2019 12:54,No Additional Comments
+11/4/2019 12:54,No Additional Comments
+11/4/2019 13:15,No Additional Comments
+11/4/2019 13:15,No Additional Comments
+11/4/2019 13:15,No Additional Comments
+11/4/2019 13:15,No Additional Comments
+2/5/2020 13:04,No Additional Comments
+2/5/2020 13:04,No Additional Comments
+2/3/2020 17:43,Need to understand why this change
+2/3/2020 17:45,I need to understand why this change
+2/5/2020 13:04,No Additional Comments
+2/5/2020 13:04,No Additional Comments
+11/11/2019 11:52,No Additional Comments
+11/11/2019 11:52,No Additional Comments
+11/5/2019 16:07,No Additional Comments
+11/5/2019 16:07,No Additional Comments
+11/8/2019 13:39,No Additional Comments
+11/8/2019 13:39,No Additional Comments
+11/8/2019 13:39,No Additional Comments
+11/5/2019 17:34,No Additional Comments
+11/6/2019 8:20,No Additional Comments
+11/6/2019 8:20,No Additional Comments
+11/6/2019 8:20,No Additional Comments
+11/6/2019 8:20,No Additional Comments
+11/5/2019 17:42,No Additional Comments
+11/5/2019 17:42,No Additional Comments
+11/5/2019 17:42,No Additional Comments
+11/5/2019 17:42,No Additional Comments
+11/5/2019 17:42,No Additional Comments
+11/8/2019 13:39,No Additional Comments
+11/8/2019 13:39,No Additional Comments
+11/8/2019 13:39,No Additional Comments
+11/8/2019 13:39,No Additional Comments
+11/8/2019 13:39,No Additional Comments
+11/8/2019 13:14,No Additional Comments
+11/8/2019 13:14,No Additional Comments
+11/8/2019 13:14,No Additional Comments
+11/8/2019 13:14,No Additional Comments
+11/8/2019 13:35,No Additional Comments
+11/8/2019 13:35,No Additional Comments
+11/8/2019 13:35,No Additional Comments
+11/8/2019 13:35,No Additional Comments
+11/8/2019 17:14,No Additional Comments
+11/8/2019 17:14,No Additional Comments
+11/8/2019 17:14,No Additional Comments
+11/8/2019 17:14,No Additional Comments
+11/8/2019 13:11,No Additional Comments
+11/8/2019 13:11,No Additional Comments
+11/8/2019 13:11,No Additional Comments
+11/8/2019 17:11,No Additional Comments
+11/8/2019 17:11,No Additional Comments
+11/8/2019 17:11,No Additional Comments
+11/11/2019 11:51,No Additional Comments
+11/11/2019 11:51,No Additional Comments
+11/11/2019 11:51,No Additional Comments
+11/11/2019 15:36,No Additional Comments
+11/11/2019 15:36,No Additional Comments
+11/11/2019 15:36,No Additional Comments
+11/9/2019 12:58,No Additional Comments
+11/13/2019 12:35,No Additional Comments
+11/13/2019 12:35,No Additional Comments
+11/13/2019 12:35,No Additional Comments
+11/11/2019 15:40,No Additional Comments
+11/11/2019 15:40,No Additional Comments
+11/11/2019 15:40,No Additional Comments
+11/13/2019 12:03,No Additional Comments
+11/13/2019 12:03,No Additional Comments
+11/13/2019 12:03,No Additional Comments
+11/12/2019 17:52,No Additional Comments
+11/12/2019 17:52,No Additional Comments
+11/12/2019 17:52,No Additional Comments
+11/12/2019 17:52,No Additional Comments
+11/12/2019 17:52,No Additional Comments
+11/18/2019 13:15,No Additional Comments
+11/18/2019 13:15,No Additional Comments
+11/18/2019 13:15,No Additional Comments
+11/18/2019 13:15,No Additional Comments
+11/18/2019 13:15,No Additional Comments
+11/13/2019 16:10,No Additional Comments
+11/13/2019 16:10,No Additional Comments
+11/13/2019 16:10,No Additional Comments
+11/13/2019 16:10,No Additional Comments
+11/13/2019 16:11,No Additional Comments
+11/13/2019 16:11,No Additional Comments
+11/13/2019 16:11,No Additional Comments
+11/13/2019 16:11,No Additional Comments
+11/13/2019 16:11,No Additional Comments
+11/14/2019 13:02,No Additional Comments
+11/14/2019 13:02,No Additional Comments
+11/14/2019 13:02,No Additional Comments
+11/18/2019 13:19,No Additional Comments
+11/18/2019 13:19,No Additional Comments
+11/18/2019 13:19,No Additional Comments
+11/18/2019 13:19,No Additional Comments
+11/18/2019 13:11,Remove selected lines as it is already handled in proceedLogoutSuccess function
+11/19/2019 1:24,No Additional Comments
+11/17/2019 12:23,No Additional Comments
+11/17/2019 12:23,No Additional Comments
+11/17/2019 12:23,No Additional Comments
+11/19/2019 1:29,No Additional Comments
+11/19/2019 1:29,No Additional Comments
+11/19/2019 1:29,No Additional Comments
+11/19/2019 1:29,No Additional Comments
+11/20/2019 11:14,No Additional Comments
+11/20/2019 11:14,No Additional Comments
+11/20/2019 11:14,No Additional Comments
+11/22/2019 14:34,No Additional Comments
+11/22/2019 14:34,No Additional Comments
+11/22/2019 14:34,No Additional Comments
+11/22/2019 14:34,No Additional Comments
+11/25/2019 13:41,No Additional Comments
+11/25/2019 13:41,No Additional Comments
+11/25/2019 13:41,No Additional Comments
+11/25/2019 13:41,No Additional Comments
+11/25/2019 14:23,No Additional Comments
+11/25/2019 14:23,No Additional Comments
+11/25/2019 14:23,No Additional Comments
+11/25/2019 16:10,No Additional Comments
+11/25/2019 16:10,No Additional Comments
+11/25/2019 16:10,No Additional Comments
+11/25/2019 16:10,No Additional Comments
+11/27/2019 12:21,No Additional Comments
+11/27/2019 12:21,No Additional Comments
+11/27/2019 12:21,No Additional Comments
+11/28/2019 17:04,No Additional Comments
+11/28/2019 17:04,No Additional Comments
+11/28/2019 17:04,No Additional Comments
+12/4/2019 10:25,No Additional Comments
+12/4/2019 10:25,No Additional Comments
+12/4/2019 10:25,No Additional Comments
+12/4/2019 10:25,No Additional Comments
+12/5/2019 17:36,No Additional Comments
+12/5/2019 17:36,No Additional Comments
+12/5/2019 17:36,No Additional Comments
+12/5/2019 17:36,No Additional Comments
+12/5/2019 17:36,No Additional Comments
+12/6/2019 12:57,No Additional Comments
+12/6/2019 12:57,No Additional Comments
+12/6/2019 12:57,No Additional Comments
+12/6/2019 12:57,No Additional Comments
+12/9/2019 15:00,No Additional Comments
+12/9/2019 15:00,No Additional Comments
+12/10/2019 14:56,No Additional Comments
+12/10/2019 14:56,No Additional Comments
+12/10/2019 14:56,No Additional Comments
+12/10/2019 14:56,No Additional Comments
+12/10/2019 12:11,If the code is not required please remove it - Dead code
+12/10/2019 12:16,"Make ""insurance_id"" & ""insurance_name"" as constant and use it where ever required"
+12/10/2019 12:51,It is better to use boy scout rule here we saw here let's fix it right now. Other files in a later stage.
+12/10/2019 12:56,Dead code - please remove this
+12/10/2019 14:41,OK
+12/10/2019 13:18,"If ""getInsuranceName()"" method is implemented in OnvzDeepLinkHandler is ""@VisibleForTesting"" annotation required?"
+12/10/2019 13:19,Naming Convention is not matching here either it should be Delta Dental or if it is generic then it has to be modified accordingly
+12/10/2019 14:41,Looks like there is a confusion here I am referring to OnvzDeepLinkHandler?
+12/10/2019 13:20,Please add the respective PR checklist template as part of the PR process
+12/10/2019 14:55,Added
+12/11/2019 16:50,No Additional Comments
+12/11/2019 16:50,No Additional Comments
+12/11/2019 16:50,No Additional Comments
+1/11/2020 8:10,No Additional Comments
+1/10/2020 13:49,Only CPD gradle configuration is done here.
+1/11/2020 8:10,No Additional Comments
+1/11/2020 8:10,No Additional Comments
+12/12/2019 16:18,No Additional Comments
+12/12/2019 16:18,No Additional Comments
+12/12/2019 16:18,No Additional Comments
+12/12/2019 16:18,No Additional Comments
+12/16/2019 10:17,No Additional Comments
+12/16/2019 10:17,No Additional Comments
+12/16/2019 10:17,No Additional Comments
+8/13/2019 12:19,No Additional Comments
+8/13/2019 12:19,No Additional Comments
+8/13/2019 12:19,No Additional Comments
+8/13/2019 12:19,No Additional Comments
+8/13/2019 12:19,No Additional Comments
+8/13/2019 12:19,No Additional Comments
+8/13/2019 12:19,No Additional Comments
+8/11/2019 17:38,No Additional Comments
+8/11/2019 17:38,No Additional Comments
+8/11/2019 17:38,No Additional Comments
+8/9/2019 19:09,No Additional Comments
+8/9/2019 19:09,No Additional Comments
+8/9/2019 19:09,No Additional Comments
+8/9/2019 19:09,No Additional Comments
+8/9/2019 19:09,No Additional Comments
+8/13/2019 16:45,No Additional Comments
+8/13/2019 16:45,No Additional Comments
+8/13/2019 16:45,No Additional Comments
+8/13/2019 16:45,No Additional Comments
+8/13/2019 16:45,No Additional Comments
+8/13/2019 16:45,No Additional Comments
+8/12/2019 12:31,No Additional Comments
+8/12/2019 12:31,No Additional Comments
+8/12/2019 12:31,No Additional Comments
+8/14/2019 15:12,No Additional Comments
+8/14/2019 15:12,No Additional Comments
+8/14/2019 15:12,No Additional Comments
+8/12/2019 17:03,No Additional Comments
+8/12/2019 17:03,No Additional Comments
+8/12/2019 17:03,No Additional Comments
+8/12/2019 17:03,No Additional Comments
+8/14/2019 8:55,No Additional Comments
+8/14/2019 8:55,No Additional Comments
+8/14/2019 8:55,No Additional Comments
+8/14/2019 10:24,No Additional Comments
+8/16/2019 10:21,No Additional Comments
+8/16/2019 10:21,No Additional Comments
+8/16/2019 10:21,No Additional Comments
+8/16/2019 10:21,No Additional Comments
+8/16/2019 10:21,No Additional Comments
+8/16/2019 10:18,No Additional Comments
+8/16/2019 10:18,No Additional Comments
+8/16/2019 10:18,No Additional Comments
+8/16/2019 10:18,No Additional Comments
+8/16/2019 10:18,No Additional Comments
+8/16/2019 10:18,No Additional Comments
+8/16/2019 12:26,No Additional Comments
+8/16/2019 12:26,No Additional Comments
+8/16/2019 12:26,No Additional Comments
+9/25/2019 8:07,No Additional Comments
+9/25/2019 8:07,No Additional Comments
+9/5/2019 10:55,Don't hard code use from AnalyticsConstants in which u have declared
+9/4/2019 14:29,No Additional Comments
+9/4/2019 14:09,removed
+9/3/2019 17:18,
+9/3/2019 17:52,This analytics tag should go to the first teaser screen.
+9/3/2019 17:54,This condition check not required as it is done while launching this fragment.
+9/3/2019 17:58,Dead code will never execute.
+9/3/2019 18:03,User skipped DRS setup analytics should be tagged here
+9/3/2019 18:09,Review Done. Please check the review comments.
+9/4/2019 13:23,remove this comment and commented line
+9/4/2019 14:29,No Additional Comments
+9/4/2019 14:29,No Additional Comments
+9/4/2019 14:29,No Additional Comments
+9/4/2019 14:29,No Additional Comments
+8/20/2019 15:06,No Additional Comments
+8/20/2019 15:06,No Additional Comments
+8/20/2019 15:06,No Additional Comments
+8/20/2019 14:43,No Additional Comments
+8/20/2019 14:43,No Additional Comments
+8/20/2019 14:43,No Additional Comments
+8/20/2019 14:43,No Additional Comments
+8/20/2019 15:38,No Additional Comments
+8/20/2019 15:38,No Additional Comments
+8/20/2019 15:38,No Additional Comments
+8/20/2019 15:38,No Additional Comments
+8/20/2019 15:38,No Additional Comments
+8/21/2019 13:01,No Additional Comments
+8/21/2019 13:01,No Additional Comments
+8/21/2019 13:01,No Additional Comments
+8/21/2019 13:01,No Additional Comments
+8/21/2019 13:01,No Additional Comments
+8/28/2019 14:09,No Additional Comments
+8/28/2019 11:35,Please check if there is a new api available 
+8/28/2019 11:37,Please check if a new api is available 
+8/28/2019 14:09,No Additional Comments
+8/28/2019 14:09,No Additional Comments
+8/21/2019 15:27,No Additional Comments
+8/21/2019 15:27,No Additional Comments
+8/21/2019 15:27,No Additional Comments
+8/21/2019 15:27,No Additional Comments
+8/21/2019 15:27,No Additional Comments
+8/21/2019 15:27,No Additional Comments
+8/22/2019 10:58,No Additional Comments
+8/22/2019 10:58,No Additional Comments
+8/22/2019 10:58,No Additional Comments
+8/22/2019 10:50,logic has been inverted please make sure all flows are handled
+8/22/2019 17:37,No Additional Comments
+8/22/2019 17:37,No Additional Comments
+8/22/2019 17:37,No Additional Comments
+8/22/2019 17:37,No Additional Comments
+8/22/2019 17:37,No Additional Comments
+8/27/2019 11:22,No Additional Comments
+8/26/2019 9:44,
+8/26/2019 9:44,
+8/26/2019 9:44,
+8/26/2019 9:46,
+8/26/2019 9:51,
+8/26/2019 9:51,
+8/26/2019 9:54,
+8/26/2019 9:55,
+8/26/2019 9:56,
+8/26/2019 11:24,
+8/26/2019 11:30,
+8/26/2019 12:51,
+8/26/2019 12:55,
+8/26/2019 13:03,
+8/26/2019 13:05,
+8/26/2019 13:07,
+8/26/2019 13:08,
+8/26/2019 13:09,
+8/26/2019 13:11,
+8/26/2019 13:13,
+8/26/2019 13:19,
+8/26/2019 13:21,
+8/26/2019 13:21,
+8/26/2019 13:28,
+8/27/2019 11:22,No Additional Comments
+8/22/2019 18:39,No Additional Comments
+8/22/2019 18:39,No Additional Comments
+8/22/2019 18:39,No Additional Comments
+10/1/2019 9:09,No Additional Comments
+9/5/2019 12:55,Review started.
+9/5/2019 12:56,
+9/5/2019 13:02,"
+1. Override onContinue()  method in AdQuestionnaireFragmentView.java.
+2. Define a API as resetInvalidChargeData() Move these lines to this API & call it inside onContinue()  ;"
+9/5/2019 13:07,
+9/5/2019 13:14,
+9/10/2019 13:27,
+9/10/2019 14:38,"This condition is blocking to send analytics data. So remove from here.
+So use this condition where actual OS notification is triggered.
+"
+9/10/2019 14:54,"This method is called when app is in Foreground and background. So ""specialEvents"" ""appStateOrionKilledToBackground"" should be sent with other tags.
+
+If it's not mentioned in the tag plan discuss with the analytics team. They might not aware about that this tag can be sent while app running in the background."
+9/10/2019 15:09,"Code duplication can be avoided by moving this logic to a method which will return true and false.
+That API can be used for both background and foreground case."
+9/10/2019 15:20,"Check below :
+Code duplication can be avoided by moving this logic to a method which will return true and false.
+That API can be used for both background and foreground case."
+9/10/2019 16:21,Refer the comments given in HandleInfoReader.java file to optimise this logic.
+9/10/2019 16:30,Check if we can  all reset charger info API here
+9/10/2019 16:44,When the layout in not visible there is no point in processing further. So return immediately.
+9/10/2019 23:54,helpText1  helpText2 rename these variables 
+9/10/2019 23:59,some lines of code in this function can be optimised as it was used in multiple places to avoid code duplication
+9/10/2019 23:59,Check for code duplication for written in this method.
+9/11/2019 0:01,move this case  below SCAN_ERROR case
+9/11/2019 0:11,change the channel name.
+9/11/2019 0:19,Pass application context
+9/16/2019 17:35,remove SessionManager.this
+9/16/2019 17:36,remove SessionManager.this
+9/16/2019 17:56,
+9/16/2019 17:59,"This check is very generic. (topFragment instanceof AlertDialogFragment).
+This functionality can be blocked for other dialog fragment.
+
+Also add some comment why we are returning from here."
+9/16/2019 18:09,Club these 2 conditions with and
+9/16/2019 18:14,After dismissing dialog why this check is required ?
+9/16/2019 18:18,club this with the below condition.
+9/16/2019 18:34,baseFragment.getActiveTabFragment(); as 2nd argument and baseFragment as the 3rd argument while launching InvalidChargerInfoFragment. Otherwise it may lead to memory leak.
+9/16/2019 18:38,Review Completed. Please work on review comments.
+10/1/2019 9:09,No Additional Comments
+10/1/2019 9:09,No Additional Comments
+8/26/2019 15:39,No Additional Comments
+8/26/2019 15:39,No Additional Comments
+8/26/2019 15:39,No Additional Comments
+8/27/2019 9:56,No Additional Comments
+8/27/2019 9:56,No Additional Comments
+8/27/2019 9:56,No Additional Comments
+8/27/2019 9:56,No Additional Comments
+8/27/2019 9:56,No Additional Comments
+8/27/2019 9:56,No Additional Comments
+8/27/2019 14:19,No Additional Comments
+8/27/2019 14:19,No Additional Comments
+8/27/2019 14:19,No Additional Comments
+8/27/2019 11:28,No Additional Comments
+8/27/2019 11:28,No Additional Comments
+8/27/2019 11:28,No Additional Comments
+8/27/2019 15:26,No Additional Comments
+8/27/2019 15:26,No Additional Comments
+8/27/2019 15:26,No Additional Comments
+8/27/2019 15:54,No Additional Comments
+8/27/2019 15:54,No Additional Comments
+8/27/2019 15:54,No Additional Comments
+8/27/2019 15:54,No Additional Comments
+8/27/2019 16:37,No Additional Comments
+8/27/2019 16:37,No Additional Comments
+8/27/2019 16:37,No Additional Comments
+8/29/2019 8:07,No Additional Comments
+8/27/2019 18:38,"Why this size check added ?
+Collections.max should take care for empty size.
+"
+8/29/2019 8:07,No Additional Comments
+8/28/2019 15:08,use parent viewgroup
+8/28/2019 15:09,check if String.valueOf(amnt) can be used
+9/4/2019 9:13,No Additional Comments
+9/4/2019 9:13,No Additional Comments
+9/4/2019 9:13,No Additional Comments
+9/4/2019 9:13,No Additional Comments
+8/29/2019 13:09,No Additional Comments
+8/29/2019 13:09,No Additional Comments
+8/29/2019 13:09,No Additional Comments
+8/29/2019 13:09,No Additional Comments
+9/4/2019 14:37,No Additional Comments
+9/4/2019 14:37,No Additional Comments
+9/4/2019 14:37,No Additional Comments
+8/30/2019 11:21,No Additional Comments
+8/30/2019 11:21,No Additional Comments
+8/30/2019 11:21,No Additional Comments
+8/30/2019 11:21,No Additional Comments
+9/4/2019 14:33,No Additional Comments
+9/3/2019 15:59,Review done. Asked to test few scenario after which it will be merged.
+9/4/2019 14:33,No Additional Comments
+9/4/2019 14:33,No Additional Comments
+9/4/2019 9:12,No Additional Comments
+9/3/2019 13:52,please remove commented code 
+9/4/2019 9:12,No Additional Comments
+9/4/2019 9:12,No Additional Comments
+9/3/2019 14:06,No Additional Comments
+9/3/2019 14:06,No Additional Comments
+9/3/2019 14:06,No Additional Comments
+9/3/2019 15:47,No Additional Comments
+9/3/2019 15:47,No Additional Comments
+9/3/2019 15:47,No Additional Comments
+9/3/2019 15:47,No Additional Comments
+9/3/2019 15:47,No Additional Comments
+9/3/2019 15:47,No Additional Comments
+9/4/2019 14:42,No Additional Comments
+9/4/2019 14:42,No Additional Comments
+9/4/2019 14:42,No Additional Comments
+9/4/2019 14:42,No Additional Comments
+9/23/2019 15:16,No Additional Comments
+9/23/2019 15:16,No Additional Comments
+9/5/2019 10:48,You can remove the commented lines
+9/5/2019 10:48,You can remove the commented lines
+9/5/2019 10:53,You can remove comments.
+9/6/2019 10:29,No Additional Comments
+9/6/2019 10:29,No Additional Comments
+9/6/2019 10:29,No Additional Comments
+9/5/2019 13:10,No Additional Comments
+9/5/2019 13:10,No Additional Comments
+9/5/2019 13:10,No Additional Comments
+10/1/2019 15:43,No Additional Comments
+10/1/2019 15:43,No Additional Comments
+10/1/2019 15:43,No Additional Comments
+9/30/2019 10:20,Can we move this method to Device.java class as that class already has some method like and it would be easier to read if we keep them together?
+9/30/2019 10:27,Can we move this device-specific setting to HandleAsset as its just returning SonicareDialogType.DRS_OFF_FOR_X 
+10/22/2019 11:48,No Additional Comments
+10/22/2019 11:48,No Additional Comments
+10/10/2019 15:16,Can you please check if we can build it with latest Build Tools Revision 29.0.2 (August 2019)
+10/10/2019 15:20,Can you recheck all the latest versions of the libraries? Like 1.1.0 is the latest for appcompat.
+10/10/2019 15:22,Can we use a stable version here?
+10/10/2019 15:41,Can you take a pull from the latest Integration-Shanghai as this file might be deleted in the latest build?
+10/21/2019 16:19,Review this file again. It looks like the merging issue as this file is deleted in Integration Shanghai.
+9/10/2019 10:40,No Additional Comments
+9/10/2019 10:40,No Additional Comments
+9/10/2019 10:40,No Additional Comments
+9/6/2019 14:07,No Additional Comments
+9/6/2019 14:07,No Additional Comments
+9/6/2019 14:07,No Additional Comments
+9/16/2019 12:31,No Additional Comments
+9/16/2019 12:31,No Additional Comments
+9/16/2019 12:31,No Additional Comments
+9/16/2019 12:31,No Additional Comments
+9/16/2019 12:31,No Additional Comments
+9/10/2019 13:12,No Additional Comments
+9/16/2019 12:24,No Additional Comments
+9/16/2019 12:24,No Additional Comments
+9/16/2019 12:46,No Additional Comments
+9/16/2019 12:46,No Additional Comments
+9/16/2019 12:46,No Additional Comments
+9/16/2019 12:46,No Additional Comments
+9/23/2019 14:57,No Additional Comments
+9/23/2019 14:57,No Additional Comments
+9/23/2019 14:57,No Additional Comments
+9/23/2019 14:57,No Additional Comments
+9/23/2019 14:57,No Additional Comments
+9/23/2019 15:17,No Additional Comments
+9/23/2019 15:17,No Additional Comments
+9/23/2019 15:17,No Additional Comments
+9/23/2019 15:17,No Additional Comments
+9/23/2019 15:17,No Additional Comments
+9/23/2019 15:17,No Additional Comments
+9/20/2019 13:00,remove these lines
+9/20/2019 13:05,remove this condition if not required
+9/20/2019 13:06,onAnimationEnd() is required now?
+9/23/2019 12:11,No Additional Comments
+9/23/2019 12:11,No Additional Comments
+9/19/2019 14:23,No Additional Comments
+9/19/2019 14:23,No Additional Comments
+9/19/2019 14:23,No Additional Comments
+9/23/2019 11:02,No Additional Comments
+9/23/2019 11:02,No Additional Comments
+9/23/2019 11:02,No Additional Comments
+9/23/2019 11:02,No Additional Comments
+9/23/2019 11:02,No Additional Comments
+9/23/2019 11:02,No Additional Comments
+9/30/2019 14:39,No Additional Comments
+9/30/2019 14:39,No Additional Comments
+9/30/2019 14:39,No Additional Comments
+9/30/2019 14:39,No Additional Comments
+9/24/2019 11:57,No Additional Comments
+9/24/2019 11:57,No Additional Comments
+9/24/2019 11:57,No Additional Comments
+10/1/2019 18:06,No Additional Comments
+10/1/2019 18:06,No Additional Comments
+10/1/2019 18:06,No Additional Comments
+10/1/2019 18:06,No Additional Comments
+10/1/2019 18:06,No Additional Comments
+9/25/2019 12:22,No Additional Comments
+9/25/2019 12:22,No Additional Comments
+9/25/2019 12:22,No Additional Comments
+9/26/2019 15:57,No Additional Comments
+9/26/2019 15:57,No Additional Comments
+9/26/2019 14:52,You can remove the commented lines
+9/26/2019 14:52,You can remove the commented lines
+9/27/2019 14:49,No Additional Comments
+9/27/2019 14:49,No Additional Comments
+9/27/2019 14:49,No Additional Comments
+10/1/2019 14:44,check this change
+10/1/2019 14:58,remove this if not required
+10/1/2019 15:07,remove this interface if not required
+10/1/2019 15:08,remove this class if not in use
+10/1/2019 16:10,remove duplicate code
+10/1/2019 16:10,remove duplicate code
+10/15/2019 17:53,Why this removed ?
+10/15/2019 17:56,Need to review myself why this is added?
+10/15/2019 17:58,Need to review myself check if all these cases handled in add device flow
+10/16/2019 12:25,Move these 2 methods to onboarding presenter
+10/16/2019 12:30,"Code duplication. Same code exist in OnboardingMyPrivacyFragment.java.
+
+move it to onboarding presenter and use in both the places."
+10/16/2019 15:21,Code duplication : Same code present in ADDataCoreDialogFragment.java
+10/16/2019 15:22,Code duplication : Same code present in ADDataConsentFragmentView.java
+10/16/2019 15:22,Code duplication : Same code present in ADDataConsentFragmentView.java
+10/16/2019 15:24,Code duplication : Same code present in ADDataConsentFragmentView.java
+10/16/2019 17:08,"App upgrade from DB version 20 to 21 needs to be handled.
+Scenario : If user is in questioner screen in 20  when upgraded to 21 the app should land in progress screen"
+10/17/2019 13:47,Data upload will fail. call onOnBoardingQuestionsLoaded()
+10/21/2019 13:34,No Additional Comments
+10/1/2019 16:31,"Can you please review if this ""if"" block is required or not. As now there is no use of dpchannel we should remove dpchannel from json file as well. Check with Shantanu one time. "
+10/1/2019 16:33,Can you remove this method if not required.
+9/26/2019 16:01,No Additional Comments
+9/26/2019 16:01,No Additional Comments
+9/27/2019 14:00,No Additional Comments
+9/27/2019 14:00,No Additional Comments
+9/27/2019 14:00,No Additional Comments
+9/27/2019 14:00,No Additional Comments
+9/27/2019 14:00,No Additional Comments
+9/27/2019 12:21,No Additional Comments
+9/27/2019 12:21,No Additional Comments
+9/27/2019 12:21,No Additional Comments
+9/27/2019 12:43,No Additional Comments
+9/27/2019 12:43,No Additional Comments
+9/27/2019 12:43,No Additional Comments
+9/27/2019 12:43,No Additional Comments
+9/27/2019 12:43,No Additional Comments
+9/27/2019 13:37,No Additional Comments
+9/27/2019 13:37,No Additional Comments
+9/27/2019 13:52,No Additional Comments
+9/27/2019 13:52,No Additional Comments
+9/28/2019 9:09,No Additional Comments
+9/28/2019 9:09,No Additional Comments
+10/4/2019 10:54,Correct the Descriptions
+10/4/2019 12:23,No Additional Comments
+10/4/2019 12:23,No Additional Comments
+10/4/2019 12:23,No Additional Comments
+10/5/2019 11:02,No Additional Comments
+10/5/2019 11:02,No Additional Comments
+10/4/2019 16:01,null is updated to the file version using script.
+10/5/2019 11:02,No Additional Comments
+10/10/2019 11:58,No Additional Comments
+10/10/2019 11:58,No Additional Comments
+10/10/2019 11:58,No Additional Comments
+10/10/2019 11:58,No Additional Comments
+10/10/2019 11:58,No Additional Comments
+10/10/2019 11:48,No Additional Comments
+10/10/2019 11:48,No Additional Comments
+10/10/2019 11:48,No Additional Comments
+10/10/2019 14:48,No Additional Comments
+10/10/2019 14:48,No Additional Comments
+10/10/2019 14:48,No Additional Comments
+10/10/2019 15:55,No Additional Comments
+10/10/2019 15:55,No Additional Comments
+10/10/2019 15:55,No Additional Comments
+10/10/2019 15:12,No Additional Comments
+6/17/2019 14:54,No Additional Comments
+6/17/2019 14:54,No Additional Comments
+6/17/2019 14:54,No Additional Comments
+6/17/2019 14:54,No Additional Comments
+6/17/2019 14:54,No Additional Comments
+6/17/2019 14:54,No Additional Comments
+6/17/2019 14:59,No Additional Comments
+6/17/2019 14:59,No Additional Comments
+6/17/2019 14:59,No Additional Comments
+6/17/2019 14:59,No Additional Comments
+6/18/2019 15:56,No Additional Comments
+6/18/2019 15:56,No Additional Comments
+6/18/2019 15:56,No Additional Comments
+6/18/2019 15:56,No Additional Comments
+6/18/2019 15:56,No Additional Comments
+6/18/2019 15:56,No Additional Comments
+6/18/2019 15:56,No Additional Comments
+6/18/2019 9:48,No Additional Comments
+6/18/2019 9:48,No Additional Comments
+6/18/2019 9:48,No Additional Comments
+6/18/2019 9:48,No Additional Comments
+6/18/2019 9:48,No Additional Comments
+6/18/2019 9:48,No Additional Comments
+6/18/2019 10:51,No Additional Comments
+6/18/2019 10:51,No Additional Comments
+6/18/2019 10:51,No Additional Comments
+6/18/2019 10:51,No Additional Comments
+6/18/2019 10:51,No Additional Comments
+6/18/2019 10:51,No Additional Comments
+6/18/2019 10:51,No Additional Comments
+6/18/2019 12:20,This will go to progress screen. For OSLO it should go to my handle page.
+6/18/2019 15:53,No Additional Comments
+6/18/2019 15:53,No Additional Comments
+6/18/2019 12:38,No Additional Comments
+6/20/2019 19:08,No Additional Comments
+6/20/2019 19:08,No Additional Comments
+6/20/2019 19:08,No Additional Comments
+6/20/2019 19:08,No Additional Comments
+6/20/2019 19:08,No Additional Comments
+6/20/2019 19:08,No Additional Comments
+6/27/2019 11:53,No Additional Comments
+6/24/2019 15:09,"Why Did you change the API name. It checks the country in which OE supported as well as whether the OE shown to the user. 
+
+Please Undo the name API name."
+6/27/2019 11:53,No Additional Comments
+6/27/2019 11:53,No Additional Comments
+6/27/2019 11:53,No Additional Comments
+6/27/2019 11:53,No Additional Comments
+7/23/2019 18:49,No Additional Comments
+6/27/2019 11:56,Please check whether the app upgrade scenario has been handled or not. On app upgrade it should show the consent screen as we have added a new consent.
+7/16/2019 12:00,Use TuscanyLog
+7/16/2019 12:01,use tuscanylog
+7/16/2019 12:10,This If condition will never pass.
+7/16/2019 12:13,The functionality defined in this method should be handled inside handleUnknownState()  which is present inside SonicareConsentManager. Please check. 
+7/16/2019 12:50,Why this condition added? Please check. It may not required.
+7/16/2019 13:11,Need to optimize this function
+7/16/2019 14:44,If consent store fails is there any scenario defined. 
+7/16/2019 14:52,DB version might have been changed. Please check.
+6/26/2019 11:15,No Additional Comments
+6/26/2019 11:15,No Additional Comments
+6/26/2019 11:15,No Additional Comments
+6/26/2019 11:15,No Additional Comments
+6/26/2019 11:15,No Additional Comments
+6/27/2019 11:54,No Additional Comments
+6/27/2019 11:54,No Additional Comments
+6/27/2019 11:54,No Additional Comments
+6/27/2019 11:54,No Additional Comments
+6/27/2019 11:54,No Additional Comments
+6/27/2019 11:54,No Additional Comments
+6/25/2019 14:19,No Additional Comments
+6/25/2019 14:19,No Additional Comments
+6/25/2019 14:19,No Additional Comments
+6/26/2019 10:47,No Additional Comments
+6/26/2019 10:47,No Additional Comments
+6/26/2019 10:47,No Additional Comments
+6/26/2019 10:47,No Additional Comments
+6/26/2019 10:46,No Additional Comments
+6/26/2019 10:46,No Additional Comments
+6/26/2019 10:46,No Additional Comments
+6/26/2019 10:46,No Additional Comments
+6/26/2019 10:46,No Additional Comments
+6/26/2019 10:46,No Additional Comments
+6/27/2019 12:43,No Additional Comments
+6/27/2019 12:43,No Additional Comments
+6/27/2019 12:43,No Additional Comments
+6/27/2019 12:43,No Additional Comments
+6/27/2019 12:43,No Additional Comments
+6/26/2019 17:31,No Additional Comments
+6/26/2019 17:31,No Additional Comments
+6/26/2019 17:31,No Additional Comments
+6/26/2019 17:31,No Additional Comments
+6/26/2019 17:31,No Additional Comments
+6/30/2019 19:58,No Additional Comments
+6/30/2019 19:58,No Additional Comments
+6/30/2019 19:58,No Additional Comments
+6/30/2019 19:58,No Additional Comments
+6/26/2019 16:25,No Additional Comments
+6/26/2019 16:25,No Additional Comments
+6/26/2019 16:25,No Additional Comments
+6/26/2019 16:25,No Additional Comments
+6/26/2019 16:25,No Additional Comments
+6/26/2019 19:57,No Additional Comments
+6/26/2019 19:57,No Additional Comments
+6/26/2019 19:57,No Additional Comments
+6/26/2019 19:57,No Additional Comments
+6/26/2019 19:57,No Additional Comments
+6/27/2019 11:28,No Additional Comments
+6/27/2019 11:28,No Additional Comments
+6/27/2019 11:28,No Additional Comments
+6/27/2019 18:03,No Additional Comments
+6/27/2019 18:03,No Additional Comments
+6/27/2019 18:03,No Additional Comments
+6/27/2019 18:02,No Additional Comments
+6/27/2019 18:02,No Additional Comments
+6/27/2019 18:02,No Additional Comments
+6/27/2019 18:01,No Additional Comments
+6/27/2019 18:01,No Additional Comments
+6/27/2019 18:01,No Additional Comments
+6/27/2019 18:01,No Additional Comments
+6/28/2019 16:17,No Additional Comments
+6/28/2019 16:17,No Additional Comments
+6/28/2019 16:17,No Additional Comments
+6/28/2019 17:01,No Additional Comments
+6/28/2019 17:01,No Additional Comments
+6/28/2019 17:01,No Additional Comments
+6/28/2019 17:01,No Additional Comments
+6/28/2019 17:01,No Additional Comments
+6/28/2019 17:01,No Additional Comments
+6/28/2019 17:01,No Additional Comments
+6/28/2019 17:01,No Additional Comments
+6/28/2019 17:01,No Additional Comments
+6/28/2019 17:01,No Additional Comments
+7/12/2019 12:22,No Additional Comments
+7/12/2019 12:22,No Additional Comments
+7/12/2019 12:22,No Additional Comments
+7/1/2019 12:28,No Additional Comments
+7/18/2019 16:08,No Additional Comments
+7/18/2019 16:08,No Additional Comments
+7/18/2019 16:08,No Additional Comments
+7/18/2019 16:08,No Additional Comments
+7/18/2019 16:08,No Additional Comments
+7/1/2019 15:35,No Additional Comments
+7/1/2019 15:35,No Additional Comments
+7/1/2019 15:35,No Additional Comments
+7/1/2019 17:58,No Additional Comments
+7/1/2019 17:58,No Additional Comments
+7/11/2019 12:05,No Additional Comments
+7/11/2019 12:05,No Additional Comments
+7/11/2019 12:05,No Additional Comments
+7/11/2019 12:05,No Additional Comments
+7/11/2019 12:05,No Additional Comments
+7/3/2019 10:16,@<CODE1\320050579> can you delete the lines if not required.
+7/2/2019 18:54,No Additional Comments
+7/3/2019 10:12,No Additional Comments
+7/3/2019 10:12,No Additional Comments
+7/3/2019 10:12,No Additional Comments
+7/3/2019 10:12,No Additional Comments
+7/3/2019 10:12,No Additional Comments
+7/3/2019 10:12,No Additional Comments
+7/5/2019 12:17,
+7/5/2019 14:35,No Additional Comments
+7/5/2019 14:35,No Additional Comments
+7/5/2019 14:35,No Additional Comments
+7/3/2019 19:04,No Additional Comments
+7/4/2019 15:05,No Additional Comments
+7/4/2019 15:05,No Additional Comments
+7/4/2019 15:05,No Additional Comments
+7/12/2019 17:00,No Additional Comments
+7/12/2019 17:00,No Additional Comments
+7/12/2019 17:00,No Additional Comments
+7/12/2019 17:00,No Additional Comments
+7/12/2019 17:00,No Additional Comments
+7/12/2019 17:00,No Additional Comments
+7/9/2019 13:58,No Additional Comments
+7/9/2019 13:58,No Additional Comments
+7/9/2019 13:58,No Additional Comments
+7/9/2019 15:36,No Additional Comments
+7/9/2019 15:36,No Additional Comments
+7/9/2019 15:36,No Additional Comments
+7/9/2019 15:36,No Additional Comments
+7/9/2019 15:36,No Additional Comments
+7/12/2019 14:27,No Additional Comments
+7/12/2019 14:27,No Additional Comments
+7/12/2019 14:27,No Additional Comments
+7/19/2019 15:34,No Additional Comments
+7/19/2019 15:34,No Additional Comments
+7/19/2019 15:34,No Additional Comments
+7/18/2019 13:30,No Additional Comments
+7/18/2019 13:30,No Additional Comments
+7/18/2019 13:30,No Additional Comments
+7/16/2019 11:00,No Additional Comments
+7/16/2019 11:00,No Additional Comments
+7/16/2019 11:00,No Additional Comments
+7/16/2019 11:00,No Additional Comments
+7/16/2019 11:00,No Additional Comments
+7/16/2019 11:00,No Additional Comments
+7/16/2019 11:00,No Additional Comments
+7/16/2019 14:44,No Additional Comments
+7/16/2019 14:44,No Additional Comments
+7/16/2019 14:44,No Additional Comments
+7/16/2019 14:44,No Additional Comments
+7/16/2019 14:44,No Additional Comments
+7/16/2019 14:44,No Additional Comments
+7/16/2019 14:44,No Additional Comments
+7/16/2019 13:29,No Additional Comments
+7/16/2019 13:29,No Additional Comments
+7/16/2019 13:29,No Additional Comments
+7/16/2019 13:29,No Additional Comments
+7/16/2019 15:47,No Additional Comments
+7/16/2019 15:47,No Additional Comments
+7/16/2019 15:47,No Additional Comments
+7/16/2019 15:47,No Additional Comments
+7/16/2019 15:47,No Additional Comments
+7/16/2019 15:47,No Additional Comments
+7/17/2019 19:21,No Additional Comments
+7/17/2019 19:21,No Additional Comments
+7/17/2019 19:21,No Additional Comments
+7/17/2019 19:21,No Additional Comments
+7/17/2019 19:21,No Additional Comments
+7/17/2019 19:21,No Additional Comments
+7/17/2019 19:21,No Additional Comments
+7/17/2019 19:21,No Additional Comments
+7/17/2019 19:21,No Additional Comments
+7/18/2019 11:44,No Additional Comments
+7/18/2019 11:44,No Additional Comments
+7/18/2019 11:44,No Additional Comments
+7/18/2019 11:44,No Additional Comments
+7/18/2019 11:44,No Additional Comments
+7/18/2019 11:44,No Additional Comments
+7/18/2019 11:44,No Additional Comments
+8/8/2019 17:47,No Additional Comments
+8/8/2019 17:47,No Additional Comments
+8/5/2019 13:05,Invalid Json format.  is missing in many files after true
+8/5/2019 13:06,Invalid Json format.  is missing. Check all files In many files it is missing
+8/5/2019 13:07,Please attach the review templet.
+8/5/2019 13:16,Clarification required : Why tabOrdinal != -1 check added ?
+8/5/2019 13:31,Delete commented code
+8/5/2019 13:33,Delete commented code
+8/5/2019 15:06,"Below entry in all product json needs to be removed. 
+1. ""ProductRecommendations_Support"": ""false""
+2. 1. ""ProductRecommendations_Support"": ""true""
+
+Please check."
+8/5/2019 15:17,For me : Need to check why passing true 
+8/5/2019 16:48,remove argument true
+8/5/2019 16:49,"Optimize this code. Move the logic to separate API which checks Tongue clean Mouth Rinse and product recommendation and returns a boolean based on that add the consents.
+Use isLiveBrushingSupported() API in order to differentiate between shanghai/tyscany and OSLO/OSAKA"
+8/5/2019 16:49,remove argument
+8/5/2019 16:52,Remove false from argument.
+8/5/2019 18:00,Optimize this code
+8/5/2019 18:03,"Check this. Why it was not before.
+
+This is already handled as part of ConsentType.MOMENT.  Check API call updatePersonalConsetn(postConsentCallback isEnabled);"
+8/5/2019 18:07,Why marking consent related changes done ?
+8/5/2019 18:28,This logic is not required as it is already handled in enableConsent() which is present in SonicareConsentManager.java
+8/6/2019 12:18,Optimize  this code
+8/6/2019 12:26,Replace this logic by using feature provider API isLivebrushingSupported()
+8/6/2019 13:37,This logic looks wrong as part of wrong consent implementation. Let’s discuss.
+8/6/2019 14:58,
+8/6/2019 16:21,"Replace this by featureProvider's isLivaBrushingSupported API.
+Also move this logic to initView function."
+8/6/2019 16:31,Why this logic was moved from onStart() ? Any specific reason.
+8/6/2019 16:33,"As these two buttons are always enabled. make it enabled in xml if disabled.
+If in xml already enabled then remove calling setEnabled."
+8/6/2019 16:43,Do not think this is required. For new oslo and  Osaka user the consent state will be rejected instead of inactive.
+8/6/2019 16:48,
+8/6/2019 16:57,For me : verify getDeviceToFilterConsent logic
+8/6/2019 17:07,"If personal consent fetch happens before mouthrins and tongiueclean below scenario will fail.
+
+A shanghai user who has rejected personal consent. If he on-boards Shanghai device again mouthrinse and tongueclean consent will be shown to him which is wrong."
+8/6/2019 17:08,Instead of popBackStack use onBackPressed.
+8/7/2019 13:36,Both are same. Why you want to go through fragment manager when your activity can do the work.
+8/6/2019 18:08,Rename variable b to isChecked
+8/6/2019 18:22,"Disabling personal consent will disable MouthRins and TongueClean consent.
+Check the behaviour with iOS. As per the requirement MouthRins and TongueClean should retain their state."
+8/6/2019 18:48,Use UtilityAppContext.getContext()
+8/6/2019 18:48,Use UtilityAppContext.getContext()
+8/6/2019 18:49,change this import to import static com.philips.cdp.ohc.utility.UtilityAppContext
+8/6/2019 19:12,This sting was added for OSAKA firmware upgrade. Please check and revert it.
+8/6/2019 19:13,This sting was added for OSAKA firmware upgrade. Please check and revert it.
+8/7/2019 15:21,Remove this. This will have side effect on  add device flow.
+8/7/2019 15:22,This logic is wrong. Please revert
+8/7/2019 15:23,Lets discuss with iOS team and change
+8/7/2019 15:24,Do not rename this variable
+8/8/2019 17:47,No Additional Comments
+8/8/2019 17:47,No Additional Comments
+7/19/2019 9:51,No Additional Comments
+7/18/2019 18:22,OE deeplink needs to be handled
+7/18/2019 18:26,
+7/18/2019 18:33,We can not use this condition to show hide continue button as the user can logout from the app automatically. Please check let me know if it is different.
+7/18/2019 18:39,"Do not trust on this condition user can logout any time.
+Please check If in any other place similar conditions used to hide and show UI elements please remove."
+7/18/2019 18:42,Move this code to a function to avoid code duplication
+7/18/2019 18:42,Move this code to a function to avoid code duplication
+7/19/2019 9:51,No Additional Comments
+7/19/2019 9:51,No Additional Comments
+7/19/2019 9:51,No Additional Comments
+7/18/2019 18:48,If the user is logged in then we are not showing the button and if the user is not logged in we are navigating to the login screen. So if in case the user is logged out then this will anyway sending them to login screen.
+7/18/2019 19:51,updated
+7/18/2019 19:51,updated
+7/18/2019 16:45,No Additional Comments
+7/18/2019 16:45,No Additional Comments
+7/18/2019 16:45,No Additional Comments
+7/18/2019 16:45,No Additional Comments
+7/18/2019 16:45,No Additional Comments
+7/18/2019 16:45,No Additional Comments
+7/19/2019 11:13,No Additional Comments
+7/19/2019 11:13,No Additional Comments
+7/19/2019 11:13,No Additional Comments
+7/19/2019 15:34,No Additional Comments
+7/19/2019 15:34,No Additional Comments
+7/19/2019 15:34,No Additional Comments
+7/22/2019 13:42,No Additional Comments
+7/22/2019 13:42,No Additional Comments
+7/25/2019 13:28,No Additional Comments
+7/25/2019 13:28,No Additional Comments
+7/25/2019 13:28,No Additional Comments
+7/25/2019 13:28,No Additional Comments
+7/25/2019 13:28,No Additional Comments
+7/25/2019 13:28,No Additional Comments
+7/29/2019 12:34,No Additional Comments
+7/29/2019 12:34,No Additional Comments
+7/29/2019 12:34,No Additional Comments
+7/29/2019 12:34,No Additional Comments
+7/29/2019 12:34,No Additional Comments
+7/25/2019 13:25,No Additional Comments
+7/25/2019 13:25,No Additional Comments
+7/25/2019 13:25,No Additional Comments
+7/25/2019 13:25,No Additional Comments
+7/25/2019 17:55,No Additional Comments
+7/25/2019 17:55,No Additional Comments
+7/25/2019 17:23,This method can be removed
+7/25/2019 17:55,No Additional Comments
+7/25/2019 17:55,No Additional Comments
+7/25/2019 17:55,No Additional Comments
+7/25/2019 17:55,No Additional Comments
+7/26/2019 17:00,No Additional Comments
+7/26/2019 17:00,No Additional Comments
+7/26/2019 17:00,No Additional Comments
+8/1/2019 18:48,No Additional Comments
+7/29/2019 15:16,Revert this file
+7/29/2019 16:12,Inside this API Consent handle missing for both OSLO and OSAKA
+7/29/2019 16:46,Move isValidHandle API to device util
+7/29/2019 17:55,Either put a else statement or remove {}
+7/30/2019 15:54,Retest this Method
+7/30/2019 16:09,use feature API isIMUSupported. Remove public access specifier
+7/30/2019 17:32,Make a feature called isOfflineSessionSummary supported. 
+7/30/2019 17:50,Make a feature called isOfflineSessionSummary supported. Also check the logic present in TuscanyBLE connector for the same. make it similar if possible.
+7/30/2019 17:56,supportScanFilter already handling the Build.VERSION.SDK_INT >= Build.VERSION_CODES.O check . please remove it
+7/31/2019 12:36,Oslo medium Brushing modes not handled correctly. Introduce a new device for oslo medium and override the API which returns mode array.
+7/31/2019 13:01,I think we can use device asset for these assets. Please check.
+7/31/2019 13:02,rename set bundle to getBundleForDeviceOnBoardFlow()(
+7/31/2019 13:10,rename to getHandleImageSmall. Similarly for others.
+7/31/2019 14:52,Rename this API to isLiveBrushingSupported for the readability. 
+7/31/2019 15:53,Remove BleConnectionInfoListener implementation from here and move the logic present into init dialog DefaultBLEConnectionStatusListener.
+7/31/2019 16:29,Remove unused variables 
+7/31/2019 16:30,Remove unused variables 
+7/31/2019 16:34,keep the headers
+7/31/2019 16:34,keep the headers.
+7/31/2019 16:38,Use update state  pass the state
+7/31/2019 16:42,Keep this line here
+7/31/2019 16:44,Use isIMULockUISupported here
+7/31/2019 16:51,code optimisation required here.
+7/31/2019 17:02,"instead if ...else use below :
+
+return profileGoal != null &&
+                profileGoal.getStatus() == DBConstants.GOAL_STATUS.ACTIVE.ordinal();"
+7/31/2019 19:09,Can we get these assets from the corresponding handle asset object. ?
+7/31/2019 19:13,Tuscany DFU needs to be handled here
+7/31/2019 19:18,Please check if Macau privacy  Handled correctly.  Ask testers to verify once.
+7/31/2019 20:26,
+7/31/2019 20:39,Looks like some thing is wrong here. Please discuss.
+7/31/2019 20:41,This 2 methods can be optimised.
+7/31/2019 21:04,How did this came ?
+7/31/2019 21:43,Cross verify this once again
+7/31/2019 21:50,Where it is used
+7/31/2019 21:50,Where it is used
+8/1/2019 18:43,remove !
+7/29/2019 17:14,please revert this as we have raised Callisto ticket to run only Junit test cases
+7/29/2019 17:16,can convert this to Junit as it doesn't have much dependency on UI 
+7/29/2019 17:16,"can convert this to Junit as it doesn’t have much dependency on UI
+
+"
+7/29/2019 17:17,please move business logic test cases to Junit as UI test cases consumes more time and it is device dependent
+7/29/2019 17:17,"can convert this to Junit as it doesn’t have much dependency on UI
+
+"
+7/30/2019 11:02,reverted
+7/30/2019 11:54,resolved
+7/30/2019 10:35,resolved
+7/30/2019 11:08,resolved
+7/30/2019 11:09,As discussed will work on this in GDPR story.
+7/30/2019 11:08,As discussed will work on this in GDPR story.
+7/30/2019 11:08,As discussed will work on this in GDPR story.
+7/30/2019 11:08,As discussed will work on this in GDPR story.
+7/30/2019 10:34,resolved
+8/1/2019 16:54,Resolved
+7/31/2019 12:15,Resolved
+7/31/2019 12:15,Resolved
+7/31/2019 12:13,Resolved
+7/31/2019 12:13,resolved
+7/31/2019 14:25,resolved
+8/1/2019 12:26,Resolved
+8/1/2019 12:30,Resolved
+8/1/2019 12:37,Resolved
+7/31/2019 17:29,Resolved
+8/1/2019 13:25,Resolved
+7/31/2019 17:28,Resolved
+7/31/2019 17:28,Resolved
+7/31/2019 17:27,will add all header at once.
+7/31/2019 17:27,will add all header at once.
+7/31/2019 17:35,Resolved
+7/31/2019 17:33,Resolved
+7/31/2019 17:33,Resolved
+8/1/2019 12:42,Resolved
+7/31/2019 17:32,Resolved
+8/1/2019 12:23,Resolved
+8/1/2019 12:10,Resolved
+8/1/2019 12:09,Resolved
+8/1/2019 10:16,this is place holder for 2.11.1 UPG file
+8/1/2019 18:48,No Additional Comments
+8/1/2019 14:46,No Additional Comments
+8/1/2019 14:46,No Additional Comments
+8/1/2019 14:46,No Additional Comments
+8/1/2019 14:46,No Additional Comments
+8/1/2019 14:46,No Additional Comments
+8/1/2019 14:46,No Additional Comments
+8/1/2019 14:46,No Additional Comments
+8/1/2019 14:46,No Additional Comments
+8/1/2019 14:45,No Additional Comments
+8/1/2019 14:45,No Additional Comments
+8/1/2019 14:45,No Additional Comments
+8/2/2019 12:40,No Additional Comments
+8/2/2019 12:40,No Additional Comments
+8/5/2019 13:58,No Additional Comments
+8/5/2019 13:58,No Additional Comments
+8/5/2019 13:58,No Additional Comments
+8/5/2019 12:54,Please add a valid work item
+8/5/2019 13:58,No Additional Comments
+8/5/2019 13:58,No Additional Comments
+8/5/2019 13:58,No Additional Comments
+8/9/2019 14:26,No Additional Comments
+8/9/2019 14:26,No Additional Comments
+8/9/2019 14:26,No Additional Comments
+8/9/2019 14:26,No Additional Comments
+8/9/2019 14:26,No Additional Comments
+8/9/2019 14:26,No Additional Comments
+8/9/2019 14:26,No Additional Comments
+8/5/2019 10:56,No Additional Comments
+8/5/2019 10:56,No Additional Comments
+8/5/2019 10:56,No Additional Comments
+8/5/2019 10:56,No Additional Comments
+8/9/2019 17:11,No Additional Comments
+8/9/2019 17:11,No Additional Comments
+8/9/2019 16:31,BLEConnectionActivity.this change to getApplication context
+8/9/2019 17:11,No Additional Comments
+8/9/2019 17:11,No Additional Comments
+8/9/2019 17:11,No Additional Comments
+8/9/2019 17:11,No Additional Comments
+8/19/2019 12:14,No Additional Comments
+8/19/2019 12:14,No Additional Comments
+8/7/2019 18:28,No Additional Comments
+8/7/2019 18:28,No Additional Comments
+8/7/2019 18:28,No Additional Comments
+8/7/2019 18:28,No Additional Comments
+8/7/2019 18:28,No Additional Comments
+8/7/2019 18:28,No Additional Comments
+8/7/2019 18:28,No Additional Comments
+8/8/2019 14:45,No Additional Comments
+8/8/2019 14:45,No Additional Comments
+8/8/2019 14:45,No Additional Comments
+8/8/2019 14:45,No Additional Comments
+8/8/2019 14:45,No Additional Comments
+8/8/2019 14:45,No Additional Comments
+8/7/2019 12:21,No Additional Comments
+8/7/2019 12:21,No Additional Comments
+8/7/2019 12:21,No Additional Comments
+8/7/2019 12:21,No Additional Comments
+8/9/2019 19:18,No Additional Comments
+8/9/2019 19:18,No Additional Comments
+8/9/2019 19:18,No Additional Comments
+8/8/2019 18:33,
+8/8/2019 19:01,revert this change
+8/8/2019 19:30,"Lets' discuss and remove it. This is creating lots of confusion and may cause regression.
+"
+8/9/2019 19:18,No Additional Comments
+8/9/2019 19:18,No Additional Comments
+8/9/2019 19:18,No Additional Comments
+8/8/2019 14:41,No Additional Comments
+8/8/2019 14:41,No Additional Comments
+8/8/2019 14:41,No Additional Comments
+8/8/2019 14:41,No Additional Comments
+8/8/2019 14:41,No Additional Comments
+8/8/2019 14:41,No Additional Comments
+8/13/2019 17:24,No Additional Comments
+8/13/2019 17:24,No Additional Comments
+8/13/2019 17:24,No Additional Comments
+8/13/2019 17:24,No Additional Comments
+8/13/2019 17:24,No Additional Comments
+9/4/2019 17:28,No Additional Comments
+9/4/2019 17:28,No Additional Comments
+9/4/2019 17:28,No Additional Comments
+8/8/2019 18:58,No Additional Comments
+8/8/2019 18:58,No Additional Comments
+8/8/2019 18:58,No Additional Comments
+8/8/2019 18:58,No Additional Comments
+8/8/2019 18:58,No Additional Comments
+8/8/2019 18:58,No Additional Comments
+8/9/2019 13:45,No Additional Comments
+8/9/2019 13:45,No Additional Comments
+8/9/2019 13:45,No Additional Comments
+8/9/2019 13:45,No Additional Comments
+8/9/2019 13:45,No Additional Comments
+8/9/2019 13:45,No Additional Comments
+8/9/2019 13:28,No Additional Comments
+8/9/2019 13:28,No Additional Comments
+8/9/2019 13:28,No Additional Comments
+8/9/2019 13:28,No Additional Comments
+8/9/2019 13:28,No Additional Comments
+8/9/2019 14:03,No Additional Comments
+8/9/2019 14:03,No Additional Comments
+8/9/2019 14:03,No Additional Comments
+8/9/2019 14:03,No Additional Comments
+8/9/2019 14:03,No Additional Comments
+8/9/2019 14:03,No Additional Comments
+8/9/2019 17:05,No Additional Comments
+8/9/2019 17:05,No Additional Comments
+8/9/2019 17:05,No Additional Comments
+8/9/2019 17:05,No Additional Comments
+8/9/2019 17:05,No Additional Comments
+8/9/2019 14:30,No Additional Comments
+8/9/2019 14:30,No Additional Comments
+8/9/2019 14:30,No Additional Comments
+8/9/2019 14:30,No Additional Comments
+8/9/2019 14:30,No Additional Comments
+8/9/2019 14:30,No Additional Comments
+8/13/2019 17:05,No Additional Comments
+8/13/2019 17:05,No Additional Comments
+8/13/2019 17:05,No Additional Comments
+8/13/2019 17:05,No Additional Comments
+8/13/2019 17:05,No Additional Comments
+8/13/2019 17:05,No Additional Comments
+4/30/2019 18:10,No Additional Comments
+4/30/2019 18:10,No Additional Comments
+4/30/2019 18:10,No Additional Comments
+5/3/2019 0:32,No Additional Comments
+5/3/2019 0:32,No Additional Comments
+5/3/2019 17:02,No Additional Comments
+5/3/2019 17:02,No Additional Comments
+5/3/2019 17:02,No Additional Comments
+5/3/2019 17:02,No Additional Comments
+5/3/2019 21:07,No Additional Comments
+5/3/2019 21:07,No Additional Comments
+5/3/2019 21:07,No Additional Comments
+5/3/2019 21:07,No Additional Comments
+5/3/2019 21:07,No Additional Comments
+5/3/2019 21:07,No Additional Comments
+5/3/2019 21:07,No Additional Comments
+5/6/2019 21:56,No Additional Comments
+5/6/2019 21:56,No Additional Comments
+5/6/2019 21:56,No Additional Comments
+5/6/2019 21:56,No Additional Comments
+5/6/2019 17:26,No Additional Comments
+5/6/2019 17:26,No Additional Comments
+5/6/2019 17:26,No Additional Comments
+5/6/2019 17:26,No Additional Comments
+5/7/2019 11:52,No Additional Comments
+5/7/2019 11:52,No Additional Comments
+5/7/2019 11:52,No Additional Comments
+5/7/2019 11:52,No Additional Comments
+5/7/2019 11:52,No Additional Comments
+5/7/2019 14:34,No Additional Comments
+5/7/2019 14:34,No Additional Comments
+5/7/2019 14:34,No Additional Comments
+5/7/2019 14:34,No Additional Comments
+5/7/2019 14:34,No Additional Comments
+5/14/2019 16:02,No Additional Comments
+5/14/2019 16:02,No Additional Comments
+5/14/2019 16:02,No Additional Comments
+5/14/2019 16:02,No Additional Comments
+5/14/2019 16:02,No Additional Comments
+5/17/2019 11:39,No Additional Comments
+5/17/2019 11:39,No Additional Comments
+5/17/2019 11:39,No Additional Comments
+5/17/2019 11:39,No Additional Comments
+5/16/2019 17:15,Please delete unused code.
+5/16/2019 17:16,Keep currentState variable as it is. its more intuitive.
+5/7/2019 15:39,No Additional Comments
+5/7/2019 15:39,No Additional Comments
+5/7/2019 15:39,No Additional Comments
+5/7/2019 15:39,No Additional Comments
+5/7/2019 17:33,No Additional Comments
+5/7/2019 17:33,No Additional Comments
+5/7/2019 17:33,No Additional Comments
+5/7/2019 17:33,No Additional Comments
+5/8/2019 13:26,No Additional Comments
+5/9/2019 9:45,No Additional Comments
+5/9/2019 9:45,No Additional Comments
+5/9/2019 9:45,No Additional Comments
+5/9/2019 9:45,No Additional Comments
+5/9/2019 9:45,No Additional Comments
+5/9/2019 11:00,No Additional Comments
+5/9/2019 11:00,No Additional Comments
+5/9/2019 11:00,No Additional Comments
+5/9/2019 11:00,No Additional Comments
+5/9/2019 11:00,No Additional Comments
+5/9/2019 11:00,No Additional Comments
+5/14/2019 13:11,No Additional Comments
+5/14/2019 13:11,No Additional Comments
+5/14/2019 13:11,No Additional Comments
+5/14/2019 13:11,No Additional Comments
+5/14/2019 13:11,No Additional Comments
+5/14/2019 13:11,No Additional Comments
+5/10/2019 17:14,No Additional Comments
+5/10/2019 17:14,No Additional Comments
+5/10/2019 17:14,No Additional Comments
+5/10/2019 17:14,No Additional Comments
+5/10/2019 17:14,No Additional Comments
+5/10/2019 17:14,No Additional Comments
+5/10/2019 17:14,No Additional Comments
+5/16/2019 17:18,No Additional Comments
+5/16/2019 17:18,No Additional Comments
+5/16/2019 17:18,No Additional Comments
+5/16/2019 17:18,No Additional Comments
+5/15/2019 11:37,No Additional Comments
+5/15/2019 11:37,No Additional Comments
+5/15/2019 11:37,No Additional Comments
+5/14/2019 14:41,Please update TestCase ProductConfiguration as well
+5/15/2019 11:37,No Additional Comments
+5/15/2019 11:37,No Additional Comments
+5/9/2019 17:00,No Additional Comments
+5/9/2019 17:00,No Additional Comments
+5/9/2019 17:00,No Additional Comments
+5/9/2019 16:56,can give return of getActivity().getSupportFragmentManager().popBackStackImmediate() instead of ourselves explicitly returning true
+5/9/2019 17:00,No Additional Comments
+5/9/2019 17:00,No Additional Comments
+5/9/2019 17:48,No Additional Comments
+5/9/2019 17:48,No Additional Comments
+5/9/2019 17:48,No Additional Comments
+5/9/2019 17:51,No Additional Comments
+5/9/2019 17:51,No Additional Comments
+5/9/2019 17:51,No Additional Comments
+5/9/2019 17:51,No Additional Comments
+5/9/2019 17:51,No Additional Comments
+5/9/2019 17:51,No Additional Comments
+5/9/2019 17:51,No Additional Comments
+5/10/2019 12:59,No Additional Comments
+5/10/2019 12:59,No Additional Comments
+5/10/2019 12:59,No Additional Comments
+5/10/2019 12:59,No Additional Comments
+5/10/2019 12:59,No Additional Comments
+5/10/2019 12:59,No Additional Comments
+5/10/2019 16:10,No Additional Comments
+5/10/2019 16:10,No Additional Comments
+5/10/2019 16:10,No Additional Comments
+5/10/2019 16:10,No Additional Comments
+5/13/2019 11:48,No Additional Comments
+5/13/2019 11:48,No Additional Comments
+5/13/2019 11:48,No Additional Comments
+5/13/2019 11:48,No Additional Comments
+5/13/2019 11:48,No Additional Comments
+5/13/2019 11:48,No Additional Comments
+5/13/2019 16:15,No Additional Comments
+5/13/2019 16:15,No Additional Comments
+5/13/2019 16:15,No Additional Comments
+5/13/2019 16:15,No Additional Comments
+5/15/2019 18:01,No Additional Comments
+5/15/2019 18:01,No Additional Comments
+5/15/2019 18:01,No Additional Comments
+5/15/2019 11:38,No Additional Comments
+5/15/2019 11:38,No Additional Comments
+5/15/2019 11:38,No Additional Comments
+5/15/2019 11:38,No Additional Comments
+5/15/2019 11:38,No Additional Comments
+5/15/2019 11:38,No Additional Comments
+5/17/2019 12:24,No Additional Comments
+5/17/2019 12:24,No Additional Comments
+5/15/2019 14:28,No Additional Comments
+5/15/2019 14:28,No Additional Comments
+5/15/2019 14:28,No Additional Comments
+5/15/2019 14:28,No Additional Comments
+5/15/2019 14:28,No Additional Comments
+5/15/2019 14:28,No Additional Comments
+5/17/2019 14:47,No Additional Comments
+5/17/2019 14:47,No Additional Comments
+5/17/2019 14:47,No Additional Comments
+5/17/2019 14:47,No Additional Comments
+5/17/2019 14:47,No Additional Comments
+5/17/2019 15:01,No Additional Comments
+5/17/2019 15:01,No Additional Comments
+5/17/2019 15:01,No Additional Comments
+5/17/2019 15:01,No Additional Comments
+5/17/2019 15:01,No Additional Comments
+5/17/2019 15:01,No Additional Comments
+5/17/2019 15:01,No Additional Comments
+6/14/2019 10:38,No Additional Comments
+6/4/2019 11:48,Verify the comments given by Aimee and Sindu. 
+5/17/2019 14:56,"text should be ""Previous"" instead of ""Prev"" as per the design"
+5/17/2019 14:56,
+5/17/2019 14:57,"text should be ""Previous"" instead of ""Prev"" as per the design"
+6/14/2019 10:38,No Additional Comments
+6/14/2019 10:38,No Additional Comments
+6/14/2019 10:38,No Additional Comments
+6/11/2019 12:29,"Text changed to ""Previous"""
+6/11/2019 12:30,"Text changed to ""Previous"""
+5/16/2019 14:30,No Additional Comments
+5/16/2019 14:30,No Additional Comments
+5/16/2019 14:30,No Additional Comments
+5/16/2019 14:30,No Additional Comments
+5/16/2019 14:30,No Additional Comments
+5/16/2019 14:30,No Additional Comments
+5/16/2019 14:30,No Additional Comments
+5/16/2019 14:30,No Additional Comments
+5/16/2019 14:30,No Additional Comments
+5/17/2019 10:25,No Additional Comments
+5/17/2019 10:25,No Additional Comments
+5/17/2019 10:25,No Additional Comments
+5/17/2019 16:48,No Additional Comments
+5/17/2019 16:48,No Additional Comments
+5/17/2019 16:48,No Additional Comments
+5/17/2019 16:48,No Additional Comments
+5/17/2019 16:48,No Additional Comments
+5/17/2019 14:49,No Additional Comments
+5/17/2019 14:49,No Additional Comments
+5/17/2019 14:49,No Additional Comments
+5/17/2019 14:49,No Additional Comments
+5/17/2019 14:49,No Additional Comments
+5/17/2019 14:49,No Additional Comments
+5/17/2019 15:22,No Additional Comments
+5/17/2019 15:22,No Additional Comments
+5/17/2019 15:22,No Additional Comments
+5/17/2019 15:22,No Additional Comments
+5/17/2019 15:22,No Additional Comments
+5/17/2019 15:22,No Additional Comments
+5/17/2019 17:09,No Additional Comments
+5/17/2019 17:09,No Additional Comments
+5/17/2019 17:09,No Additional Comments
+5/17/2019 17:09,No Additional Comments
+5/17/2019 17:09,No Additional Comments
+5/17/2019 17:09,No Additional Comments
+5/20/2019 14:28,No Additional Comments
+5/20/2019 14:28,No Additional Comments
+5/20/2019 14:28,No Additional Comments
+5/20/2019 14:28,No Additional Comments
+5/20/2019 14:28,No Additional Comments
+5/20/2019 14:28,No Additional Comments
+5/23/2019 12:14,No Additional Comments
+5/23/2019 12:14,No Additional Comments
+5/23/2019 12:14,No Additional Comments
+5/23/2019 12:14,No Additional Comments
+5/23/2019 12:14,No Additional Comments
+5/23/2019 12:14,No Additional Comments
+6/11/2019 11:01,No Additional Comments
+6/11/2019 11:01,No Additional Comments
+5/31/2019 13:08,Alarm Manager does not guarantee that it will be triggered exactly at the given interval. For example if we have given 30days interval alarm manager can trigger on 31st day also. With this check if alarm manager triggers on 31st day the auto order will not happen until user opens that app.
+6/11/2019 11:01,No Additional Comments
+6/11/2019 11:01,No Additional Comments
+5/24/2019 10:58,No Additional Comments
+5/24/2019 10:58,No Additional Comments
+5/24/2019 10:58,No Additional Comments
+5/24/2019 10:58,No Additional Comments
+5/24/2019 10:58,No Additional Comments
+5/24/2019 10:58,No Additional Comments
+5/28/2019 11:23,No Additional Comments
+5/28/2019 11:23,No Additional Comments
+5/28/2019 11:23,No Additional Comments
+5/28/2019 11:23,No Additional Comments
+5/28/2019 11:23,No Additional Comments
+5/28/2019 11:23,No Additional Comments
+5/30/2019 12:55,No Additional Comments
+5/30/2019 12:55,No Additional Comments
+5/30/2019 12:55,No Additional Comments
+5/30/2019 12:55,No Additional Comments
+5/30/2019 12:55,No Additional Comments
+5/30/2019 12:55,No Additional Comments
+5/30/2019 12:55,No Additional Comments
+5/30/2019 12:51,No Additional Comments
+5/30/2019 12:51,No Additional Comments
+5/30/2019 12:51,No Additional Comments
+5/30/2019 12:51,No Additional Comments
+5/30/2019 12:51,No Additional Comments
+5/30/2019 12:51,No Additional Comments
+5/30/2019 12:43,No Additional Comments
+5/30/2019 12:43,No Additional Comments
+5/30/2019 12:43,No Additional Comments
+5/30/2019 12:43,No Additional Comments
+5/30/2019 12:43,No Additional Comments
+5/30/2019 12:43,No Additional Comments
+5/30/2019 10:23,No Additional Comments
+5/30/2019 10:23,No Additional Comments
+5/30/2019 10:23,No Additional Comments
+5/30/2019 10:23,No Additional Comments
+5/30/2019 10:23,No Additional Comments
+5/30/2019 10:23,No Additional Comments
+5/30/2019 10:44,No Additional Comments
+5/30/2019 10:44,No Additional Comments
+5/30/2019 10:44,No Additional Comments
+5/30/2019 10:44,No Additional Comments
+5/30/2019 12:47,No Additional Comments
+5/30/2019 12:47,No Additional Comments
+5/30/2019 12:47,No Additional Comments
+5/30/2019 12:47,No Additional Comments
+5/30/2019 12:47,No Additional Comments
+5/30/2019 12:47,No Additional Comments
+5/30/2019 12:47,No Additional Comments
+6/21/2019 11:42,No Additional Comments
+5/31/2019 13:01,This code as of now can not be merged to integration until we get the release plan.
+6/19/2019 12:25,remove this import
+6/19/2019 15:08,"Brush head zone none case is same as normal zone. put the cases just in order and remove the duplicate code.
+
+Also move the updateOrderButton(true) to outside of switch … case"
+6/19/2019 15:14,"Brush head zone none case is same as normal zone. put the cases just in order and remove the duplicate code.
+
+Also move the updateOrderButton(true) to outside of switch … case"
+6/19/2019 15:48,If and else condition contains the same code. remove the condition and keep the inside code.
+6/19/2019 15:52,Remove the below commented code. This method is moved to TYuscanyUtils class.
+6/19/2019 15:54,remove the log import
+6/19/2019 16:02,Please remove this method and use getBrushHeadTitleId which is present in BrushHeadUtils class
+6/19/2019 16:03,"Move this method to BrushHeadUtils file.
+Also this code can be optimized by using the API which is used to get the title of BH"
+6/21/2019 11:42,No Additional Comments
+6/21/2019 11:42,No Additional Comments
+6/21/2019 11:42,No Additional Comments
+6/4/2019 11:43,No Additional Comments
+5/31/2019 12:49,"Use API isExpertClean and remove isOsloAssociated() method implementation.
+Both are doing the same work."
+6/4/2019 11:43,No Additional Comments
+6/4/2019 11:43,No Additional Comments
+6/4/2019 11:43,No Additional Comments
+6/4/2019 11:43,No Additional Comments
+6/3/2019 14:16,No Additional Comments
+6/3/2019 14:16,No Additional Comments
+6/3/2019 14:16,No Additional Comments
+7/16/2019 9:55,No Additional Comments
+7/16/2019 9:55,No Additional Comments
+6/12/2019 14:35,"Why PMD and FindBugs are used? If it is for Static code analysis please remove.
+We should be using only lint for static analysis."
+6/12/2019 17:28,This will break the functionality when only solution is onboarded.
+7/9/2019 16:14,
+7/9/2019 16:15,If refreshCb is null then there is possibility of crash. Please add null check.
+7/9/2019 17:19,"StandardCharsets.UTF_8 value is null this may lead to some issue as before we are passing ""UTF-8"". Please check."
+7/9/2019 17:23,StandardCharsets.UTF_8 value is null this may lead to some issue as before we are passing “UTF-8”. Please check.
+7/9/2019 17:27,StandardCharsets.UTF_8 value is null this may lead to some issue as before we are passing “UTF-8”. Please check
+7/9/2019 17:27,StandardCharsets.UTF_8 value is null this may lead to some issue as before we are passing “UTF-8”. Please check
+7/9/2019 19:43,StandardCharsets.UTF_8 value is null. Please check.
+7/9/2019 19:44,Put this peace of code with in {}
+7/9/2019 19:46,"We should not use hard code values like this . What was the problem with the current implementation ?
+
+make private final int MIN_TIME_GAP_FOR_IMU_LOCK = 2000; static"
+7/9/2019 19:49,Make it private.
+7/9/2019 19:54,Implement the BrushHeadListener interface
+7/9/2019 19:57,Why comments removed ?
+7/10/2019 9:12,Why this condition removed ?
+7/10/2019 9:21,align changes with the original code (Do not change the position of functions and variables it makes reviewer life difficult). means move rawSensorPacketListener code up SensorDataReceiver function down. 
+7/10/2019 9:36,Why this was moved to local scope. It may happen when some body put log they may miss to see that there is a tag exist.
+7/10/2019 9:56,check if this import is really required ?
+7/10/2019 9:56,Why the access specifier changes from private to public
+7/10/2019 9:59,put this return statement with in {}
+7/10/2019 10:04,There is a util API to check is user logged in please check and use that
+7/10/2019 12:10,"StandardCharsets.UTF_8 default value is null How it will hold ""UTF-8"" ?"
+7/10/2019 12:37,For below 3 cases where String.format  removed Please check and confirm that all no other language string for these 3 strings contains %s 
+7/10/2019 15:28,Suppress working and keep them global
+7/10/2019 16:58,This change is conflicting with the similar changes done in Tuscany activity. Lets discuss.
+7/10/2019 17:02,Revert back this line with sub-press warning.
+7/10/2019 17:15,"StandardCharsets.UTF_8 value is null. How it will get value  ""UTF-8"" ?"
+7/10/2019 17:17,"StandardCharsets.UTF_8 value is null. How it will get value  ""UTF-8"" ?"
+7/10/2019 17:18,"StandardCharsets.UTF_8 value is null. How it will get value  ""UTF-8"" ?"
+7/10/2019 17:30,Revert this line and add suppress warning if required.
+7/10/2019 17:30,Use NUM_ITEMS variable here.
+7/10/2019 18:06,Keep here only . if required suppress warning
+7/10/2019 18:06,Remove from here
+7/10/2019 18:09,keep this test API. This is helpful for dev test.
+7/10/2019 18:19,Wrong logic: The condition was for tuscany and shanghai with the modified logic it has included OSLO which is wrong. please check.
+7/11/2019 11:03,
+7/11/2019 12:48,What was need to write arrayListToPrimitiveInt ? I think there might be a warning related to performance as we are passing fixed size array If this is the case it can be resolved using by passing 0 size array for example : ArrayUtils.toPrimitive(completedSubSegmentsList.toArray(new Integer[0]));
+7/11/2019 12:58,Revert this change. If it was done for warning please suppress it.
+7/11/2019 13:03,"Revert this line if required suppress with warning.
+
+related changes needs to ben done in @Override
+    public int getCount() {
+        return DRS_PAGE_COUNT;
+    }"
+7/11/2019 14:07,Why this change? revert it back
+7/11/2019 14:10,Why this change ? Is this change related to some other issue ?
+7/11/2019 16:12,
+7/11/2019 16:13,Use var position inside this. There is no problem using position inside this.
+7/11/2019 17:16,Revert this change
+7/11/2019 17:17,Revert this change with suppress warning if required.
+7/11/2019 17:28,Based on the given comment before  check if this implementation required.
+7/15/2019 16:58,Code removed. so test file also remobved
+7/11/2019 17:32,Revert this change
+7/11/2019 17:42,This API May not required. Please check the comments given  whether this API is called.
+7/11/2019 17:55,Keep y0 and x1 for and use them
+7/11/2019 18:09,Revert this change . should be global
+7/11/2019 18:12,Imp : Revert this changes. It may impact.
+7/11/2019 18:14,Revert this change. if required suppress warning.
+7/11/2019 18:16,Similar comment was given before. Java might be giving error related performance as fixed size array passed replace by this ArrayUtils.toPrimitive(finalVisibleSubSegmentsIndexList.toArray(new Integer[0]))
+7/11/2019 18:17,Revert this change. If required suppress warning.
+7/11/2019 18:23,Important : Validate this condition It should be !=
+7/12/2019 9:38,Remove this xml file along with TestActivity.java file title_activity_test string and TestTuscanyApplicationActivity.java file
+7/12/2019 10:29,Based on the comment if you remove the API remove this test case also.
+7/15/2019 16:57,file removed
+7/12/2019 10:43,Why this change was done ?
+7/12/2019 10:58,"Make it private. rename the API to init calendar. Also move the public Calendar calendar = Calendar.getInstance(); to this method.
+
+The method should return Calendar obj."
+7/12/2019 11:22,Make this API private. Also change the name to getSessionForCloudUpload.
+7/16/2019 9:55,No Additional Comments
+7/16/2019 9:55,No Additional Comments
+7/16/2019 9:55,No Additional Comments
+7/14/2019 19:33,"Added ""UTF-8"" in TuscanyConstants"
+7/14/2019 19:34,Added “UTF-8” in TuscanyConstants
+7/14/2019 19:35,Added “UTF-8” in TuscanyConstants
+7/14/2019 19:38,"Added ""UTF-8"" in TuscanyConstants"
+7/14/2019 19:35,Added “UTF-8” in TuscanyConstants
+7/14/2019 19:53,Used this method  - TuscanyUtils.isUserLogIn(getContext())
+7/14/2019 19:39,"Added ""UTF-8"" in TuscanyConstants"
+7/14/2019 19:40,"Added ""UTF-8"" in TuscanyConstants"
+7/14/2019 19:41,"Added ""UTF-8"" in TuscanyConstants"
+7/14/2019 19:42,"Added ""UTF-8"" in TuscanyConstants"
+7/14/2019 20:02,Added ArrayUtils.toPrimitive(completedSubSegmentsList.toArray(new Integer[0]))
+7/15/2019 10:37,We are using in this file only ArrayListToArrayUtilTest
+7/14/2019 20:08,Added  - ArrayUtils.toPrimitive(finalVisibleSubSegmentsIndexList.toArray(new Integer[0]))
+7/15/2019 16:55,It can not be removed it used in test case
+7/15/2019 10:48,we are using in this ArrayListToArrayUtilTest.java file
+6/6/2019 18:43,No Additional Comments
+6/6/2019 18:43,No Additional Comments
+6/6/2019 18:43,No Additional Comments
+6/6/2019 18:43,No Additional Comments
+6/6/2019 18:43,No Additional Comments
+6/6/2019 18:43,No Additional Comments
+6/6/2019 18:43,No Additional Comments
+6/5/2019 13:10,No Additional Comments
+6/5/2019 13:10,No Additional Comments
+6/5/2019 13:10,No Additional Comments
+6/5/2019 13:10,No Additional Comments
+6/5/2019 13:10,No Additional Comments
+6/5/2019 13:10,No Additional Comments
+6/5/2019 13:10,No Additional Comments
+6/5/2019 13:08,No Additional Comments
+6/5/2019 13:05,Changes done
+6/5/2019 12:24,Remove this string from all string. xml files and hard code the device_list list which is present in the array.xml
+6/5/2019 13:05,Changes done
+6/5/2019 13:08,No Additional Comments
+6/5/2019 13:08,No Additional Comments
+6/5/2019 13:08,No Additional Comments
+6/5/2019 11:55,Instead of renaming this line can be removed from values-it/strings.xml
+6/5/2019 13:08,No Additional Comments
+6/5/2019 12:31,delete unused code
+6/5/2019 12:42,Delete this line
+6/5/2019 12:55,Review done. Only few commented code needs to be removed. This will be merged once RC 6.4.0 out from the integration branch.
+6/17/2019 18:28,No Additional Comments
+6/17/2019 18:28,No Additional Comments
+6/17/2019 18:28,No Additional Comments
+6/17/2019 18:28,No Additional Comments
+6/17/2019 18:28,No Additional Comments
+6/10/2019 15:02,No Additional Comments
+6/10/2019 15:02,No Additional Comments
+6/10/2019 15:02,No Additional Comments
+6/10/2019 15:02,No Additional Comments
+6/10/2019 14:04,I think this code is duplicated in Util.java please check.
+6/10/2019 15:02,No Additional Comments
+6/10/2019 15:02,No Additional Comments
+6/7/2019 12:21,No Additional Comments
+6/7/2019 12:21,No Additional Comments
+6/7/2019 12:21,No Additional Comments
+6/7/2019 12:21,No Additional Comments
+6/7/2019 12:21,No Additional Comments
+6/7/2019 12:21,No Additional Comments
+6/7/2019 12:21,No Additional Comments
+6/7/2019 12:21,No Additional Comments
+6/10/2019 15:01,No Additional Comments
+6/10/2019 15:01,No Additional Comments
+6/10/2019 15:01,No Additional Comments
+6/10/2019 15:01,No Additional Comments
+6/10/2019 15:01,No Additional Comments
+6/10/2019 15:01,No Additional Comments
+6/10/2019 16:33,No Additional Comments
+6/10/2019 16:33,No Additional Comments
+6/10/2019 16:33,No Additional Comments
+6/10/2019 16:33,No Additional Comments
+6/10/2019 16:33,No Additional Comments
+6/11/2019 14:34,No Additional Comments
+6/10/2019 18:07,Why again posting to the UI thread ?
+6/11/2019 14:34,No Additional Comments
+6/11/2019 14:34,No Additional Comments
+6/11/2019 14:34,No Additional Comments
+6/11/2019 14:34,No Additional Comments
+6/14/2019 16:44,No Additional Comments
+6/12/2019 10:00,What was the problem with compareToIgnoreCase API ?
+6/14/2019 16:44,No Additional Comments
+6/14/2019 16:44,No Additional Comments
+6/12/2019 11:04,"compareToIgnoreCase method compares two strings. If we are comparing two versions such as ""2.2.1"" with ""2.11.1"" this api fails because digit after first dot are 2 and 1 in this case 2 is grater than 1 hence result will be ""2.2.1"" > ""2.11.1"" which is not expected. Hence compareVersions() api is added to perform version comparison."
+6/14/2019 16:44,No Additional Comments
+6/11/2019 10:50,No Additional Comments
+6/11/2019 10:50,No Additional Comments
+6/11/2019 10:50,No Additional Comments
+6/11/2019 10:50,No Additional Comments
+6/11/2019 10:50,No Additional Comments
+6/11/2019 10:50,No Additional Comments
+6/11/2019 10:50,No Additional Comments
+6/11/2019 11:49,No Additional Comments
+6/11/2019 11:49,No Additional Comments
+6/11/2019 11:43,remove HP Fortify and Blackduck
+6/11/2019 11:51,No Additional Comments
+6/11/2019 11:51,No Additional Comments
+6/11/2019 11:51,No Additional Comments
+6/11/2019 11:51,No Additional Comments
+6/11/2019 11:57,No Additional Comments
+6/11/2019 11:57,No Additional Comments
+6/11/2019 11:57,No Additional Comments
+6/11/2019 11:57,No Additional Comments
+6/11/2019 11:57,No Additional Comments
+6/11/2019 11:57,No Additional Comments
+6/14/2019 10:44,No Additional Comments
+6/14/2019 10:44,No Additional Comments
+6/14/2019 10:44,No Additional Comments
+6/14/2019 10:44,No Additional Comments
+6/14/2019 10:44,No Additional Comments
+6/14/2019 10:44,No Additional Comments
+6/12/2019 16:33,No Additional Comments
+6/12/2019 16:33,No Additional Comments
+6/12/2019 16:33,No Additional Comments
+6/12/2019 16:33,No Additional Comments
+6/12/2019 16:33,No Additional Comments
+6/12/2019 16:33,No Additional Comments
+6/13/2019 11:13,Remove additional layout
+6/19/2019 10:55,No Additional Comments
+6/19/2019 10:55,No Additional Comments
+6/19/2019 10:55,No Additional Comments
+6/19/2019 10:55,No Additional Comments
+6/19/2019 10:55,No Additional Comments
+6/19/2019 10:55,No Additional Comments
+6/13/2019 12:04,No Additional Comments
+6/13/2019 12:04,No Additional Comments
+6/13/2019 12:04,No Additional Comments
+6/13/2019 12:04,No Additional Comments
+6/13/2019 12:04,No Additional Comments
+6/13/2019 12:04,No Additional Comments
+6/13/2019 10:39,No Additional Comments
+6/13/2019 10:39,No Additional Comments
+6/13/2019 10:39,No Additional Comments
+6/13/2019 10:39,No Additional Comments
+6/13/2019 10:39,No Additional Comments
+6/13/2019 10:39,No Additional Comments
+6/13/2019 10:39,No Additional Comments
+6/13/2019 10:39,No Additional Comments
+6/13/2019 14:30,No Additional Comments
+6/13/2019 14:30,No Additional Comments
+6/13/2019 14:30,No Additional Comments
+6/13/2019 14:30,No Additional Comments
+6/13/2019 14:30,No Additional Comments
+6/14/2019 15:18,No Additional Comments
+6/14/2019 15:18,No Additional Comments
+6/14/2019 15:18,No Additional Comments
+6/14/2019 15:18,No Additional Comments
+6/14/2019 15:18,No Additional Comments
+6/14/2019 15:18,No Additional Comments
+6/14/2019 15:18,No Additional Comments
+6/14/2019 15:17,No Additional Comments
+6/14/2019 15:17,No Additional Comments
+6/14/2019 15:17,No Additional Comments
+6/14/2019 15:17,No Additional Comments
+6/14/2019 15:17,No Additional Comments
+6/14/2019 15:17,No Additional Comments
+6/14/2019 15:17,No Additional Comments
+6/14/2019 10:40,No Additional Comments
+6/14/2019 10:40,No Additional Comments
+6/14/2019 10:40,No Additional Comments
+6/14/2019 10:40,No Additional Comments
+6/14/2019 10:40,No Additional Comments
+6/14/2019 10:40,No Additional Comments
+6/14/2019 15:17,No Additional Comments
+6/14/2019 15:17,No Additional Comments
+6/14/2019 15:17,No Additional Comments
+6/14/2019 15:17,No Additional Comments
+6/14/2019 15:17,No Additional Comments
+6/17/2019 10:23,No Additional Comments
+6/17/2019 10:23,No Additional Comments
+6/17/2019 10:23,No Additional Comments
+6/17/2019 10:23,No Additional Comments
+6/17/2019 10:23,No Additional Comments
+6/17/2019 10:23,No Additional Comments
+6/14/2019 16:37,No Additional Comments
+6/14/2019 16:37,No Additional Comments
+6/14/2019 16:37,No Additional Comments
+6/14/2019 16:37,No Additional Comments
+6/14/2019 16:37,No Additional Comments
+6/14/2019 16:37,No Additional Comments
+6/14/2019 16:37,No Additional Comments
+6/17/2019 12:55,No Additional Comments
+6/17/2019 12:55,No Additional Comments
+6/17/2019 12:55,No Additional Comments
+6/17/2019 12:55,No Additional Comments
+6/17/2019 12:55,No Additional Comments
+6/17/2019 12:55,No Additional Comments
+6/17/2019 12:55,No Additional Comments
+6/17/2019 14:43,No Additional Comments
+6/17/2019 14:43,No Additional Comments
+6/17/2019 14:43,No Additional Comments
+6/17/2019 14:43,No Additional Comments
+6/17/2019 14:43,No Additional Comments
+6/17/2019 14:43,No Additional Comments
+6/14/2019 18:08,No Additional Comments
+6/14/2019 18:08,No Additional Comments
+6/14/2019 18:08,No Additional Comments
+6/14/2019 21:37,No Additional Comments
+6/14/2019 21:37,No Additional Comments
+6/14/2019 21:37,No Additional Comments
+6/14/2019 21:50,No Additional Comments
+6/14/2019 21:50,No Additional Comments
+6/14/2019 21:50,No Additional Comments
+6/14/2019 21:50,No Additional Comments
+6/14/2019 21:50,No Additional Comments
+6/17/2019 14:49,No Additional Comments
+6/17/2019 14:49,No Additional Comments
+6/17/2019 14:49,No Additional Comments
+6/17/2019 14:49,No Additional Comments
+5/6/2019 15:34,No Additional Comments
+5/3/2019 15:36,Please get it tested by scrum tester. As there are many IDs has been changed there are chances of functionality break in terms of crash. After testing we can merge this issue.
+5/6/2019 15:34,No Additional Comments
+5/6/2019 15:34,No Additional Comments
+5/6/2019 15:34,No Additional Comments
+5/2/2019 21:20,No Additional Comments
+5/2/2019 21:20,No Additional Comments
+5/2/2019 21:20,No Additional Comments
+5/2/2019 21:20,No Additional Comments
+5/2/2019 21:20,No Additional Comments
+5/2/2019 21:20,No Additional Comments
+5/2/2019 21:20,No Additional Comments
+5/2/2019 21:20,No Additional Comments
+5/2/2019 21:20,No Additional Comments
+5/2/2019 21:20,No Additional Comments
+5/2/2019 21:20,No Additional Comments
