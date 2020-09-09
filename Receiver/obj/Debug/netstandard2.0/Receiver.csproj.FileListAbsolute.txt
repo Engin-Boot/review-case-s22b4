@@ -1,8 +1,0 @@
-C:\Users\Chalasani\Source\Repos\review-case-s22b4\Receiver\bin\Debug\netstandard2.0\Receiver.deps.json
-C:\Users\Chalasani\Source\Repos\review-case-s22b4\Receiver\bin\Debug\netstandard2.0\Receiver.dll
-C:\Users\Chalasani\Source\Repos\review-case-s22b4\Receiver\bin\Debug\netstandard2.0\Receiver.pdb
-C:\Users\Chalasani\Source\Repos\review-case-s22b4\Receiver\obj\Debug\netstandard2.0\Receiver.AssemblyInfoInputs.cache
-C:\Users\Chalasani\Source\Repos\review-case-s22b4\Receiver\obj\Debug\netstandard2.0\Receiver.AssemblyInfo.cs
-C:\Users\Chalasani\Source\Repos\review-case-s22b4\Receiver\obj\Debug\netstandard2.0\Receiver.csproj.CoreCompileInputs.cache
-C:\Users\Chalasani\Source\Repos\review-case-s22b4\Receiver\obj\Debug\netstandard2.0\Receiver.dll
-C:\Users\Chalasani\Source\Repos\review-case-s22b4\Receiver\obj\Debug\netstandard2.0\Receiver.pdb
