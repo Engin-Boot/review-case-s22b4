@@ -1,4 +1,4 @@
-
+using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -12,11 +12,12 @@ namespace SenderModule
     {
         public void LogData(List<CommentRecord> commentRecords)
         {
-            var writer = new StreamWriter("C:\\Users\\Chalasani\\Source\\Repos\\review-case-s22b4\\LogFile.txt");
+            var writer = new StreamWriter(@"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\LogFile.txt");
             foreach (var record in commentRecords)
             {
-                writer.WriteLine(record.Timestamp+ " " +record.Comment);
-               //Console.WriteLine(record.Timestamp + " " + record.Comment);
+                string commentRecord = record.Timestamp + " " + record.Comment;
+                writer.WriteLine(commentRecord);
+                Console.WriteLine(commentRecord);
             }
             writer.Close();
         }

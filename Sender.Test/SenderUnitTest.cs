@@ -14,7 +14,7 @@ namespace Sender.Test
         public readonly string FileContents;
         public OutputFileReader()
         {
-            var streamReader = new StreamReader(@"C:\Users\Chalasani\Source\Repos\review-case-s22b4\LogFile.txt");
+            var streamReader = new StreamReader(@"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\LogFile.txt");
             this.FileContents = streamReader.ReadToEnd();
             streamReader.Close();
             this.FileContents = this.FileContents.Trim();
@@ -35,7 +35,7 @@ namespace Sender.Test
         public void WritesEmptyStringWhenCsvFileIsEmpty()
         {
             var injector = new DependencyInjection();
-            var csvPath = @"C:\Users\Chalasani\source\repos\review-case-s22b4\sample-review\Empty-file.csv";
+            var csvPath = @"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\Empty-file.csv";
             injector.Reader.ReadCommentDataFromFile(csvPath);
             var reader = new OutputFileReader();
             Assert.True(reader.FileContents.Equals(""));
@@ -44,7 +44,7 @@ namespace Sender.Test
         public void RemovesRecordWhenNoCommentIsPresentForTheTimestamp()
         {
             var injector = new DependencyInjection();
-            var csvPath = @"C:\Users\Chalasani\source\repos\review-case-s22b4\sample-review\File-having-few-empty-comment-records.csv";
+            var csvPath = @"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\File-having-few-empty-comment-records.csv";
             injector.Reader.ReadCommentDataFromFile(csvPath);
             var reader = new OutputFileReader();
             Assert.True(reader.FileContents == "4/28/2020 21:26 Is this required as the we are already assigning currentLocationPermissionResult under postCurrentBleStatus() API call.");
@@ -54,7 +54,7 @@ namespace Sender.Test
         public void WritesEmptyStringWhenCsvFilesHasJustTimestampsAndNoComments()
         {
             var injector = new DependencyInjection();
-            var csvPath = @"C:\Users\Chalasani\Source\Repos\review-case-s22b4\sample-review\Just-empty-comments.csv";
+            var csvPath = @"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\Just-empty-comments.csv";
             injector.Reader.ReadCommentDataFromFile(csvPath);
             var reader = new OutputFileReader();
             Assert.True(reader.FileContents.Equals(""));
@@ -64,7 +64,7 @@ namespace Sender.Test
         public void WritesEmptyStringWhenCsvFilesHasJustCommas()
         {
             var injector = new DependencyInjection();
-            var csvPath = @"C:\Users\Chalasani\Source\Repos\review-case-s22b4\sample-review\File-with-just-commas.csv";
+            var csvPath = @"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\File-with-just-commas.csv";
             injector.Reader.ReadCommentDataFromFile(csvPath);
             var reader = new OutputFileReader();
             Assert.True(reader.FileContents.Equals(""));
@@ -74,7 +74,7 @@ namespace Sender.Test
         public void RemovesBlankLinesFromFile()
         {
             var injector = new DependencyInjection();
-            var csvPath = @"C:\Users\Chalasani\Source\Repos\review-case-s22b4\sample-review\File-having-blank-lines.csv";
+            var csvPath = @"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\File-having-blank-lines.csv";
             injector.Reader.ReadCommentDataFromFile(csvPath);
             var reader = new OutputFileReader();
             Assert.True(reader.FileContents == "8/27/2019 11:22 No Additional Comments\r\n8/22/2019 18:39 No Additional Comments");
@@ -84,7 +84,7 @@ namespace Sender.Test
         public void RemovesLineWhenItHasNoTimestampOrComment()
         {
             var injector = new DependencyInjection();
-            var csvPath = @"C:\Users\Chalasani\Source\Repos\review-case-s22b4\sample-review\File-has-records-with-no-timestamp-or-comment.csv";
+            var csvPath = @"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\File-has-records-with-no-timestamp-or-comment.csv";
             injector.Reader.ReadCommentDataFromFile(csvPath);
             var reader = new OutputFileReader();
             Assert.True(reader.FileContents == "4/27/2020 9:14 what does this help with?");
@@ -94,16 +94,10 @@ namespace Sender.Test
         public void CombinesCommentsWhichSpanOverMultipleLines()
         {
             var injector = new DependencyInjection();
-            var csvPath = @"C:\Users\Chalasani\Source\Repos\review-case-s22b4\sample-review\File-having-one-comment-spanning-multiple-lines.csv";
+            var csvPath = @"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\File-having-one-comment-spanning-multiple-lines.csv";
             injector.Reader.ReadCommentDataFromFile(csvPath);
             var reader = new OutputFileReader();
             Assert.True(reader.FileContents == "5/21/2020 19:57 No review comments. All looks fine.");
-        }
-
-        [Fact]
-        public void TestMethod()
-        {
-            Assert.False(true, "Expected path " + Directory.GetCurrentDirectory());
         }
     }
 }
