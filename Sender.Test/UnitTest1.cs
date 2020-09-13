@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace Sender.Tests
+namespace Sender.Test
 {
     public class UnitTest1
     {
