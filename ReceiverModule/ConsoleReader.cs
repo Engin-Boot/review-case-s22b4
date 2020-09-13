@@ -9,18 +9,14 @@ namespace ReceiverModule
     {
         public List<string> ReadFromConsole()
         {
-            List<string> _rawCommentRecords = new List<string>();
+            var rawCommentRecords = new List<string>();
             Console.WriteLine("Enter string");
-            while (true)
-            {   
-                string rawCommentRecord = Convert.ToString(Console.In.ReadLine());
-                _rawCommentRecords.Add(rawCommentRecord);
-                if (rawCommentRecord == "$")
-                {
-                    break;
-                }
+            string commentRecord;
+            while ((commentRecord = Convert.ToString(Console.In.ReadLine())) != null)
+            {
+                rawCommentRecords.Add(commentRecord);
             }
-            return _rawCommentRecords;
+            return rawCommentRecords;
         }
     }
 }

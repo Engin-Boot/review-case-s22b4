@@ -1,12 +1,10 @@
-﻿
-
-namespace ReceiverModule
+﻿namespace ReceiverModule
 {
     public class CommentRecord
     {
-        public string Date;
-        public string Time;
-        public string Comment;
+        public readonly string Date;
+        public readonly string Time;
+        public readonly string Comment;
         
 
         public CommentRecord(string date, string time, string comment)
@@ -15,11 +13,12 @@ namespace ReceiverModule
             this.Time = time;
             this.Comment = comment;
         }
-        public CommentRecord()
+
+        /*public CommentRecord()
         {
             this.Date = "";
             this.Time = "";
             this.Comment = "";
-        }
+        }*/
     }
 }

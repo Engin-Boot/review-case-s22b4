@@ -1,8 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Sender.Test"
+    "\\.github",
+    "\\.github\\workflows",
+    "\\Receiver.Test",
+    "\\ReceiverModule",
+    "\\Sender.Test",
+    "\\SenderModule"
   ],
-  "SelectedNode": "\\Sender.Test\\SenderUnitTest.cs",
+  "SelectedNode": "\\ReceiverModule\\WordFrequencyGenerator.cs",
   "PreviewInSolutionExplorer": false
 }
