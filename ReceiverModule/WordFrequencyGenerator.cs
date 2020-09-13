@@ -7,13 +7,13 @@ namespace ReceiverModule
     public class WordFrequencyGenerator
     {
          readonly Dictionary<string, int> _frequencyList = new Dictionary<string, int>();
-         public Dictionary<string, int> CountWordsInTheList(List<CommentRecord> commentRecord)
+         public Dictionary<string, int> GenerateFrequencyList(List<CommentRecord> commentRecord)
             {
                 foreach (var comment in commentRecord)
                 {
-                    var word = comment.Comment.ToLower().Split(' ' );
+                    var words = comment.Comment.ToLower().Split(' ' );
                     var wordList = new List<string>();
-                    foreach (var item in word)
+                    foreach (var item in words)
                     {
                         wordList.Add(item);
                     }

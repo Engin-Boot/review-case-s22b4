@@ -9,7 +9,9 @@ namespace ReceiverModule
         private bool CheckWhetherFileExists(string filepath)
         {
             if (File.Exists(filepath))
+            {
                 return true;
+            }
             return false;
         }
         public bool AddCommentCountInACsvFile(Dictionary<string, int> d, string filepath)
@@ -19,7 +21,7 @@ namespace ReceiverModule
             {
                 try
                 {
-                    StreamWriter file = new System.IO.StreamWriter(filepath, false);
+                    StreamWriter file = new StreamWriter(filepath, false);
                     foreach (KeyValuePair<string, int> keyValue in d)
                     {
                         file.WriteLine(keyValue.Key + "," + keyValue.Value);
@@ -51,7 +53,6 @@ namespace ReceiverModule
             }
 
             return dictionary;
-
         }
 
     }

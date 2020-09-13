@@ -2,23 +2,20 @@
 {
     public class CommentRecord
     {
-        public readonly string Date;
-        public readonly string Time;
+        public readonly string Timestamp;
         public readonly string Comment;
         
 
-        public CommentRecord(string date, string time, string comment)
+        public CommentRecord(string timestamp, string comment)
         {
-            this.Date = date;
-            this.Time = time;
+            this.Timestamp = timestamp;
             this.Comment = comment;
         }
 
-        /*public CommentRecord()
+        public CommentRecord()
         {
-            this.Date = "";
-            this.Time = "";
+            this.Timestamp = "";
             this.Comment = "";
-        }*/
+        }
     }
 }
