@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Sender.Test"
   ],
-  "SelectedNode": "\\sample-review",
+  "SelectedNode": "\\Sender.Test\\SenderUnitTest.cs",
   "PreviewInSolutionExplorer": false
 }

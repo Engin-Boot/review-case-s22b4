@@ -1,4 +1,3 @@
-
 using System.IO;
 using Xunit;
 using SenderModule;
@@ -91,7 +90,7 @@ namespace Sender.Test
             Assert.True(reader.FileContents == "4/27/2020 9:14 what does this help with?");
         }
 
-	[Fact]
+	    [Fact]
         public void CombinesCommentsWhichSpanOverMultipleLines()
         {
             var injector = new DependencyInjection();
@@ -100,10 +99,11 @@ namespace Sender.Test
             var reader = new OutputFileReader();
             Assert.True(reader.FileContents == "5/21/2020 19:57 No review comments. All looks fine.");
         }
-    }
-    /*[Fact]
+
+        [Fact]
         public void TestMethod()
         {
             Assert.False(true, "Expected path " + Directory.GetCurrentDirectory());
-        }*/
+        }
+    }
 }
