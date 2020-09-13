@@ -14,7 +14,7 @@ jobs:
 
     env:
       Solution_Name: ReviewOfReviews.sln
-      Test_Project_Path: Sender.Tests\Sender.Tests.csproj
+      #Test_Project_Path: Sender.Tests\Sender.Tests.csproj
  
     steps:
     - name: Checkout
