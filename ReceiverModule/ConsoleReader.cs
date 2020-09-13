@@ -22,7 +22,5 @@ namespace ReceiverModule
             }
             return _rawCommentRecords;
         }
-         
-
     }
 }

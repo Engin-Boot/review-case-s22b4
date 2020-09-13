@@ -39,10 +39,10 @@ jobs:
     - name: Run resharper duplicate code check
       run: jb dupfinder ReviewOfReviews.sln  /output=dupreport.xml
        
-    - name: Check Sender Reports
+    - name: Check Reports
       run: powershell ./resharper.ps1
 
-    - name: Generate Sender coverage report
+    - name: Generate coverage report
       run: dotnet test --collect:"XPlat Code Coverage"
 
     - name: Check Sender Coverage

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Text;
-
+﻿
 
 namespace ReceiverModule
 {
@@ -21,7 +19,7 @@ namespace ReceiverModule
         {
             this.Date = "";
             this.Time = "";
-            this.Comment ="";
+            this.Comment = "";
         }
     }
 }
