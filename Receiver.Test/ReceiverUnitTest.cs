@@ -32,8 +32,10 @@ namespace Receiver.Test
             CommentRecord commentInfo2 = new CommentRecord("20/2/2020", "13:10", "No additional Comments");
             CommentRecord commentInfo3 = new CommentRecord("10/3/2020", "19:09", "No additional Comments");
             List<CommentRecord> commentrecord = new List<CommentRecord> { commentInfo1, commentInfo2, commentInfo3 };
-            Dictionary<string, int> wordCountInDictionary = new Dictionary<string, int> { ["code"] = 1, ["should"] = 1, ["be"] = 1, ["decoupled"] = 1, ["no"] = 2, ["additional"] = 2, ["comments"] = 2 };
-            Assert.True(wordCount.CountWordsInTheList(commentrecord).SequenceEqual(wordCountInDictionary));
+            Dictionary<string, int> wordCountInDictionary1 = new Dictionary<string, int> { ["code"] = 1, ["should"] = 1, ["be"] = 1, ["decoupled"] = 1, ["no"] = 2, ["additional"] = 2, ["comments"] = 2 };
+            Dictionary<string, int> wordCountInDictionary2 = new Dictionary<string, int> { ["code"] = 1, ["decoupled"] = 1, ["additional"] = 2, ["comments"] = 2 };
+            Assert.True(wordCount.CountWordsInTheList(commentrecord).SequenceEqual(wordCountInDictionary2));
+            Assert.False(wordCount.CountWordsInTheList(commentrecord).SequenceEqual(wordCountInDictionary1));
 
         }
         
