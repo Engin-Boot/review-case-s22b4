@@ -23,11 +23,11 @@ namespace SenderModule
             this._logger = target;
         }*/
 
-        public void LogData(List<CommentRecord> commentRecords)
+        public void LogData(List<CommentRecord> commentRecords, string columnFilter)
         {
-            this._logger.LogData(commentRecords);
+            this._logger.LogData(commentRecords, columnFilter);
         }
-        public void SplitFields(List<string> rawCommentRecords)
+        public void SplitFields(List<string> rawCommentRecords, string columnFilter)
         {
 
             foreach (var record in rawCommentRecords)
@@ -44,7 +44,7 @@ namespace SenderModule
                 }
             }
             _commentRecords.Add(_currentRecord);
-            this.LogData(_commentRecords);
+            this.LogData(_commentRecords, columnFilter);
         }
 
         public void ValidateCommentRecord(string[] fields)

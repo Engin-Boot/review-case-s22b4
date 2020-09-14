@@ -15,7 +15,7 @@ namespace Receiver.Test
         public void WhenAListOfStringIsPassedThenWeGetListOfTypeCommandRecord()
         {
             var fields = new FieldSplitter();
-            var commentRecords = new List<string> { "1/1/2020 12:30 Code should be decoupled" };
+            var commentRecords = new List<string> { "1/1/2020 12:30,Code should be decoupled" };
             var records = fields.SplitFields(commentRecords);
             var condition = true;
             foreach (var record in records)

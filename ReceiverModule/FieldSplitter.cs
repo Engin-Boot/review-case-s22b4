@@ -11,11 +11,15 @@ namespace ReceiverModule
         readonly List<CommentRecord> _commentRecords = new List<CommentRecord>();
         CommentRecord _currentRecord;
         public void CheckIfFieldIsCommentOrDate(string field)
-        { 
-           if(char.IsLetter(field[0]))
-          _currentRecord.Comment = _currentRecord.Comment.Append(field);
-           else
-          _currentRecord.Timestamp = _currentRecord.Timestamp.Append(field);
+        {
+            if (char.IsLetter(field[0]))
+            {
+                _currentRecord.Comment = _currentRecord.Comment.Append(field);
+            }
+            else
+            {
+                _currentRecord.Timestamp = _currentRecord.Timestamp.Append(field);
+            }
         }
         public List<CommentRecord> SplitFields(List<string> rawCommentRecords)
         {
@@ -23,7 +27,7 @@ namespace ReceiverModule
             foreach (string record in rawCommentRecords)
             {
                 _currentRecord = new CommentRecord();
-                var fields = record.Split(new char[] { ',' });
+                var fields = record.Split(',' );
                 if (fields.Length == 2)
                 {
                     ValidateAndAddRecord(fields);
@@ -35,7 +39,7 @@ namespace ReceiverModule
                 _commentRecords.Add(_currentRecord); 
             }
 
-               return _commentRecords;
+            return _commentRecords;
         }
 
         public void ValidateAndAddRecord(string[] fields)
