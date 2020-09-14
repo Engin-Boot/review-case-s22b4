@@ -5,5 +5,8 @@
     &lt;TestId&gt;xUnit::EFC84BF3-4AC0-4F95-A1E5-5E9ADA814AA9::.NETCoreApp,Version=v3.1::Receiver.Test.ReceiverUnitTest.CheckForACorrectFilePathWhenAddingWordCountToCsv&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::EFC84BF3-4AC0-4F95-A1E5-5E9ADA814AA9::.NETCoreApp,Version=v3.1::Receiver.Test.ReceiverUnitTest.WhenWePassListOfRecordsAndReturnTheCommentsWithCountInDictionary&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::EFC84BF3-4AC0-4F95-A1E5-5E9ADA814AA9::.NETCoreApp,Version=v3.1::Receiver.Test.ReceiverUnitTest.WhenAListOfStringIsPassedThenWeGetListOfTypeCommandRecord&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F4213BCE-3925-4AEA-9130-8C4B7FDB45C8::.NETCoreApp,Version=v3.1::Sender.Test.SenderUnitTest.WritesEmptyStringWhenCsvFileIsEmpty&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F4213BCE-3925-4AEA-9130-8C4B7FDB45C8::.NETCoreApp,Version=v3.1::Sender.Test.SenderUnitTest.RemovesRecordWhenNoCommentIsPresentForTheTimestamp&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F4213BCE-3925-4AEA-9130-8C4B7FDB45C8::.NETCoreApp,Version=v3.1::Sender.Test.SenderUnitTest.RemovesBlankLinesFromFile&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -22,23 +22,7 @@ namespace SenderModule
 
         public void ReadCommentDataFromFile(string sourceFilePath)
         {
-            try
-            {
-                var reader = new StreamReader(sourceFilePath);
-                while (reader.EndOfStream != true)
-                {
-                    var rawCommentRecord = reader.ReadLine();
-                    _rawCommentRecords.Add(rawCommentRecord);
-                }
-                reader.Close();
-
-                var splitter = new CommentRecordCreator(this._logger);
-                splitter.SplitFields(_rawCommentRecords, null);
-            }
-            catch
-            {
-                throw new DirectoryNotFoundException();
-            }
+            this.ReadCommentDataFromFile(sourceFilePath,null);
         }
 
         public void ReadCommentDataFromFile(string sourceFilePath, string columnFilter)

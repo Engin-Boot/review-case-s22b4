@@ -76,7 +76,7 @@ namespace Sender.Test
             var csvPath = @"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\File-having-blank-lines.csv";
             injector.Reader.ReadCommentDataFromFile(csvPath);
             var reader = new OutputFileReader();
-            Assert.True(reader.FileContents == "8/27/2019 11:22,No Additional Comments\r\n8/22/2019 18:39 No Additional Comments");
+            Assert.True(reader.FileContents == "8/27/2019 11:22,No Additional Comments\n\r\n8/22/2019 18:39,No Additional Comments");
         }
 
         [Fact]
