@@ -7,7 +7,7 @@ namespace ReceiverModule
 {
     public interface IReader
     {
-        public void ReadProcessedData(string outputFilePath);
+        public void ReadProcessedData(string outputFile);
     }
     
     public class ConsoleReader : IReader

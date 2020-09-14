@@ -12,14 +12,9 @@ namespace SenderModule
     {
         public void LogData(List<CommentRecord> commentRecords)
         {
-            var writer = new StreamWriter(@"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\LogFile.txt");
-            foreach (var record in commentRecords)
-            {
-                string commentRecord = record.Timestamp + " " + record.Comment;
-                writer.WriteLine(commentRecord);
-                Console.WriteLine(commentRecord);
-            }
-            writer.Close();
+            Console.WriteLine("Enter the filter");
+            string filter = Console.ReadLine();
+            ColumnFilter.ChooseFilter(filter, commentRecords);
         }
     } 
 }

@@ -1,21 +1,22 @@
-﻿namespace ReceiverModule
+﻿using System.Text;
+
+
+namespace ReceiverModule
 {
     public class CommentRecord
     {
-        public readonly string Timestamp;
-        public readonly string Comment;
-        
+        public StringBuilder Timestamp;
+        public StringBuilder Comment;
 
-        public CommentRecord(string timestamp, string comment)
+        public CommentRecord(StringBuilder timestamp, StringBuilder comment)
         {
             this.Timestamp = timestamp;
             this.Comment = comment;
         }
-
         public CommentRecord()
         {
-            this.Timestamp = "";
-            this.Comment = "";
+            this.Timestamp = new StringBuilder("");
+            this.Comment = new StringBuilder("");
         }
     }
 }

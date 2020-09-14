@@ -11,8 +11,8 @@ namespace ReceiverModule
             {
                 foreach (var comment in commentRecord)
                 {
-                    var words = comment.Comment.ToLower().Split(' ' );
-                    var wordList = new List<string>();
+                    var words = comment.Comment.ToString().ToLower().Split(new char[] { ' ' });
+                var wordList = new List<string>();
                     foreach (var item in words)
                     {
                         wordList.Add(item);
