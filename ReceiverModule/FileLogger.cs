@@ -36,24 +36,6 @@ namespace ReceiverModule
             //AddToDic(filepath);
             return CheckWhetherFileExists(filepath);
         }
-        public Dictionary<string, int> AddToDic(string filepath)
-        {
-            var dictionary = new Dictionary<string, int>();
-            
-            var reader = new StreamReader(filepath);
-
-            while (reader.EndOfStream != true)
-            {
-                var line = reader.ReadLine();
-                if (line != null)
-                {
-                    var fields = line.Split(',');
-                    dictionary.Add(fields[0], Int32.Parse(fields[1]));
-                }
-            }
-
-            return dictionary;
-        }
 
     }
 }

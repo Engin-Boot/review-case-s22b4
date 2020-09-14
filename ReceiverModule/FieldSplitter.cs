@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Text;
 
 
@@ -8,9 +6,9 @@ namespace ReceiverModule
 {
    public class FieldSplitter
     {
-        readonly List<CommentRecord> _commentRecords = new List<CommentRecord>();
+        List<CommentRecord> _commentRecords = new List<CommentRecord>();
         CommentRecord _currentRecord;
-        public void CheckIfFieldIsCommentOrDate(string field)
+        private void CheckIfFieldIsCommentOrDate(string field)
         {
             if (char.IsLetter(field[0]))
             {
@@ -21,7 +19,7 @@ namespace ReceiverModule
                 _currentRecord.Timestamp = _currentRecord.Timestamp.Append(field);
             }
         }
-        public List<CommentRecord> SplitFields(List<string> rawCommentRecords)
+        public List<CommentRecord> SplitFields(List<string> rawCommentRecords, string outputFilePath)
         {
 
             foreach (string record in rawCommentRecords)
@@ -39,10 +37,12 @@ namespace ReceiverModule
                 _commentRecords.Add(_currentRecord); 
             }
 
+            var frequencyGenerator = new WordFrequencyGenerator();
+            frequencyGenerator.GenerateFrequencyList(_commentRecords, outputFilePath);
             return _commentRecords;
         }
 
-        public void ValidateAndAddRecord(string[] fields)
+        private void ValidateAndAddRecord(string[] fields)
         {
                 _currentRecord = new CommentRecord(new StringBuilder(fields[0]), new StringBuilder(fields[1]));
         }

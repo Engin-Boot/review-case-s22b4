@@ -16,12 +16,12 @@ namespace ReceiverModule
         {
             var rawCommentRecords = new List<string>();
             string commentRecord;
-            while ((commentRecord = Convert.ToString(Console.In.ReadLine())) != null)
+            while ((commentRecord = Convert.ToString(Console.In.ReadLine())) != "$")
             {
                 rawCommentRecords.Add(commentRecord);
             }
             var splitter = new FieldSplitter();
-            splitter.SplitFields(rawCommentRecords);
+            splitter.SplitFields(rawCommentRecords,outputFilePath);
         }
     }
 }

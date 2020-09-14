@@ -8,15 +8,13 @@ namespace Receiver.Test
 
 {
     public class ReceiverUnitTest
-    {
-
-        
+    { 
         [Fact]
         public void WhenAListOfStringIsPassedThenWeGetListOfTypeCommandRecord()
         {
             var fields = new FieldSplitter();
             var commentRecords = new List<string> { "1/1/2020 12:30,Code should be decoupled" };
-            var records = fields.SplitFields(commentRecords);
+            var records =fields.SplitFields(commentRecords,"path1.csv");
             var condition = true;
             foreach (var record in records)
             {
@@ -36,8 +34,8 @@ namespace Receiver.Test
             var commentRecord = new List<CommentRecord> { record1, record2, record3 };
             var frequencyList1 = new Dictionary<string, int> { ["code"] = 1, ["should"] = 1, ["be"] = 1, ["decoupled"] = 1, ["no"] = 2, ["additional"] = 2, ["comments"] = 2 };
             var frequencyList2 = new Dictionary<string, int> { ["code"] = 1, ["decoupled"] = 1, ["additional"] = 2, ["comments"] = 2 };
-            Assert.True(wordCount.GenerateFrequencyList(commentRecord).SequenceEqual(frequencyList2));
-            Assert.False(wordCount.GenerateFrequencyList(commentRecord).SequenceEqual(frequencyList1));
+            Assert.True(wordCount.GenerateFrequencyList(commentRecord,"path2.csv").SequenceEqual(frequencyList2));
+            Assert.False(wordCount.GenerateFrequencyList(commentRecord,"path2.csv").SequenceEqual(frequencyList1));
 
         }
         

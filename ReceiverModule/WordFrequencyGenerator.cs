@@ -7,7 +7,7 @@ namespace ReceiverModule
     public class WordFrequencyGenerator
     {
          readonly Dictionary<string, int> _frequencyList = new Dictionary<string, int>();
-         public Dictionary<string, int> GenerateFrequencyList(List<CommentRecord> commentRecord)
+         public Dictionary<string, int> GenerateFrequencyList(List<CommentRecord> commentRecord,string outputFilePath)
             {
                 foreach (var comment in commentRecord)
                 {
@@ -31,7 +31,9 @@ namespace ReceiverModule
                         }
                     }
                 }
-                return _frequencyList;
+            var fileLogger = new FileLogger();
+            fileLogger.AddCommentCountInACsvFile(_frequencyList,outputFilePath);
+            return _frequencyList;
             }
         }
     }
