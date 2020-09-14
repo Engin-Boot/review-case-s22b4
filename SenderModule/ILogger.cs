@@ -42,13 +42,22 @@ namespace SenderModule
             }
             else
             {
-                foreach (CommentRecord record in commentRecords)
+                LogCompleteRecord(commentRecords);
+            }
+            writer.Close();
+        }
+
+        public static void LogCompleteRecord(List<CommentRecord> commentRecords)
+        {
+            StreamWriter writer = new StreamWriter(@"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\LogFile.txt");
+            foreach (CommentRecord record in commentRecords)
+            {
+                if (record.Timestamp.ToString() != "")
                 {
                     writer.WriteLine(record.Timestamp + "," + record.Comment + "\n");
                     Console.Out.WriteLine(record.Timestamp + "," + record.Comment + "\n");
                 }
             }
-            writer.Close();
         }
     }
 }
