@@ -3,13 +3,42 @@ using System.Text;
 using System.Collections.Generic;
 using Xunit;
 using ReceiverModule;
+using System.IO;
+using ReceiverModule;
 
 namespace Receiver.Test
 
 {
+    public class InputReader
+    {
+        public void ReadProcessedData(string inputFilePath)
+        {
+            var rawCommentRecords = new List<string>();
+            var reader = new StreamReader(inputFilePath);
+            string commentRecord;
+            while ((commentRecord = reader.ReadLine()) != "End of log file")
+            {
+                rawCommentRecords.Add(commentRecord);
+            }
+            var splitter = new FieldSplitter();
+            splitter.SplitFields(rawCommentRecords);
+        }
+    }
+
+    class OutputFileReader
+    {
+        public readonly string FileContents;
+        public OutputFileReader()
+        {
+            var streamReader = new StreamReader("output.csv");
+            this.FileContents = streamReader.ReadToEnd();
+            streamReader.Close();
+            this.FileContents = this.FileContents.Trim();
+        }
+    }
     public class ReceiverUnitTest
-    { 
-        [Fact]
+    {
+        /*[Fact]
         public void WhenAListOfStringIsPassedThenWeGetListOfTypeCommandRecord()
         {
             var fields = new FieldSplitter();
@@ -49,7 +78,7 @@ namespace Receiver.Test
             Assert.False(logger.AddCommentCountInACsvFile(wordCount, " "));
         }
 
-        /*[Fact]
+        [Fact]
         public void CheckIfCorrectValueIsUploadedInCsvFile()
         {
             var logger = new FileLogger();
@@ -57,6 +86,16 @@ namespace Receiver.Test
             Assert.True(logger.AddCommentCountInACsvFile(wordCount, "CommentsCountTest.csv"));
             var word = logger.AddToDic("CommentsCountTest.csv");
             Assert.True(wordCount.SequenceEqual(word));
+        }*/
+
+        /*[Fact]
+
+        public void WhenGivenEmptyFileThenWritesDataNotFoundToOutputFile()
+        {
+            var reader = new InputReader();
+            reader.ReadProcessedData("Empty.txt");
+            var output = new OutputFileReader();
+            Assert.True(output.FileContents == "Data not found");
         }*/
 
     }

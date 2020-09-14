@@ -17,13 +17,16 @@ namespace SenderModule
             {
                 columnFilter = columnFilter.ToLower();
             }
-            
-            ChooseFilter(commentRecords, columnFilter);
+
+            var writer = new StreamWriter(@"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\LogFile.txt");
+            ChooseFilter(commentRecords, columnFilter, writer);
+            Console.WriteLine("End of log file");
+            writer.WriteLine("End of log file");
+            writer.Close();
         }
 
-        public static void ChooseFilter(List<CommentRecord> commentRecords, string columnFilter)
+        private static void ChooseFilter(List<CommentRecord> commentRecords, string columnFilter, StreamWriter writer)
         {
-            StreamWriter writer = new StreamWriter(@"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\LogFile.txt");
             if (columnFilter == "timestamp")
             {
                 foreach (CommentRecord record in commentRecords)
@@ -44,10 +47,9 @@ namespace SenderModule
             {
                 LogCompleteRecord(commentRecords, writer);
             }
-            writer.Close();
         }
 
-        public static void LogCompleteRecord(List<CommentRecord> commentRecords, StreamWriter writer)
+        private static void LogCompleteRecord(List<CommentRecord> commentRecords, StreamWriter writer)
         {
             foreach (CommentRecord record in commentRecords)
             {

@@ -1,12 +1,13 @@
 ﻿using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 
 namespace ReceiverModule
 {
-   public class FieldSplitter
+    public class FieldSplitter
     {
-        List<CommentRecord> _commentRecords = new List<CommentRecord>();
+        readonly List<CommentRecord> _commentRecords = new List<CommentRecord>();
         CommentRecord _currentRecord;
         private void CheckIfFieldIsCommentOrDate(string field)
         {
@@ -19,32 +20,38 @@ namespace ReceiverModule
                 _currentRecord.Timestamp = _currentRecord.Timestamp.Append(field);
             }
         }
-        public List<CommentRecord> SplitFields(List<string> rawCommentRecords, string outputFilePath)
+        public void SplitFields(List<string> rawCommentRecords)
         {
 
-            foreach (string record in rawCommentRecords)
+            if (rawCommentRecords.Count != 0)
             {
-                _currentRecord = new CommentRecord();
-                var fields = record.Split(',' );
-                if (fields.Length == 2)
+                foreach (string record in rawCommentRecords)
                 {
-                    ValidateAndAddRecord(fields);
+                    _currentRecord = new CommentRecord();
+                    var fields = record.Split(',');
+                    if (fields.Length == 2)
+                    {
+                        ValidateAndAddRecord(fields);
+                    }
+                    else
+                    {
+                        CheckIfFieldIsCommentOrDate(fields[0]);
+                    }
+                    _commentRecords.Add(_currentRecord);
                 }
-                else
-                {
-                    CheckIfFieldIsCommentOrDate(fields[0]);
-                }
-                _commentRecords.Add(_currentRecord); 
+                var frequencyGenerator = new WordFrequencyGenerator();
+                frequencyGenerator.GenerateFrequencyList(_commentRecords);
             }
-
-            var frequencyGenerator = new WordFrequencyGenerator();
-            frequencyGenerator.GenerateFrequencyList(_commentRecords, outputFilePath);
-            return _commentRecords;
+            else
+            {
+                var writer = new StreamWriter("output.csv");
+                writer.WriteLine("Data not found");
+            }
         }
 
         private void ValidateAndAddRecord(string[] fields)
         {
-                _currentRecord = new CommentRecord(new StringBuilder(fields[0]), new StringBuilder(fields[1]));
+            _currentRecord = new CommentRecord(new StringBuilder(fields[0]), new StringBuilder(fields[1]));
         }
 
     }

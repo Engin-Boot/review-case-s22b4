@@ -23,7 +23,7 @@ namespace ReceiverModule
             }
             return false;
         }
-        public static List<string> RemoveStopWords(List<string> words)
+        public  List<string> RemoveStopWords(List<string> words)
         {
             words.RemoveAll(IsStopWord);
             return words;

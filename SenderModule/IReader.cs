@@ -1,5 +1,4 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 
 namespace SenderModule
@@ -22,7 +21,7 @@ namespace SenderModule
 
         public void ReadCommentDataFromFile(string sourceFilePath)
         {
-            this.ReadCommentDataFromFile(sourceFilePath,null);
+            this.ReadCommentDataFromFile(sourceFilePath, null);
         }
 
         public void ReadCommentDataFromFile(string sourceFilePath, string columnFilter)
@@ -38,12 +37,22 @@ namespace SenderModule
                 reader.Close();
 
                 var splitter = new CommentRecordCreator(this._logger);
-                splitter.SplitFields(_rawCommentRecords,columnFilter);
+                splitter.SplitFields(_rawCommentRecords, columnFilter);
             }
             catch
             {
                 throw new DirectoryNotFoundException();
             }
+        }
+    }
+    class EntryPoint
+    {
+        private static readonly ILogger Logger = new ConsoleLogger();
+        public static readonly IReader Reader = new CsvReader(Logger);
+        static void Main()
+        {
+            var csvPath = @"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\review-report.csv";
+            Reader.ReadCommentDataFromFile(csvPath);
         }
     }
 }

@@ -23,7 +23,7 @@ namespace SenderModule
             this._logger = target;
         }*/
 
-        public void LogData(List<CommentRecord> commentRecords, string columnFilter)
+        private void LogData(List<CommentRecord> commentRecords, string columnFilter)
         {
             this._logger.LogData(commentRecords, columnFilter);
         }
@@ -32,7 +32,7 @@ namespace SenderModule
 
             foreach (var record in rawCommentRecords)
             {
-                var fields = record.Split(',' );
+                var fields = record.Split(',');
                 if (fields.Length == 2)
                 {
                     AddRecord(fields);
@@ -47,7 +47,7 @@ namespace SenderModule
             this.LogData(_commentRecords, columnFilter);
         }
 
-        public void ValidateCommentRecord(string[] fields)
+        private void ValidateCommentRecord(string[] fields)
         {
             if (!string.IsNullOrWhiteSpace(fields[1]))
             {
@@ -55,7 +55,7 @@ namespace SenderModule
             }
         }
 
-        public void AddRecord(string[] fields)
+        private void AddRecord(string[] fields)
         {
             if (!string.IsNullOrWhiteSpace(fields[1]))
             {
@@ -63,7 +63,7 @@ namespace SenderModule
             }
         }
 
-        public void AppendToComment(string[] fields)
+        private void AppendToComment(string[] fields)
         {
             if (!string.IsNullOrWhiteSpace(fields[0]))
             {
