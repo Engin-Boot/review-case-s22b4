@@ -1,6 +1,8 @@
+
 using System.IO;
 using Xunit;
 using SenderModule;
+
 
 namespace Sender.Test
 {
@@ -54,7 +56,7 @@ namespace Sender.Test
         {
             var injector = new DependencyInjection();
             var csvPath = @"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\Just-empty-comments.csv";
-            injector.Reader.ReadCommentDataFromFile(csvPath);
+            injector.Reader.ReadCommentDataFromFile(csvPath, "comment");
             var reader = new OutputFileReader();
             Assert.True(reader.FileContents.Equals("End of log file"));
         }
@@ -64,7 +66,7 @@ namespace Sender.Test
         {
             var injector = new DependencyInjection();
             var csvPath = @"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\File-with-just-commas.csv";
-            injector.Reader.ReadCommentDataFromFile(csvPath);
+            injector.Reader.ReadCommentDataFromFile(csvPath, "timestamp");
             var reader = new OutputFileReader();
             Assert.True(reader.FileContents.Equals("End of log file"));
         }
@@ -118,5 +120,14 @@ namespace Sender.Test
             var reader = new OutputFileReader();
             Assert.True(reader.FileContents == "No review comments. All looks fine.\n\r\nEnd of log file");
         }
+
+        [Fact]
+        public void WhenMainIsInvokedItStartsSender()
+        {
+            EntryPoint.Main();
+            var reader = new OutputFileReader();
+            Assert.True(reader.FileContents == "5/21/2020 19:57,No review comments. All looks fine.\n\r\nEnd of log file");
+        }
+
     }
 }

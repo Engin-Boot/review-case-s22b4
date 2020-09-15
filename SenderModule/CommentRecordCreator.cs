@@ -44,12 +44,13 @@ namespace SenderModule
                 }
             }
             _commentRecords.Add(_currentRecord);
+            _commentRecords.RemoveAt(0);
             this.LogData(_commentRecords, columnFilter);
         }
 
         private void ValidateCommentRecord(string[] fields)
         {
-            if (!string.IsNullOrWhiteSpace(fields[1]))
+            if (!IsWhitespaceOrEmptyOrNull(fields[1]))
             {
                 _currentRecord = new CommentRecord(new StringBuilder(fields[0]), new StringBuilder(fields[1]));
             }
@@ -57,7 +58,7 @@ namespace SenderModule
 
         private void AddRecord(string[] fields)
         {
-            if (!string.IsNullOrWhiteSpace(fields[1]))
+            if (!IsWhitespaceOrEmptyOrNull(fields[1]))
             {
                 _commentRecords.Add(_currentRecord);
             }
@@ -65,12 +66,18 @@ namespace SenderModule
 
         private void AppendToComment(string[] fields)
         {
-            if (!string.IsNullOrWhiteSpace(fields[0]))
+            if (!IsWhitespaceOrEmptyOrNull(fields[0]))
             {
                 _currentRecord.Comment = _currentRecord.Comment.Append(" " + fields[0]);
             }
         }
 
+        private bool IsWhitespaceOrEmptyOrNull(string field)
+        {
+            bool condition1 = string.IsNullOrEmpty(field);
+            bool condition2 = string.IsNullOrWhiteSpace(field) && condition1;
 
+            return condition2;
+        }
     }
 }

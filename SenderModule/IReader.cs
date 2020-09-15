@@ -45,13 +45,13 @@ namespace SenderModule
             }
         }
     }
-    class EntryPoint
+    public class EntryPoint
     {
         private static readonly ILogger Logger = new ConsoleLogger();
         public static readonly IReader Reader = new CsvReader(Logger);
-        static void Main()
+        public static void Main()
         {
-            var csvPath = @"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\review-report.csv";
+            var csvPath = @"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\File-having-one-comment-spanning-multiple-lines.csv";
             Reader.ReadCommentDataFromFile(csvPath);
         }
     }

@@ -45,15 +45,7 @@ namespace SenderModule
             }
             else
             {
-                LogCompleteRecord(commentRecords, writer);
-            }
-        }
-
-        private static void LogCompleteRecord(List<CommentRecord> commentRecords, StreamWriter writer)
-        {
-            foreach (CommentRecord record in commentRecords)
-            {
-                if (record.Timestamp.ToString() != "")
+                foreach (CommentRecord record in commentRecords)
                 {
                     writer.WriteLine(record.Timestamp + "," + record.Comment + "\n");
                     Console.Out.WriteLine(record.Timestamp + "," + record.Comment + "\n");
