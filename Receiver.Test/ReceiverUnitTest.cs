@@ -31,7 +31,7 @@ namespace Receiver.Test
             var condition = true;
             foreach (var record in records)
             {
-                var condition1 = record.Timestamp.Equals("1/1/2020 12:30");
+                var condition1 = record.DateTime.Equals("1/1/2020 12:30");
                 var condition2 = record.Comment.Equals("Code should be decoupled");
                 condition = condition && condition1 && condition2;
             }
@@ -46,7 +46,7 @@ namespace Receiver.Test
             var condition = true;
             foreach (var record in records)
             {
-                var condition1 = record.Timestamp.Equals("1/1/2020 12:30");
+                var condition1 = record.DateTime.Equals("1/1/2020 12:30");
                 var condition2 = record.Comment.Equals("");
                 condition = condition && condition1 && condition2;
             }
@@ -61,7 +61,7 @@ namespace Receiver.Test
             var condition = true;
             foreach (var record in records)
             {
-                var condition1 = record.Timestamp.Equals("");
+                var condition1 = record.DateTime.Equals("");
                 var condition2 = record.Comment.Equals("No additional Comments");
 
                 condition = condition && condition1 && condition2;
@@ -98,7 +98,7 @@ namespace Receiver.Test
         {
             var inputString = new StringReader("End of log file");
             Console.SetIn(inputString);
-            EntryPoint.Main();
+            ConsoleReader.Main();
             var output = new OutputFileReader();
             Assert.True(output.FileContents == "Data not found");
         }
@@ -121,7 +121,7 @@ namespace Receiver.Test
         {
             var inputString = new StringReader("1/1/2020 12:30,Code should be decoupled\nEnd of log file");
             Console.SetIn(inputString);
-            EntryPoint.Main();
+            ConsoleReader.Main();
             var output = new OutputFileReader();
             Assert.True(output.FileContents == "code,1\r\ndecoupled,1");
         }

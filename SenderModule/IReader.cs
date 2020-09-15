@@ -14,6 +14,14 @@ namespace SenderModule
         private readonly List<string> _rawCommentRecords = new List<string>();
         readonly ILogger _logger;
 
+        public static void Main()
+        {
+            ILogger logger = new ConsoleLogger();
+            IReader reader = new CsvReader(logger);
+            var csvPath = @"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\File-having-one-comment-spanning-multiple-lines.csv";
+            reader.ReadCommentDataFromFile(csvPath);
+        }
+       
         public CsvReader(ILogger target)
         {
             this._logger = target;
@@ -43,16 +51,6 @@ namespace SenderModule
             {
                 throw new DirectoryNotFoundException();
             }
-        }
-    }
-    public class SenderEntryPoint
-    {
-        private static readonly ILogger Logger = new ConsoleLogger();
-        public static readonly IReader Reader = new CsvReader(Logger);
-        public static void Main()
-        {
-            var csvPath = @"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\File-having-one-comment-spanning-multiple-lines.csv";
-            Reader.ReadCommentDataFromFile(csvPath);
         }
     }
 }

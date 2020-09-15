@@ -124,7 +124,7 @@ namespace Sender.Test
         [Fact]
         public void WhenMainIsInvokedItStartsSender()
         {
-            SenderEntryPoint.Main();
+            CsvReader.Main();
             var reader = new OutputFileReader();
             Assert.True(reader.FileContents == "5/21/2020 19:57,No review comments. All looks fine.\r\nEnd of log file");
         }

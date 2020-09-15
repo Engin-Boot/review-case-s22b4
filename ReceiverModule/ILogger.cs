@@ -27,7 +27,7 @@ namespace ReceiverModule
             return ValidateFilePath(filepath);
         }
 
-        public bool ValidateFilePath(string filepath)
+        private bool ValidateFilePath(string filepath)
         {
             if (File.Exists(filepath))
             {

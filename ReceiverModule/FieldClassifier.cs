@@ -11,7 +11,7 @@ namespace ReceiverModule
             }
             else
             {
-                currentRecord.Timestamp = currentRecord.Timestamp.Append(field);
+                currentRecord.DateTime = currentRecord.DateTime.Append(field);
             }
         }
     }
