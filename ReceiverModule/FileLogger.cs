@@ -1,6 +1,7 @@
 ﻿
 using System.Collections.Generic;
 using System.IO;
+using System;
 
 namespace ReceiverModule
 {
@@ -15,6 +16,7 @@ namespace ReceiverModule
                 foreach (KeyValuePair<string,int> keyValue in dictionary)
                 {
                     file.WriteLine(keyValue.Key + "," + keyValue.Value);
+                    Console.WriteLine(keyValue.Key + " " + keyValue.Value);
                 }
                 file.Close();
             }
