@@ -32,8 +32,7 @@ namespace ReceiverModule
                     }
                 }
             }
-            var fileLogger = new FileLogger();
-            fileLogger.AddCommentCountInACsvFile(_frequencyList,"output.csv");
+          
             return _frequencyList;
         }
     }

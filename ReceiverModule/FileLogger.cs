@@ -20,7 +20,7 @@ namespace ReceiverModule
             if (Extension == "csv")
             {
                 var file = new StreamWriter(filepath, false);
-                foreach (var keyValue in dictionary)
+                foreach (KeyValuePair<string,int> keyValue in dictionary)
                 {
                     file.WriteLine(keyValue.Key + "," + keyValue.Value);
                 }

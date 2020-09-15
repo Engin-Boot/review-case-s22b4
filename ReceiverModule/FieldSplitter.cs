@@ -39,8 +39,7 @@ namespace ReceiverModule
                     }
                     _commentRecords.Add(_currentRecord);
                 }
-                var frequencyGenerator = new WordFrequencyGenerator();
-                frequencyGenerator.GenerateFrequencyList(_commentRecords);
+              
             }
             else
             {

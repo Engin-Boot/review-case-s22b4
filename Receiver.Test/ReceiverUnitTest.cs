@@ -11,7 +11,7 @@ namespace Receiver.Test
 {
    public class InputReader
     {
-        public void ReadProcessedData(string inputFilePath)
+        public List<string> ReadProcessedData(string inputFilePath)
         {
             var rawCommentRecords = new List<string>();
             var reader = new StreamReader(inputFilePath);
@@ -21,8 +21,7 @@ namespace Receiver.Test
                 rawCommentRecords.Add(commentRecord);
             }
             reader.Close();
-            var splitter = new FieldSplitter();
-            splitter.SplitFields(rawCommentRecords);
+            return rawCommentRecords;
         }
     }
  
@@ -54,21 +53,7 @@ namespace Receiver.Test
             }
             Assert.True(condition);
         }
-        [Fact]
-        public void WhenWePassOnlyDateAndTimeColumnUsingFilterThenWeGetAnEmptyOutputFile()
-        {
-            var reader = new ConsoleReader();
-            reader.ReadProcessedData("DateTime.csv");
-            var output = new OutputFileReader();
-            Assert.True(output.FileContents == " ");
-        }
-
-        [Fact]
-
-        public void WhenWePassOnlyCommentsColumnUsingColumnFilterThenWeGetADictionaryWithWordCount()
-        {
-            
-        }
+        
         [Fact]
         public void WhenWePassListOfRecordsThenReturnTheCommentsWithCountInDictionaryAfterRemovingStopWords()
         {
@@ -93,30 +78,43 @@ namespace Receiver.Test
              Assert.False(logger.AddCommentCountInACsvFile(wordCount, "a "));
              Assert.False(logger.AddCommentCountInACsvFile(wordCount, " "));
          }
-       
 
 
-          [Fact]
-             public void WhenGivenEmptyFileThenWritesDataNotFoundToOutputFile()
-             {
-                 var reader = new ConsoleReader();
-                 reader.ReadProcessedData("Empty.csv");
-                 var output = new OutputFileReader();
-                 Assert.True(output.FileContents == "Data not found");
-             }
-        
 
-        /*   [Fact]
+        /*     [Fact]
+              public void WhenGivenEmptyFileThenWritesDataNotFoundToOutputFile()
+              {
+                  var reader = new ConsoleReader();
+                  reader.ReadProcessedData();
+                  var output = new OutputFileReader();
+                  Assert.True(output.FileContents == "Data not found");
+              }
 
-         public void WhenWePassStringsThroughConsoleThenReceiverReadsItAndStoresInList()
-          {
-              Console.Out.WriteLine("1/1/2020 12:30,Code should be decoupled" + "\n" +
-                  "2/4/2020 14:56,No additional Comments" + "\n" + "End of log file");
-              ConsoleReader reader = new ConsoleReader();
-              List<string> dataReadThroughConsole = new List<string> { "1/1/2020 12:30,Code should be decoupled", "2/4/2020 14:56,No additional Comments"};
-              Assert.True(reader.ReadProcessedData("1.csv").SequenceEqual(dataReadThroughConsole));
 
-          }*/
+        [Fact]
+         public void WhenWePassOnlyDateAndTimeColumnUsingFilterThenWeGetAnEmptyOutputFile()
+         {
+
+             var output = new OutputFileReader();
+             Assert.True(output.FileContents == " ");
+         }
+
+         [Fact]
+
+         public void WhenWePassOnlyCommentsColumnUsingColumnFilterThenWeGetADictionaryWithWordCount()
+         {
+
+         }  [Fact]
+
+          public void WhenWePassStringsThroughConsoleThenReceiverReadsItAndStoresInList()
+           {
+               Console.Out.WriteLine("1/1/2020 12:30,Code should be decoupled" + "\n" +
+                   "2/4/2020 14:56,No additional Comments" + "\n" + "End of log file");
+               ConsoleReader reader = new ConsoleReader();
+               List<string> dataReadThroughConsole = new List<string> { "1/1/2020 12:30,Code should be decoupled", "2/4/2020 14:56,No additional Comments"};
+               Assert.True(reader.ReadProcessedData("1.csv").SequenceEqual(dataReadThroughConsole));
+
+           }*/
 
     }
 }
