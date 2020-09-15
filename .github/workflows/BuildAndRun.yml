@@ -23,15 +23,15 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.101
+
+    - name: Build with dotnet
+      run: dotnet build --configuration Release
         
     - name: Run unit tests
       run: dotnet test --no-build --configuration Release
 
-    - name: Build with dotnet
-      run: dotnet build --configuration Release
-
     - name: Run the Pipe Command
-      run:  SenderModule\bin\Debug\netcoreapp3.1\SenderModule.exe | ReceiverModule\bin\Debug\netcoreapp3.1\ReceiverModule.exe
+      run:  SenderModule\bin\Release\netcoreapp3.1\SenderModule.exe | ReceiverModule\bin\Release\netcoreapp3.1\ReceiverModule.exe
 
     - name: Generate coverage report
       run: dotnet test --collect:"XPlat Code Coverage"
