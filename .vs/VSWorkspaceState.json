@@ -1,13 +1,17 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.github",
-    "\\.github\\workflows",
+    "\\Integration.Test",
     "\\Receiver.Test",
+    "\\Receiver.Test\\bin",
+    "\\Receiver.Test\\bin\\Release",
     "\\ReceiverModule",
+    "\\ReceiverModule\\bin",
+    "\\ReceiverModule\\bin\\Release",
+    "\\ReceiverModule\\bin\\Release\\netcoreapp3.1",
     "\\Sender.Test",
     "\\SenderModule"
   ],
-  "SelectedNode": "\\ReceiverModule\\WordFrequencyGenerator.cs",
+  "SelectedNode": "\\ReceiverModule\\IReader.cs",
   "PreviewInSolutionExplorer": false
 }

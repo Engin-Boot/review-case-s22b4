@@ -18,7 +18,7 @@ namespace SenderModule
         {
             ILogger logger = new ConsoleLogger();
             IReader reader = new CsvReader(logger);
-            var csvPath = @"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\File-having-one-comment-spanning-multiple-lines.csv";
+            var csvPath = (@"D:\a\review-case-s22b4\review-case-s22b4\input.csv");
             reader.ReadCommentDataFromFile(csvPath);
         }
        

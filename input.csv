@@ -1,0 +1,15 @@
+
+5/8/2020 13:17,This line does not have any impact as the. return value was not used. Check if we can remove this.
+5/8/2020 13:32,Remove this line. This line does not have any impact on solutionJsonString as it was not assigned back after replacing.
+5/8/2020 13:35,
+,
+
+,
+,
+,
+5/14/2020 10:54,[Design]
+In BaseFullScreenDialogFragment expose OnDismissListener
+Now thats available to all the troubleshoot fragments
+Attach dismiss listener from searching fragment right after creating troubleShoot dialogs and call tryAgain() from the dismiss listener.
+5/14/2020 10:58,[Readability]
+Move troubleshoot to devicesetup package

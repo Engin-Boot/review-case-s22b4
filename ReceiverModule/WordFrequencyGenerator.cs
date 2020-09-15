@@ -15,7 +15,7 @@ namespace ReceiverModule
                 var wordList = new List<string>();
                 foreach (var item in words)
                 {
-                    wordList.Add(item);
+                    wordList.Add(item.TrimEnd('.'));
                 }
                 var remover = new StopWords();
                 var processedList = remover.RemoveStopWords(wordList);
