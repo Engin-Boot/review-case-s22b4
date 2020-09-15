@@ -1,15 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-
-
-
 namespace ReceiverModule
-{
-    public interface IReader
-    {
-        public List<string> ReadProcessedData();
-    }
-
+{ 
     public class ConsoleReader : IReader
     {
         public List<string> ReadProcessedData()

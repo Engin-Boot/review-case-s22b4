@@ -30,6 +30,9 @@ jobs:
     - name: Run unit tests
       run: dotnet test --no-build --configuration Release
 
+    - name: Run the Pipe Command
+      run:  SenderModule\bin\Debug\netcoreapp3.1\SenderModule.exe | ReceiverModule\bin\Debug\netcoreapp3.1\ReceiverModule.exe
+
     - name: Generate coverage report
       run: dotnet test --collect:"XPlat Code Coverage"
 

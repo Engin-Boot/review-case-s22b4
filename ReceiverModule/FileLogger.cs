@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
 using System.IO;
 
@@ -6,14 +6,6 @@ namespace ReceiverModule
 {
     public class FileLogger
     {
-        private bool CheckWhetherFileExists(string filepath)
-        {
-            if (File.Exists(filepath))
-            {
-                return true;
-            }
-            return false;
-        }
         public bool AddCommentCountInACsvFile(Dictionary<string, int> dictionary,string filepath)
         {
             var Extension = filepath.Substring(filepath.LastIndexOf('.') + 1).ToLower();
@@ -26,7 +18,8 @@ namespace ReceiverModule
                 }
                 file.Close();
             }
-           return CheckWhetherFileExists(filepath);
+            var fileChecker = new FileChecker();
+           return fileChecker.CheckWhetherFileExists(filepath);
         }
     }
 }
