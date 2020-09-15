@@ -20,7 +20,7 @@ namespace ReceiverModule
                 _currentRecord.Timestamp = _currentRecord.Timestamp.Append(field);
             }
         }
-        public void SplitFields(List<string> rawCommentRecords)
+        public List<CommentRecord> SplitFields(List<string> rawCommentRecords)
         {
 
             if (rawCommentRecords.Count != 0)
@@ -46,7 +46,9 @@ namespace ReceiverModule
             {
                 var writer = new StreamWriter("output.csv");
                 writer.WriteLine("Data not found");
+                writer.Close();
             }
+            return _commentRecords;
         }
 
         private void ValidateAndAddRecord(string[] fields)

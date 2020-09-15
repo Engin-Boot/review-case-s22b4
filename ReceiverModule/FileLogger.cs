@@ -6,22 +6,27 @@ namespace ReceiverModule
 {
     public class FileLogger
     {
-        /*private bool CheckWhetherFileExists(string filepath)
+        private bool CheckWhetherFileExists(string filepath)
         {
             if (File.Exists(filepath))
             {
                 return true;
             }
             return false;
-        }*/
-        public void AddCommentCountInACsvFile(Dictionary<string, int> dictionary)
+        }
+        public bool AddCommentCountInACsvFile(Dictionary<string, int> dictionary,string filepath)
         {
-            var file = new StreamWriter("output.csv");
-            foreach (var keyValue in dictionary)
+            var Extension = filepath.Substring(filepath.LastIndexOf('.') + 1).ToLower();
+            if (Extension == "csv")
             {
-                file.WriteLine(keyValue.Key + "," + keyValue.Value);
+                var file = new StreamWriter(filepath, false);
+                foreach (var keyValue in dictionary)
+                {
+                    file.WriteLine(keyValue.Key + "," + keyValue.Value);
+                }
+                file.Close();
             }
-            file.Close();
+           return CheckWhetherFileExists(filepath);
         }
     }
 }
