@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace ReceiverModule
 {
-    class DateAndCommentChecker
+    class FieldClassifier
     {
         public void CheckIfFieldIsCommentOrDate(CommentRecord currentRecord,string field)
         {

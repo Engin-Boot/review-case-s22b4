@@ -45,7 +45,7 @@ namespace SenderModule
             }
         }
     }
-    public class EntryPoint
+    public class SenderEntryPoint
     {
         private static readonly ILogger Logger = new ConsoleLogger();
         public static readonly IReader Reader = new CsvReader(Logger);

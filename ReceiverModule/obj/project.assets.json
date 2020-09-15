@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Anji\\.nuget\\packages\\": {}
+    "C:\\Users\\Chalasani\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anji\\Desktop\\Final\\review-case-s22b4\\ReceiverModule\\ReceiverModule.csproj",
+      "projectUniqueName": "C:\\Users\\Chalasani\\Source\\Repos\\review-case-s22b4\\ReceiverModule\\ReceiverModule.csproj",
       "projectName": "ReceiverModule",
-      "projectPath": "C:\\Users\\Anji\\Desktop\\Final\\review-case-s22b4\\ReceiverModule\\ReceiverModule.csproj",
-      "packagesPath": "C:\\Users\\Anji\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anji\\Desktop\\Final\\review-case-s22b4\\ReceiverModule\\obj\\",
+      "projectPath": "C:\\Users\\Chalasani\\Source\\Repos\\review-case-s22b4\\ReceiverModule\\ReceiverModule.csproj",
+      "packagesPath": "C:\\Users\\Chalasani\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Chalasani\\Source\\Repos\\review-case-s22b4\\ReceiverModule\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Anji\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Chalasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

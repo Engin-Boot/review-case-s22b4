@@ -1,0 +1,9 @@
+**/bin/Debug/netcoreapp3.1/*
+
+**/obj/*
+
+!*/bin/Debug/netcoreapp3.1/sample-review/
+!*/bin/Debug/netcoreapp3.1/CommentsCountTest.csv/
+!*/bin/Debug/netcoreapp3.1/CommentsCount.csv/
+!*/bin/Release/netcoreapp3.1/SenderModule.exe
+!*/bin/Release/netcoreapp3.1/ReceiverModule.exe

@@ -24,7 +24,7 @@ namespace ReceiverModule
                     }
                     else
                     {
-                       var checker = new DateAndCommentChecker();
+                       var checker = new FieldClassifier();
                        checker.CheckIfFieldIsCommentOrDate(_currentRecord,fields[0]);
                     }
                     _commentRecords.Add(_currentRecord);

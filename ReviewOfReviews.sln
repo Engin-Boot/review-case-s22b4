@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sender.Test", "Sender.Test\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Receiver.Test", "Receiver.Test\Receiver.Test.csproj", "{EFC84BF3-4AC0-4F95-A1E5-5E9ADA814AA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenderModule", "SenderModule\SenderModule.csproj", "{1481E5A9-AFB7-45B1-9647-097E60114837}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SenderModule", "SenderModule\SenderModule.csproj", "{1481E5A9-AFB7-45B1-9647-097E60114837}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiverModule", "ReceiverModule\ReceiverModule.csproj", "{98E5314E-1D18-484B-BF38-4FAE2ED22317}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiverModule", "ReceiverModule\ReceiverModule.csproj", "{98E5314E-1D18-484B-BF38-4FAE2ED22317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integration.Test", "Integration.Test\Integration.Test.csproj", "{963880E1-DED1-4FB6-903F-FF088E9D1087}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{98E5314E-1D18-484B-BF38-4FAE2ED22317}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98E5314E-1D18-484B-BF38-4FAE2ED22317}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98E5314E-1D18-484B-BF38-4FAE2ED22317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{963880E1-DED1-4FB6-903F-FF088E9D1087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{963880E1-DED1-4FB6-903F-FF088E9D1087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{963880E1-DED1-4FB6-903F-FF088E9D1087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{963880E1-DED1-4FB6-903F-FF088E9D1087}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

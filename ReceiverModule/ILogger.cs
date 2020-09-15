@@ -5,9 +5,13 @@ using System;
 
 namespace ReceiverModule
 {
-    public class FileLogger
+    public interface ILogger
     {
-        public bool AddCommentCountInACsvFile(Dictionary<string, int> dictionary,string filepath)
+        public bool LogAnalysis(Dictionary<string, int> dictionary, string filepath);
+    }
+    public class FileLogger : ILogger
+    {
+        public bool LogAnalysis(Dictionary<string, int> dictionary,string filepath)
         {
             var extension = filepath.Substring(filepath.LastIndexOf('.') + 1).ToLower();
             if (extension == "csv")
@@ -20,8 +24,16 @@ namespace ReceiverModule
                 }
                 file.Close();
             }
-            var fileChecker = new FileChecker();
-            return fileChecker.CheckWhetherFileExists(filepath);
+            return ValidateFilePath(filepath);
+        }
+
+        public bool ValidateFilePath(string filepath)
+        {
+            if (File.Exists(filepath))
+            {
+                return true;
+            }
+            return false;
         }
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anji\\Desktop\\Final\\review-case-s22b4\\SenderModule\\SenderModule.csproj": {}
+    "C:\\Users\\Chalasani\\source\\repos\\review-case-s22b4\\SenderModule\\SenderModule.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anji\\Desktop\\Final\\review-case-s22b4\\SenderModule\\SenderModule.csproj": {
+    "C:\\Users\\Chalasani\\source\\repos\\review-case-s22b4\\SenderModule\\SenderModule.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anji\\Desktop\\Final\\review-case-s22b4\\SenderModule\\SenderModule.csproj",
+        "projectUniqueName": "C:\\Users\\Chalasani\\source\\repos\\review-case-s22b4\\SenderModule\\SenderModule.csproj",
         "projectName": "SenderModule",
-        "projectPath": "C:\\Users\\Anji\\Desktop\\Final\\review-case-s22b4\\SenderModule\\SenderModule.csproj",
-        "packagesPath": "C:\\Users\\Anji\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anji\\Desktop\\Final\\review-case-s22b4\\SenderModule\\obj\\",
+        "projectPath": "C:\\Users\\Chalasani\\source\\repos\\review-case-s22b4\\SenderModule\\SenderModule.csproj",
+        "packagesPath": "C:\\Users\\Chalasani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Chalasani\\source\\repos\\review-case-s22b4\\SenderModule\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Anji\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Chalasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
