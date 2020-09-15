@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Chalasani\\source\\repos\\review-case-s22b4\\SenderModule\\SenderModule.csproj": {}
+    "C:\\Users\\Chalasani\\Source\\Repos\\review-case-s22b4\\SenderModule\\SenderModule.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Chalasani\\source\\repos\\review-case-s22b4\\SenderModule\\SenderModule.csproj": {
+    "C:\\Users\\Chalasani\\Source\\Repos\\review-case-s22b4\\SenderModule\\SenderModule.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Chalasani\\source\\repos\\review-case-s22b4\\SenderModule\\SenderModule.csproj",
+        "projectUniqueName": "C:\\Users\\Chalasani\\Source\\Repos\\review-case-s22b4\\SenderModule\\SenderModule.csproj",
         "projectName": "SenderModule",
-        "projectPath": "C:\\Users\\Chalasani\\source\\repos\\review-case-s22b4\\SenderModule\\SenderModule.csproj",
+        "projectPath": "C:\\Users\\Chalasani\\Source\\Repos\\review-case-s22b4\\SenderModule\\SenderModule.csproj",
         "packagesPath": "C:\\Users\\Chalasani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Chalasani\\source\\repos\\review-case-s22b4\\SenderModule\\obj\\",
+        "outputPath": "C:\\Users\\Chalasani\\Source\\Repos\\review-case-s22b4\\SenderModule\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Chalasani\\AppData\\Roaming\\NuGet\\NuGet.Config",

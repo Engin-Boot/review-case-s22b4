@@ -8,5 +8,6 @@
     &lt;TestId&gt;xUnit::963880E1-DED1-4FB6-903F-FF088E9D1087::.NETCoreApp,Version=v3.1::Integration.Test.IntegrationUnitTest.WhenReceiverIsInvokedItProcessesRawDataAndOutputsAnalysis&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::EFC84BF3-4AC0-4F95-A1E5-5E9ADA814AA9::.NETCoreApp,Version=v3.1::Receiver.Test.ReceiverUnitTest.WhenWePassStringsThroughConsoleThenReceiverReadsItAndStoresInList&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::963880E1-DED1-4FB6-903F-FF088E9D1087::.NETCoreApp,Version=v3.1::Integration.Test.IntegrationUnitTest.WhenSenderIsInvokedItOutputsAStreamOfRawData&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::EFC84BF3-4AC0-4F95-A1E5-5E9ADA814AA9::.NETCoreApp,Version=v3.1::Receiver.Test.ReceiverUnitTest.WhenGivenValidLogDataThenWritesAnalysisToOutputFile&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

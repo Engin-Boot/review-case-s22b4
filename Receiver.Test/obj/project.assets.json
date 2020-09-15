@@ -3526,11 +3526,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Chalasani\\source\\repos\\review-case-s22b4\\Receiver.Test\\Receiver.Test.csproj",
+      "projectUniqueName": "C:\\Users\\Chalasani\\Source\\Repos\\review-case-s22b4\\Receiver.Test\\Receiver.Test.csproj",
       "projectName": "Receiver.Test",
-      "projectPath": "C:\\Users\\Chalasani\\source\\repos\\review-case-s22b4\\Receiver.Test\\Receiver.Test.csproj",
+      "projectPath": "C:\\Users\\Chalasani\\Source\\Repos\\review-case-s22b4\\Receiver.Test\\Receiver.Test.csproj",
       "packagesPath": "C:\\Users\\Chalasani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Chalasani\\source\\repos\\review-case-s22b4\\Receiver.Test\\obj\\",
+      "outputPath": "C:\\Users\\Chalasani\\Source\\Repos\\review-case-s22b4\\Receiver.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Chalasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3546,8 +3546,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Chalasani\\source\\repos\\review-case-s22b4\\ReceiverModule\\ReceiverModule.csproj": {
-              "projectPath": "C:\\Users\\Chalasani\\source\\repos\\review-case-s22b4\\ReceiverModule\\ReceiverModule.csproj"
+            "C:\\Users\\Chalasani\\Source\\Repos\\review-case-s22b4\\ReceiverModule\\ReceiverModule.csproj": {
+              "projectPath": "C:\\Users\\Chalasani\\Source\\Repos\\review-case-s22b4\\ReceiverModule\\ReceiverModule.csproj"
             }
           }
         }

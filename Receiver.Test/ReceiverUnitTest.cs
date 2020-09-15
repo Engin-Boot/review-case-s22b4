@@ -93,8 +93,6 @@ namespace Receiver.Test
             Assert.False(logger.LogAnalysis(wordCount, " "));
         }
 
-
-
         [Fact]
         public void WhenGivenEmptyFileThenWritesDataNotFoundToOutputFile()
         {
@@ -104,8 +102,6 @@ namespace Receiver.Test
             var output = new OutputFileReader();
             Assert.True(output.FileContents == "Data not found");
         }
-
-
 
 
         [Fact]
@@ -118,6 +114,16 @@ namespace Receiver.Test
             List<string> dataReadThroughConsole = new List<string> { "1/1/2020 12:30,Code should be decoupled", "2/4/2020 14:56,No additional Comments" };
             Assert.True(reader.ReadProcessedData().SequenceEqual(dataReadThroughConsole));
 
+        }
+
+        [Fact]
+        public void WhenGivenValidLogDataThenWritesAnalysisToOutputFile()
+        {
+            var inputString = new StringReader("1/1/2020 12:30,Code should be decoupled\nEnd of log file");
+            Console.SetIn(inputString);
+            EntryPoint.Main();
+            var output = new OutputFileReader();
+            Assert.True(output.FileContents == "code,1\r\ndecoupled,1");
         }
 
     }
