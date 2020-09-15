@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ee681e64_002D35e5_002D43e8_002Db890_002De5f4af98bafd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="WhenMainIsInvokedItStartsSender" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::F4213BCE-3925-4AEA-9130-8C4B7FDB45C8::.NETCoreApp,Version=v3.1::Sender.Test.SenderUnitTest.WhenMainIsInvokedItStartsSender&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F4213BCE-3925-4AEA-9130-8C4B7FDB45C8::.NETCoreApp,Version=v3.1::Sender.Test.SenderUnitTest.OutputsCommentsAloneWhenCommentFilterIsUsed&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F4213BCE-3925-4AEA-9130-8C4B7FDB45C8::.NETCoreApp,Version=v3.1::Sender.Test.SenderUnitTest.RemovesBlankLinesFromFile&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

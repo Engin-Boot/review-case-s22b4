@@ -6,15 +6,15 @@ namespace ReceiverModule
 {
     class DateAndCommentChecker
     {
-        public void CheckIfFieldIsCommentOrDate(CommentRecord _currentRecord,string field)
+        public void CheckIfFieldIsCommentOrDate(CommentRecord currentRecord,string field)
         {
             if (char.IsLetter(field[0]))
             {
-                _currentRecord.Comment = _currentRecord.Comment.Append(field);
+                currentRecord.Comment = currentRecord.Comment.Append(field);
             }
             else
             {
-                _currentRecord.Timestamp = _currentRecord.Timestamp.Append(field);
+                currentRecord.Timestamp = currentRecord.Timestamp.Append(field);
             }
         }
     }

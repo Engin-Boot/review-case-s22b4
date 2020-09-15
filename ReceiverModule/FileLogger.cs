@@ -8,8 +8,8 @@ namespace ReceiverModule
     {
         public bool AddCommentCountInACsvFile(Dictionary<string, int> dictionary,string filepath)
         {
-            var Extension = filepath.Substring(filepath.LastIndexOf('.') + 1).ToLower();
-            if (Extension == "csv")
+            var extension = filepath.Substring(filepath.LastIndexOf('.') + 1).ToLower();
+            if (extension == "csv")
             {
                 var file = new StreamWriter(filepath, false);
                 foreach (KeyValuePair<string,int> keyValue in dictionary)
@@ -19,7 +19,7 @@ namespace ReceiverModule
                 file.Close();
             }
             var fileChecker = new FileChecker();
-           return fileChecker.CheckWhetherFileExists(filepath);
+            return fileChecker.CheckWhetherFileExists(filepath);
         }
     }
 }

@@ -31,24 +31,24 @@ namespace SenderModule
             {
                 foreach (CommentRecord record in commentRecords)
                 {
-                    writer.WriteLine(record.Timestamp + "\n");
-                    Console.Out.WriteLine(record.Timestamp + "\n");
+                    writer.WriteLine(record.Timestamp);
+                    Console.Out.WriteLine(record.Timestamp);
                 }
             }
             else if (columnFilter == "comment")
             {
                 foreach (CommentRecord record in commentRecords)
                 {
-                    writer.WriteLine(record.Comment + "\n");
-                    Console.Out.WriteLine(record.Comment + "\n");
+                    writer.WriteLine(record.Comment);
+                    Console.Out.WriteLine(record.Comment);
                 }
             }
             else
             {
                 foreach (CommentRecord record in commentRecords)
                 {
-                    writer.WriteLine(record.Timestamp + "," + record.Comment + "\n");
-                    Console.Out.WriteLine(record.Timestamp + "," + record.Comment + "\n");
+                    writer.WriteLine(record.Timestamp + "," + record.Comment);
+                    Console.Out.WriteLine(record.Timestamp + "," + record.Comment);
                 }
             }
         }

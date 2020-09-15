@@ -29,10 +29,8 @@ namespace ReceiverModule
                     }
                     _commentRecords.Add(_currentRecord);
                 }
-              
             
-            
-            return _commentRecords;
+                return _commentRecords;
         }
 
         private void ValidateAndAddRecord(string[] fields)
